@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCheckListPanel">
+			<BUTTON class="btnSearch" top="10" left="10" width="200" height="40" visible="0" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686" textStyle="bold"></BUTTON>
+			<BUTTON class="btnViewAll" top="10" left="220" width="120" height="40" visible="0" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686" textStyle="bold"></BUTTON>
+			<LABEL class="lblCheckNo" top="10" left="350" width="200" height="40" textSize="18" textAlign="center" foreground="#d34f00" visible="0"></LABEL>
+			
+			<FRAME class="scrfraCheckListPanel" top="65" left="0" width="480" height="550"></FRAME>
+			
+			<FRAME class="fraPage" top="620" left="190" width="74" height="40"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="20" foreground="#005080" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="615" left="130" width="60" height="40" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="615" left="284" width="60" height="40" contentMode="scale_aspect_fit"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

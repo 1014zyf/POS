@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraAskGratuity">
+		<!--  480 800 -->
+			<FRAME class="fraTitleHeader" top="0" left="0" width="480" height="50" background="#015384"></FRAME>
+			
+			<FRAME class="fraGratuityList" top="50" left="5" width="478" height="580"></FRAME>
+			<FRAME class="fraTotalInfoList" top="650" left="5" width="400" height="80"></FRAME>
+			
+			<BUTTON class="btnFinish" top="650" left="350" width="120" height="80" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686" textSize="24"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraGamingInterface">
+			<FRAME class="fraTitleHeader" top="0" left="0" width="1024" height="65"></FRAME>
+			<FRAME class="fraEnquiryHeader" top="0" left="0" width="350" height="65"></FRAME>
+			
+			<FRAME class="fraInputPanel" top="80" left="20" width="350" height="550" background= "#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraDisplayPanel" top="80" left="380" width="600" height="550" background= "#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			
+			<FRAME class="fraResonCode" top="30" left="0" width="600" height="500" background="#FFFFFF" ></FRAME>
+			<FRAME class="fraRemarkCommonBasket" top="0" left="0" width="600" height="500" background="#FFFFFF"></FRAME>
+			
+			<LABEL class="lblStaffId" top ="10" left="10" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			<LABEL class="lblNumOfPatrons" top ="100" left="10" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			<LABEL class="lblNumOfEmployees" top ="190" left="10" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			<LABEL class="lblReason" top ="35" left="10" width="100" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			<LABEL class="lblReasonCode" top ="280" left="10" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			<LABEL class="lblRemarks" top ="370" left="10" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			
+			<LABEL class="lblTextBoxCoverFrame" top ="45" left="5" width="305" height="55" textSize="24" textAlign="left,center" foreground="#333333" background="#00000000"></LABEL>
+			
+			<LABEL class="lblSelectedReason" top ="325" left="15" width="290" height="40" textSize="24" textAlign="left,center" foreground="#333333" ></LABEL>
+			<LABEL class="lblSelectedRemark" top ="410" left="15" width="290" height="80" textSize="24" textAlign="left,center" foreground="#333333" ></LABEL>
+			
+			<LABEL class="lblGiftCertId" top ="10" left="10" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			<LABEL class="lblSecurityCode" top ="100" left="10" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			
+			<TEXTBOX class="txtboxStaffId" top="50" left="10" width="300" height="50" textSize="24" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<TEXTBOX class="txtboxNumOfPatrons" top="140" left="10" width="300" height="50" textSize="24" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<TEXTBOX class="txtboxNumOfEmployees" top="230" left="10" width="300" height="50" textSize="24" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<TEXTBOX class="txtboxReasonCode" top="320" left="10" width="300" height="50" textSize="24" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<TEXTBOX class="txtboxRemarks" top="410" left="10" width="300" height="80" textSize="24" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			
+			<TEXTBOX class="txtboxGiftCertId" top="50" left="10" width="300" height="50" textSize="24" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<TEXTBOX class="txtboxSecurityCode" top="140" left="10" width="300" height="50" textSize="24" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			
+			<LABEL class="lblPatronNum" top ="10" left="10" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			<LABEL class="lblCompNum" top ="100" left="10" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			<LABEL class="lblCouponId" top ="100" left="10" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			
+			<TEXTBOX class="txtboxPatronNum" top="50" left="10" width="300" height="50" textSize="24" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<TEXTBOX class="txtboxCompNum" top="140" left="10" width="300" height="50" textSize="24" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<TEXTBOX class="txtboxCouponId" top="140" left="10" width="300" height="50" textSize="24" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			
+			<LABEL class="lblNumOfPatrons" top ="100" left="10" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			<LABEL class="lblStaffDetail" top ="10" left="0" width="300" height="40" textSize="24" textAlign="left,center" foreground="#333333"></LABEL>
+			
+			<BUTTON class="butEnquiry" top="180" left="200" width="137" height="53" textSize="22" textStyle="bold" textAlign="center" foreground="#FFFFFF" background="#0055B8" cornerRadius="4" style="MemberEnquiryButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<FRAME class="fraResultListCommonBasket" top="50" left="0" width="600" height="481" background="#FFFFFF"></FRAME>
+			
+			<BUTTON class="butEnter" top="550" left="830" width="144" height="56" textSize="22" textStyle="bold" textAlign="center" foreground="#FFFFFF" background="#0055B8" style="MemberEnquiryButtonStyle" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<FRAME class="fraPage" top="430" left="230" width="150" height="24" background="#FFFFFF"></FRAME>
+			<LABEL class="lblPage" top="0" left="50" textSize="24" width="50" height="53" foreground="#0055B8" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="0" left="0" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="0" left="126" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			
+			<LABEL class="lblTextBoxDisabledColor" top="0" left="0" width="0" height="0" background="#b7b7b7"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOrderingPanel">
+			<HORIZONTALLIST class="horListTab" top="5" left="15" width="920" height="45"></HORIZONTALLIST>
+			<FRAME class="fraListTab" top="0" left="0" width="920" height="626" foreground="#0055B8"></FRAME>
+			<FRAME class="fraSelectedListTab" width="125" height="69" foreground="#0055B8"></FRAME>
+			<FRAME class="fraUnselectListTab" width="125" height="69" foreground="#999999"></FRAME>
+			<FRAME class="fraPageTabBase" top="0" left="0" width="150" height="45" style="OrderingPanelPageTabBackgroundStyle"></FRAME>
+			<LABEL class="lblPageTab" top="0" left="0" width="150" height="40" textSize="18" foreground="#FFFFFF" textAlign="center" textStyle="bold"></LABEL>
+			<FRAME class="fraPageTabUnderline" top="0" left="0" width="150" height="40" background="#015384" foreground="#FFFFFF" cornerRadius="8" style="OrderingPanelPageTabUnderlineStyle"></FRAME>
+			
+			<FRAME class="fraPageTabSeparator" top="50" left="15" width="920" height="2" background="#015384" style="OrderingPanelPageTabSeparatorStyle"></FRAME>
+			<FRAME class="fraDisplayPanel" top="55" left="0" style="OrderingPanelDisplayPanelBackgroundStyle"></FRAME>
+			<FRAME class="fraLooupButton"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

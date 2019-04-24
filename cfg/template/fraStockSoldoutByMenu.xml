@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraStockSoldout">
+			<FRAME class="fraLeftContent" top="0" left="0" width="632" height="388" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style="StockSoldoutLeftContentFrame"></FRAME>
+			
+			<FRAME class="fraMenuAndItemList" top="0" left="0" width="632" height="388" background="#FFFFFF"></FRAME>
+			<BUTTON class="btnSelectAll" top="399" left="0" width="144" height="56" background="#02428B" gradient="1" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style="StockSoldoutSelectAllButton"></BUTTON>
+			<BUTTON class="btnSetSoldout" top="399" left="328" width="144" height="56" background="#02428B" gradient="1" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style="StockSoldoutSetSoldoutButton"></BUTTON>
+			<BUTTON class="btnCancelSoldout" top="399" left="488" width="144" height="56" background="#02428B" gradient="1" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style ="StockSoldoutCancelSoldoutButton"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

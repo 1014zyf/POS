@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraElectronicScale">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="400" height="65"></FRAME>
+			<LABEL class="lblMessage" textSize="24" textAlign="center" foreground="#333333"></LABEL>
+			<BUTTON class="butOK" width="116" height="40" background="#0055B8" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butRetry" width="116" height="40" background="#FFFFFF" foreground="#666666" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butCancel" width="116" height="40" background="#A0B3B7" foreground="#FFFFFF" stroke="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

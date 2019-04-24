@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraKitchenMonitorOperation">
+			 <FRAME class="fraTitleHeader" left="0" top="0" width="770" height="65"></FRAME>
+			<LABEL class="lblInformation" top="240" left="10" width="748" height="50" textSize="20" foreground="#000000" textAlign="left" visible="0"></LABEL>
+			
+			<BUTTON class="btnCancel" top="575" left="10" width="750" height="70" foreground="#FFFFFF" background="#3A80B3" textSize="24"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

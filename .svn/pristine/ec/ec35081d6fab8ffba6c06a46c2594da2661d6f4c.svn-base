@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraConfirmOrderDialog">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			<FRAME class="fraOrderListCommonBasket" top="66" left="32" width="960" height="440" visible="0"></FRAME>
+			
+			<LABEL class="lblCheckTotalTitle" top="520" left="32" width="700" height="40" textSize="24" foreground="#333333"></LABEL>
+			<LABEL class="lblCheckTotal" top="520" left="792" width="200" height="40" textSize="24" textAlign="right" foreground="#333333"></LABEL>
+			
+			<BUTTON class="btnBack" top="560" left="32" width="144" height="56" background="#5B6F73" textSize="22" gradient="1" foreground="#FFFFFF" cornerRadius="2" style="ConfirmBoxCancelButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnDone" top="560" left="848" width="144" height="56" background="#02428B" textSize="22" gradient="1" foreground="#FFFFFF" cornerRadius="2" style="ConfirmBoxOKButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<FRAME class="fraPage" left="260" width="70" height="40" top="450"></FRAME>
+			<LABEL class="lblPage" left="0" textSize="20" foreground="#005080" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage"  left="166" width="94" height="40" contentMode="scale_aspect_fit" top="450"></IMAGE>
+			<IMAGE class="ImgNextPage"  left="330" width="94" height="40" contentMode="scale_aspect_fit" top="450"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

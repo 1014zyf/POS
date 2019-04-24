@@ -1,0 +1,171 @@
+2019-03-01 04:29:17 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-12 03:43:58 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-12 03:45:15 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Click back button in station info bar
+2019-03-12 03:45:16 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-12 03:45:18 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: paid
+2019-03-12 03:45:20 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Select payment: CASH $119.8
+2019-03-12 03:45:24 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Exit Cashier
+2019-03-12 03:45:27 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open new table 2
+2019-03-12 03:45:29 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: send_check
+2019-03-12 03:45:30 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Finish send check, table 2
+2019-03-12 03:45:32 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 2
+2019-03-12 03:45:33 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: cancel
+2019-03-12 03:57:06 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-12 03:57:15 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 2
+2019-03-12 03:57:16 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: cancel
+2019-03-12 03:57:17 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: admin_mode
+2019-03-12 03:57:19 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: check_listing
+2019-03-12 06:57:32 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-12 06:57:42 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Click back button in station info bar
+2019-03-12 06:57:44 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 2
+2019-03-12 06:57:58 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: delete_multiple_item
+2019-03-12 06:57:58 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: delete_multiple_item
+2019-03-12 06:58:00 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: sell_coupon
+2019-03-12 06:58:03 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: sell_coupon
+2019-03-12 06:58:05 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: set_member
+2019-03-12 06:58:09 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: cancel
+2019-03-12 06:58:12 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open new table 1
+2019-03-12 06:58:15 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: send_check
+2019-03-12 06:58:15 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Finish send check, table 1
+2019-03-12 06:58:16 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-12 06:58:17 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: paid
+2019-03-12 06:58:19 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Select payment: CASH $100
+2019-03-12 06:58:24 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Exit Cashier
+2019-03-12 06:58:25 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: admin_mode
+2019-03-12 06:58:26 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: check_listing
+2019-03-12 06:58:43 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:45 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:46 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:48 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:53 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: admin_mode
+2019-03-12 06:58:54 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:54 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:55 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:56 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:57 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:57 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:57 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:57 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:58 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:58:59 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:59:00 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 06:59:04 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 07:00:18 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: admin_mode
+2019-03-12 07:00:40 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: unlock_table
+2019-03-12 07:00:45 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: admin_mode
+2019-03-12 07:01:52 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 07:02:56 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 07:03:22 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 07:05:16 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-12 07:06:03 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: reconnect
+2019-03-12 07:06:08 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 07:06:11 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-12 07:06:13 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: release_payment
+2019-03-12 07:06:23 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Click back button in station info bar
+2019-03-12 07:06:24 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 2
+2019-03-12 07:06:29 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: delete_item
+2019-03-12 07:06:33 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: edit_set_menu
+2019-03-12 07:06:37 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: membership_voucher_redempt
+2019-03-12 07:06:38 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: change_ordered_item_price_level
+2019-03-12 07:06:40 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: select_pending_item
+2019-03-12 07:06:40 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: print_pending_item
+2019-03-12 07:06:41 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: own_tips_and_sc_out
+2019-03-12 07:06:41 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-12 07:06:48 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-12 07:06:50 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 2
+2019-03-12 07:06:52 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: merge_table
+2019-03-12 07:06:53 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: mark_delivery
+2019-03-12 07:06:55 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: reprint_last_receipt
+2019-03-12 07:06:56 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: split_item_to_other_table
+2019-03-13 07:55:07 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-13 07:55:12 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-13 07:55:24 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-13 07:55:25 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: switch_user
+2019-03-13 07:55:32 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: user_time_in_out
+2019-03-13 07:55:37 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-13 07:55:48 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: web_report
+2019-03-13 08:15:29 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-13 08:18:01 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-13 08:18:12 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: web_report
+2019-03-13 08:18:22 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: web_report
+2019-03-13 09:00:45 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-13 09:03:48 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-13 09:04:50 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-13 09:05:18 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: web_report
+2019-03-13 09:09:22 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-13 09:10:23 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-13 09:10:38 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: check_listing
+2019-03-13 09:17:16 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-13 09:17:32 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 2
+2019-03-13 09:17:34 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: paid
+2019-03-13 09:17:36 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Select payment: CASH $4800
+2019-03-13 09:27:15 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Exit Cashier
+2019-03-14 03:30:10 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-14 03:34:13 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: cashier_mode
+2019-03-14 03:34:38 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Exit Cashier
+2019-03-14 03:34:46 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Click back button in station info bar
+2019-03-14 03:34:48 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-14 03:34:49 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: cancel
+2019-03-14 04:02:35 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: admin_mode
+2019-03-14 04:02:39 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: check_listing
+2019-03-14 04:23:24 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: admin_mode
+2019-03-14 04:23:25 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: check_listing
+2019-03-14 06:26:36 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: admin_mode
+2019-03-14 07:04:09 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: check_listing
+2019-03-14 08:37:11 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-14 08:37:27 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: change_quantity_last
+2019-03-14 08:46:21 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: cancel
+2019-03-14 08:46:22 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-14 08:46:44 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: change_quantity_last
+2019-03-14 08:47:28 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: change_quantity_last
+2019-03-14 08:48:12 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: change_quantity_last
+2019-03-14 08:49:32 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: delete_item
+2019-03-14 08:49:46 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: delete_item
+2019-03-14 08:49:49 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: delete_item
+2019-03-14 08:49:57 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: delete_item
+2019-03-14 08:50:00 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: delete_item
+2019-03-14 09:15:32 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: admin_mode
+2019-03-14 09:15:34 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Admin Mode Function: check_listing
+2019-03-15 02:04:05 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-15 02:05:33 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Click back button in station info bar
+2019-03-15 02:29:48 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-15 02:33:35 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open new table 2
+2019-03-15 02:33:40 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: cancel
+2019-03-15 03:26:41 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-15 03:26:42 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: paid
+2019-03-15 03:26:44 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Select payment: CASH $20
+2019-03-15 03:26:47 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Select payment: JCB $20
+2019-03-15 03:34:14 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Exit Cashier
+2019-03-15 03:34:16 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-15 03:34:18 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: change_quantity_last
+2019-03-15 03:35:33 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: svc_enquiry
+2019-03-15 03:35:36 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: cancel
+2019-03-15 03:35:46 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open new table 2
+2019-03-15 03:35:51 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: cancel
+2019-03-15 05:59:59 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-15 06:00:05 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-15 06:00:05 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: paid
+2019-03-15 06:00:08 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Select payment: CASH $20
+2019-03-15 06:00:12 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Select payment: VISA $53
+2019-03-15 06:00:15 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Select payment: MASTER $127
+2019-03-15 06:00:20 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Exit Cashier
+2019-03-15 06:00:22 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open new table 1
+2019-03-15 06:00:26 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: send_check
+2019-03-15 06:00:26 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Finish send check, table 1
+2019-03-15 06:00:32 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-15 06:00:34 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: mark_delivery
+2019-03-15 06:00:36 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: mark_delivery
+2019-03-15 06:00:50 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: mark_delivery
+2019-03-15 06:00:53 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: send_check
+2019-03-15 06:00:53 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Finish send check, table 1
+2019-03-15 06:00:54 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-15 06:00:54 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: mark_delivery
+2019-03-15 06:00:58 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: mark_delivery
+2019-03-15 06:01:24 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: cancel
+2019-03-15 06:52:17 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-15 06:52:24 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: membership_affiliation
+2019-03-15 09:06:57 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: login
+2019-03-15 09:07:03 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Open old table 1
+2019-03-15 09:07:06 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Function: paid
+2019-03-15 09:07:08 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Select payment: CASH $334.8
+2019-03-15 09:07:11 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[Station]-[4]-[1] Exit Cashier

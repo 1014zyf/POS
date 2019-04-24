@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraChangeOverrideCondidtion">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			
+			<FRAME class="fraOverrideConditionList" top="65" left="45" width="940" height="473"></FRAME>
+			
+			<FRAME class="fraPage" top="585" left="454" width="72" height="24" background="#FFFFFF"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="24" height="53" foreground="#0055B8" textAlign="center"></LABEL>
+			<IMAGE class="ImgPrevPage" top="585" left="406" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="585" left="550" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<BUTTON class="btnSave" top="565" left="852" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="22" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

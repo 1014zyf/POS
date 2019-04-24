@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraAskGratuity">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1030" height="66"></FRAME> 
+			<FRAME class="fraGratuityList" top="70" left="35" width="960" height="450"></FRAME>
+			
+			<FRAME class="fraTotalInfo" top="525" left="35" width="468" height="100" background="#ffffff" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblSubTotalHeader" top="0" left="0" width="156" height="50" textSize="20" textAlign="center_vertical, center"></LABEL>
+			<LABEL class="lblGratTotalHeader" top="0" left="156" width="156" height="50" textSize="20" textAlign="center_vertical, center"></LABEL>
+			<LABEL class="lblCheckTotalHeader" top="0" left="312" width="156" height="50" textSize="20" textAlign="center_vertical, center"></LABEL>
+			<LABEL class="lblSubTotal" top="50" left="0" width="156" height="50" textSize="20" foreground="#333333" textAlign="center_vertical, center"></LABEL>
+			<LABEL class="lblGratTotal" top="50" left="156" width="156" height="50" textSize="20" foreground="#333333" textAlign="center_vertical, center"></LABEL>
+			<LABEL class="lblCheckTotal" top="50" left="312" width="156" height="50" textSize="20" foreground="#333333" textAlign="center_vertical, center"></LABEL>
+			<FRAME class="fraTotalUnderline" top="50" left="0" width="468" height="1" background="#DDDDDD"></FRAME>
+			<FRAME class="fraTotalStrLine1" top="0" left="156" width="1" height="100" background="#DDDDDD"></FRAME>
+			<FRAME class="fraTotalStrLine2" top="0" left="312" width="1" height="100" background="#DDDDDD"></FRAME>
+			<FRAME class="fraTotalInfoList" top="0" left="0" width="468" height="100"></FRAME>
+			
+			<BUTTON class="btnFinish" top="560" left="851" width="144" height="56" background="#0055B8" cornerRadius="2" foreground="#FFFFFF" textSize="16"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

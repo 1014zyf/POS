@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSelectSplitTable">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			<FRAME class="fraLeftContent" top="80" left="32" width="472" height="544" background="#FFFFFF" cornerRadius="0,0,0,5" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraLeftPageTabBase" top="0" left="15" width="150" height="45"></FRAME>
+			<LABEL class="lblLeftPageTab" top="0" left="0" width="150" height="40" textSize="18" foreground="#333333" textAlign="bottom,left" textStyle="bold"></LABEL>
+			<FRAME class="fraLeftPageTabUnderline" top="42" left="0" width="150" height="3" background="#015384"></FRAME>
+			<FRAME class="fraLeftPageTabSeparator" top="45" left="15" width="600" height="2" background="#015384"></FRAME>
+			<FRAME class="fraAvailableTableList" top="55" left="15" width="448" height="590" background="#FFFFFF"></FRAME>
+			
+			<FRAME class="fraRightContent" top="80" left="520" width="472" height="544" background="#FFFFFF" cornerRadius="0,0,5,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraRightPageTabBase" top="0" left="15" width="150" height="45"></FRAME>
+			<LABEL class="lblRightPageTab" top="0" left="0" width="150" height="40" textSize="18" foreground="#333333" textAlign="bottom,left" textStyle="bold"></LABEL>
+			<FRAME class="fraRightPageTabUnderline" top="42" left="0" width="150" height="3" background="#015384"></FRAME>
+			<FRAME class="fraRightPageTabSeparator" top="45" left="15" width="600" height="2" background="#015384"></FRAME>
+			<FRAME class="fraSelectedTableList" top="55" left="15" width="448" height="430" background="#FFFFFF"></FRAME>
+			<BUTTON class="butAddTable" top="475" left="155" width="150" height="50" background="#02428B" gradient="1" foreground="#FFFFFF" stroke="1" strokeColor="#868686" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butNext" top="475" left="319" width="120" height="50" background="#02428B" foreground="#FFFFFF" gradient="1" cornerRadius="5" strokeColor="#5D0000" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

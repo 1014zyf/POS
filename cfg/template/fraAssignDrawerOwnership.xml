@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraAssignDrawerOwnership">
+		<FRAME class="fraTitleHeader" left="0" top="0" width="768" height="66"></FRAME>
+		<FRAME class="fraDrawerListCommonBasket" top="60" left="35" width="698" height="400" visible="0"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

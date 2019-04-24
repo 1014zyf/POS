@@ -1,0 +1,137 @@
+HERO Multiple Language Process
+******************************
+
+Preparation
+===========
+
+<< Checklist of files >>
+
+HERO_Java_Code_Translation_Tool.zip - HEOR Java coding translation tools
+gettext-0.14.4-bin.zip - Java PO making tools
+gettext-dll.tgz - New PO making tools' dll
+
+
+Installation
+============
+
+<< Install Web Server >>
+
+1. Install Apache server / WAMP server
+
+
+<< Install JAVA jdk >>
+
+1. Install JAVA JDK
+
+
+<< Install Java PO making tools >>
+
+1. Unzip gettext-0.14.4-bin.zip and put all contents under C:\gettext
+	C:\gettext\bin
+	C:\gettext\contrib
+	C:\gettext\include
+	C:\gettext\lib
+	C:\gettext\man
+	C:\gettext\manifest
+	C:\gettext\share
+2. Unzip gettext-dll.tgz and put all DLLs(libexpat.dll and libiconv2.dll) under C:\gettext\bin
+
+
+<< Install Java coding translation tools >>
+
+1. Unzip HERO_Java_Code_Translation_Tool.zip and put all content under the Web Server root directory
+	e.g.
+	C:\MyWeb\hero_pos\messages
+	URL: http://192.168.7.222/hero_pos/messages
+
+<< Add Windows Environment Variables >>
+
+At System Variables
+1. Value: JAVA_TOOL_OPTIONS	Value: -Dfile.encoding=utf-8
+2. Value: TMPDIR			Value: C:\temp
+
+At User Variables
+1. Value: JAVAC				Value: C:\Program Files\Java\jdk1.6.0_13\bin\javac.exe
+
+1. Restart Computer
+
+
+Java mulitple language process procedure
+========================================
+
+# Go to working directory
+Open command prompt and move to source code directory
+
+# Under the directory
+# Folder structure
+#	src\
+#	messages\
+#	messages\locale\zh_hk\LC_MESSAGES\pos_app.po
+#	messages\locale\eng\LC_MESSAGES\pos_app.po
+#	messages\locale\jpn\LC_MESSAGES\pos_app.po
+#	messages\locale\kor\LC_MESSAGES\pos_app.po
+#	messages\locale\zh_cn\LC_MESSAGES\pos_app.po
+#	messages\locale\tha\LC_MESSAGES\pos_app.po
+#	messages\locale\fr_fr\LC_MESSAGES\pos_app.po
+
+# Create new message file from code (Run in command prompt)
+C:\gettext\bin\xgettext.exe -k -k_ -o messages/locale/keys.pot src/app/*.java src/commonui/*.java src/externallib/*.java src/launcher/*.java src/virtualui/*.java src/externaldevice/*.java
+
+# Merge the new message file to HERO message po files (Run in command prompt)
+C:\gettext\bin\msgmerge.exe -UN messages/locale/zh_hk/LC_MESSAGES/pos_app.po messages/locale/keys.pot
+C:\gettext\bin\msgmerge.exe -UN messages/locale/eng/LC_MESSAGES/pos_app.po messages/locale/keys.pot
+C:\gettext\bin\msgmerge.exe -UN messages/locale/jpn/LC_MESSAGES/pos_app.po messages/locale/keys.pot
+C:\gettext\bin\msgmerge.exe -UN messages/locale/kor/LC_MESSAGES/pos_app.po messages/locale/keys.pot
+C:\gettext\bin\msgmerge.exe -UN messages/locale/zh_cn/LC_MESSAGES/pos_app.po messages/locale/keys.pot
+C:\gettext\bin\msgmerge.exe -UN messages/locale/tha/LC_MESSAGES/pos_app.po messages/locale/keys.pot
+C:\gettext\bin\msgmerge.exe -UN messages/locale/fra/LC_MESSAGES/pos_app.po messages/locale/keys.pot
+
+# Move the po files to do translation by Java coding translation tools
+Move all content under <SOURCE directory>\messages\locale\ to the tool folder e.g. C:\MyWeb\hero_pos\messages\locale\
+
+# Do translation by the tool website (*** Make sure PHP include extension=php_curl.dll)
+1. Open browser and go to URL http://127.0.0.1/hero_pos/messages/index.php?internalUse=1
+2. Edit the message files
+
+# Move the po files back to source directory
+Move all content under the tool folder e.g. C:\MyWeb\hero_pos\messages\locale to <SOURCE directory>\messages\locale\
+Copy all content under locale folder to locale_new folder e.g. <SOURCE directory>\messages\locale\ to <SOURCE directory>\messages\locale_new\
+
+
+How to make the Java string to be translated
+============================================
+
+# Use a general function to contain the string
+e.g. AppGlobal.g_oLang._("Fail to login")
+
+
+How to merge the po source to customer's po files
+=================================================
+
+# Go to working directory
+Open command prompt and move to POS home message directory e.g. C:\MyWeb\hero_pos\messages\
+
+# Merge the new message file to customer message files (Run in command prompt)
+copy /Y locale\zh_hk\LC_MESSAGES\pos_app.po locale\zh_hk\LC_MESSAGES\pos_app.po_bak
+move /Y locale\zh_hk\LC_MESSAGES\pos_app.po locale_new\zh_hk\LC_MESSAGES\_pos_app.po
+C:\gettext\bin\msgmerge.exe -N locale_new\zh_hk\LC_MESSAGES\_pos_app.po locale_new\zh_hk\LC_MESSAGES\pos_app.po > locale\zh_hk\LC_MESSAGES\pos_app.po
+
+copy /Y locale\eng\LC_MESSAGES\pos_app.po locale\eng\LC_MESSAGES\pos_app.po_bak
+move /Y locale\eng\LC_MESSAGES\pos_app.po locale_new\eng\LC_MESSAGES\_pos_app.po
+C:\gettext\bin\msgmerge.exe -N locale_new\eng\LC_MESSAGES\_pos_app.po locale_new\eng\LC_MESSAGES\pos_app.po > locale\eng\LC_MESSAGES\pos_app.po
+
+copy /Y locale\jpn\LC_MESSAGES\pos_app.po locale\jpn\LC_MESSAGES\pos_app.po_bak
+move /Y locale\jpn\LC_MESSAGES\pos_app.po locale_new\jpn\LC_MESSAGES\_pos_app.po
+C:\gettext\bin\msgmerge.exe -N locale_new\jpn\LC_MESSAGES\_pos_app.po locale_new\jpn\LC_MESSAGES\pos_app.po > locale\jpn\LC_MESSAGES\pos_app.po
+
+copy /Y locale\kor\LC_MESSAGES\pos_app.po locale\kor\LC_MESSAGES\pos_app.po_bak
+move /Y locale\kor\LC_MESSAGES\pos_app.po locale_new\kor\LC_MESSAGES\_pos_app.po
+C:\gettext\bin\msgmerge.exe -N locale_new\kor\LC_MESSAGES\_pos_app.po locale_new\kor\LC_MESSAGES\pos_app.po > locale\kor\LC_MESSAGES\pos_app.po
+
+copy /Y locale\zh_cn\LC_MESSAGES\pos_app.po locale\zh_cn\LC_MESSAGES\pos_app.po_bak
+move /Y locale\zh_cn\LC_MESSAGES\pos_app.po locale_new\zh_cn\LC_MESSAGES\_pos_app.po
+C:\gettext\bin\msgmerge.exe -N locale_new\zh_cn\LC_MESSAGES\_pos_app.po locale_new\zh_cn\LC_MESSAGES\pos_app.po > locale\zh_cn\LC_MESSAGES\pos_app.po
+
+copy /Y locale\tha\LC_MESSAGES\pos_app.po locale\tha\LC_MESSAGES\pos_app.po_bak
+move /Y locale\tha\LC_MESSAGES\pos_app.po locale_new\tha\LC_MESSAGES\_pos_app.po
+C:\gettext\bin\msgmerge.exe -N locale_new\tha\LC_MESSAGES\_pos_app.po locale_new\tha\LC_MESSAGES\pos_app.po > locale\tha\LC_MESSAGES\pos_app.po

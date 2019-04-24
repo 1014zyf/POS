@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="frmTableMsgReminder">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraTableMsgReminder" top="56" left="22" width="1236" height="680" background="#FFFFFF" cornerRadius="8,8,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraCheckList" top="5" left="16" width="400" height="503"></FRAME>
+			<FRAME class="fraShadeMessage" top="80" left="480" width="380" height="503" background="#AAC0C0C0" cornerRadius="8,8,0,0" ></FRAME>
+			<FRAME class="fraMessageOption" top="5" left="16" width="348" height="503"></FRAME>
+			<FRAME class="fraShadePrompt" top="80" left="876" width="328" height="503" background="#AAC0C0C0" cornerRadius="8,8,0,0" ></FRAME>
+			<FRAME class="fraPromptOption" top="5" left="16" width="296" height="503"></FRAME>
+			
+			<FRAME class="fraCheckListCover" top="80" left="32" width="432" height="503" background="#FFFFFF" cornerRadius="8,8,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraMessageOptionCover" top="80" left="480" width="380" height="503" background="#FFFFFF" cornerRadius="8,8,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraPromptOptionCover" top="80" left="876" width="328" height="503" background="#FFFFFF" cornerRadius="8,8,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

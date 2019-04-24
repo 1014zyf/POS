@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraLargePopUpPanel">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			<LABEL class="lblDesc" top="79" left="24" width="200" height="56" foreground="#333333"></LABEL>
+			<LABEL class="lblLargeDesc" top="65" left="0" width="1034" height="100" textSize="40" foreground="#333333" textAlign="center"></LABEL>
+			
+			<FRAME class="fraContent" top="135" left="0" width="1024" height="500"></FRAME>
+			
+			<FRAME class="fraCoverBackground" top="100" left="0" width="1024" height="540" background="#FFFFFF"></FRAME>
+			<FRAME class="fraImage" top="165" left="0" width="1024" height="480"></FRAME>
+			<IMAGE class="imgPaymentImage" top="0" left="0" width="1024" height="480" visible="0" contentMode="scale_aspect_fill"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

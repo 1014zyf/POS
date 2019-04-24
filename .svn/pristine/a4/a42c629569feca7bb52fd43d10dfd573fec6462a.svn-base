@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmDialogBox">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraListMessagebox" id="10" top="56" left="128" width="1024" height="640" background="#FFFFFF" cornerRadius="12,12,0,0" visible="0" style="FrameListMessageStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

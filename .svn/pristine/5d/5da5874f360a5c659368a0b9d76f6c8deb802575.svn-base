@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraAdminPanel">
+			<FRAME class="fraTitleHeader" left="0" top="1" width="480" height="50" background="#015384"></FRAME>
+			<FRAME class="fraTitleBar" top="1" left="1" width="478" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<LABEL class="lblTitle" top="0" left="0" width="478" height="50" textSize="24" foreground="#FFFFFF" textAlign="center" visible="0"></LABEL>
+			<FRAME class="fraButClose" top="8" left="432" width="48" height="40"></FRAME>
+			
+			<FRAME class="fraAdminOrderingPanel" top="52" left="1" width="478" height="748" background="#CEEDFF" cornerRadius="0,0,5,5"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

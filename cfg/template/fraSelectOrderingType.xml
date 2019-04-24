@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSelectOrderingType">
+			<FRAME class="fraWholeCover" top="0" left="0" width="1280" height="704" background="#E6E6E6"></FRAME>
+			<IMAGE class="fraBackgroundImage" top="0" left="0" width="1280" height="704" contentMode="scale_to_fit"></IMAGE>
+			
+			<LABEL class="lblSelectType" top="200" left="655" width="500" height="33" textSize="24" textAlign="left" background="#00000000" foreground="#333333"></LABEL>
+			
+			<FRAME class="fraFineDining" top="268" left="655" width="225" height="145" background="#FFFFFF" foreground="#FFFFFF" textStyle="bold" cornerRadius="8,8,8,8" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<IMAGE class="imgFineDining" top="24" left="83" width="60" height="60" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></IMAGE>
+			<LABEL class="lblFineDining" top="88" left="51" width="130" height="33" textSize="24" textAlign="center" background="#00000000" foreground="#333333"></LABEL>
+			
+			<FRAME class="fraTakeAway" top="268" left="919" width="225" height="145" background="#FFFFFF" gradient="1" foreground="#FFFFFF" cornerRadius="8,8,8,8" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" textStyle="bold"></FRAME>
+			<IMAGE class="imgTakeAway" top="24" left="83" width="60" height="60" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></IMAGE>
+			<LABEL class="lblTakeAway" top="88" left="51" width="123" height="33" textSize="24" textAlign="center" background="#00000000" foreground="#333333"></LABEL>
+			
+			<FRAME class="fraChgLang" top="619" left="1190" width="60" height="60" background="#FFFFFF" gradient="1" foreground="#FFFFFF" cornerRadius="8,8,8,8" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" textStyle="bold"></FRAME>
+			<IMAGE class="imgChgLang" top="6" left="6" width="48" height="48" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

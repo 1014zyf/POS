@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmAdjustTips">
+			<FRAME class="fraAdjustTips" top="10" left="10" width="460" height="780" background="#EAEAEA" cornerRadius="10"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

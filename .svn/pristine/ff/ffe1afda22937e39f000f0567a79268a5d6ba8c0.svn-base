@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraNumberPad">
+			<FRAME class="fraNumber" background="#FFFFFF" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblNumber" top="0" left="0" foreground="#666666" textSize="22" textAlign="center"></LABEL>
+			
+			<BUTTON class="butCancel" foreground="#666666" textSize="22" textAlign="center" background="#FFFFFF" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butEnter" foreground="#FFFFFF" textSize="22" textAlign="center" background="#0055B8" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butClear" foreground="#666666" textSize="22" textAlign="center" background="#FFFFFF" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<FRAME class="fraBackspace" background="#FFFFFF" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblBackspace" foreground="#666666" textSize="22" textAlign="center"></LABEL>
+			<IMAGE class="ImgBackspace"></IMAGE>
+			
+			<FRAME class="fraDot" background="#FFFFFF" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblDot" top="0" left="0" foreground="#666666" textSize="22" textAlign="center"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,93 @@
+package app;
+
+import java.util.ArrayList;
+
+import commonui.FrameTitleHeader;
+import commonui.FrameTitleHeaderListener;
+import templatebuilder.TemplateBuilder;
+import virtualui.VirtualUIButton;
+import virtualui.VirtualUIFrame;
+import virtualui.VirtualUILabel;
+import virtualui.VirtualUIWebView;
+
+/** interface for the listeners/observers callback method*/
+interface FrameFirstPageListener {
+	void frameFirstPage_clickOK();
+}
+
+public class FrameFirstPage extends VirtualUIFrame implements FrameTitleHeaderListener {
+	TemplateBuilder m_oTemplateBuilder;
+	
+	private VirtualUIWebView m_oWebViewCheck;
+	private VirtualUIButton m_oButtonOK;
+	private FrameTitleHeader m_oTitleHeader;
+	
+	/** list of interested listeners (observers, same thing)*/
+	private ArrayList<FrameFirstPageListener> listeners;
+	
+	/** add a new ModelListener observer for this Model*/
+	public void addListener(FrameFirstPageListener listener) {
+		listeners.add(listener);
+	}
+	
+	/** remove a ModelListener observer for this Model*/
+	public void removeListener(FrameFirstPageListener listener) {
+		listeners.remove(listener);
+	}
+	
+	/** remove all ModelListener observer for this Model*/
+	public void removeAllListener() {
+		listeners.clear();
+	}
+	
+	public FrameFirstPage() {
+		m_oTemplateBuilder = new TemplateBuilder();
+		listeners = new ArrayList<FrameFirstPageListener>();
+		
+		// Load form from template file
+		m_oTemplateBuilder.loadTemplate("fraFirstPage.xml");
+		
+		// Header
+		m_oTitleHeader = new FrameTitleHeader();
+		m_oTemplateBuilder.buildFrame(m_oTitleHeader, "fraTitleHeader");
+		m_oTitleHeader.addListener(this);
+		m_oTitleHeader.init(false);
+		m_oTitleHeader.setTitle(AppGlobal.g_oLang.get()._("report"));
+		this.attachChild(m_oTitleHeader);
+		
+		// Review Area
+		m_oWebViewCheck = new VirtualUIWebView();
+		m_oTemplateBuilder.buildWebView(m_oWebViewCheck, "wbvReport");
+		this.attachChild(m_oWebViewCheck);
+		
+		// OK button
+		m_oButtonOK = new VirtualUIButton();
+		m_oTemplateBuilder.buildButton(m_oButtonOK, "btnOK");
+		m_oButtonOK.setValue(AppGlobal.g_oLang.get()._("exit"));
+		m_oButtonOK.setVisible(true);
+		this.attachChild(m_oButtonOK);
+	}
+	
+	@Override
+	public boolean clicked(int iChildId, String sNote) {
+		boolean bMatchChild = false;
+		for (FrameFirstPageListener listener : listeners) {
+			// Find the clicked button
+			if (m_oButtonOK.getId() == iChildId) {
+				// Raise the event to parent
+				listener.frameFirstPage_clickOK();
+				bMatchChild = true;
+				break;
+			}
+		}
+		
+		return bMatchChild;
+	}
+	
+	@Override
+	public void FrameTitleHeader_close() {
+		for (FrameFirstPageListener listener : listeners)
+			listener.frameFirstPage_clickOK();
+	}
+	
+}

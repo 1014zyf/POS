@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraESignature">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1280" height="65"></FRAME>
+			
+			<FRAME class="fraLeftContent" top="70" left="5" width="490" height="675" background="#FFFFFF" cornerRadius="12,12,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraRightContent" top="70" left="505" width="768" height="675" background="#FFFFFF" cornerRadius="12,12,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<WEBVIEW class="wbvCheckPreview" top="10" left="10" width="490" height="665"></WEBVIEW>
+			
+			<LABEL class="lblPaymentMethod" top="10" left="20" width="490" height="30" textSize="24" foreground="#015384" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblSignatureUnderline" top="477" left="44" width="686" height="1" textSize="24" background="#999966" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblSignHere" top="478" left="44" width="686" height="50" textSize="24" foreground="#015384" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			
+			<LABEL class="lblCavasBackground" top="40" left="20" width="740" height="510" visible="0" background="#CECECE" cornerRadius="5,5,0,0"></LABEL>
+			<CANVAS class="cvsSignature" top="40" left="20" width="740" height="510" background="#FFFFFF" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></CANVAS>
+			<BUTTON class="btnSignature" top="610" left="50" width="380" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnPrev" top="515" left="20" width="480" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnClear" top="554" left="114" width="135" height="97" textSize="22" background="#A0B3B7" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnConfirm" top="554" left="519" width="135" height="97" textSize="22" background="#0055B8" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

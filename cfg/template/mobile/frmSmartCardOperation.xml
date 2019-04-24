@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmSmartCardOperation">
+			<FRAME class="fraSmartCardOperation_login" top="75" left="70" width="1140" height="615" background="#CEEDFF" stroke="1" strokeColor="#FFFFFF" cornerRadius="5" visible="0"></FRAME>
+			<FRAME class="fraSmartCardOperation" top="60" left="255" width="770" height="655" background="#CEEDFF" stroke="1" strokeColor="#FFFFFF" cornerRadius="5" visible="0"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

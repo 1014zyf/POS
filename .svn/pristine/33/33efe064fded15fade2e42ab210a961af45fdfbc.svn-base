@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmCodeReaderPanel">
+			<FRAME class="fraCoverFrame" width="480" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraCodeReaderPanel" top="150" left="48" width="384" height="480" background="#CEEDFF" stroke="1" strokeColor="#FFFFFF" visible="0" cornerRadius="5"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

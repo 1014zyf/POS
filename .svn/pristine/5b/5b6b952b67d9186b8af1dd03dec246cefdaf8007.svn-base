@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraColumnView">
+			<FRAME class="columnHeader" top="0" height="68" background="#0055B8" cornerRadius="0"></FRAME>
+			<LABEL class="columnHeaderLabel" left="16" height="68" foreground="#FFFFFFFF" textSize="18" textAlign="center_vertical" textStyle="bold"></LABEL>
+			<IMAGE class="columnHeaderImage" width="24" height="24"></IMAGE>
+			
+			<LIST class="scrollArea" top="50" height="575"></LIST>
+			
+			<FRAME class="columnBackground" background="#FFF6F6F6"></FRAME>
+			
+			<FRAME class="section"></FRAME>
+			<LABEL class="sectionDesc" height="45" foreground="#000000" background="#FFDDDDDD" textSize="18" textAlign="center" textStyle="bold"></LABEL>
+			<FRAME class="columnElement" top="45" width="271" height="2" background="#00000000"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSetMenuLookupPanel">
+			<FRAME class="scrfraPanel" top="0" left="0"  width="1200" height="460" background="#FFFFFF"></FRAME>
+			<FRAME class="fraLooupButton"></FRAME>
+			<LABEL class="lblAddQty" top="10" left="10" width="30" height="30" textSize="30" textAlign="center" background="#7F7F7C77" foreground="#308816" textStyle="bold"></LABEL>
+			<LABEL class="lblMinusQty" top="10" left="100" width="30" height="30" textSize="30" textAlign="center" background="#7F7F7C77" foreground="#A70000" textStyle="bold"></LABEL>
+			<LABEL class="lblQty" top="0" left="0" background="#BF7F7C77" foreground="#003F76" visible="0" textSize="22" textAlign="center" textStyle="bold"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

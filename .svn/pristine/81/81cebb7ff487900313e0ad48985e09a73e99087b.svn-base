@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOrderingBasketModifierCell">
+			<LABEL class="lblQuantity" top ="0" left="40" width="60" height="45" textSize="16" textAlign="center"></LABEL>
+			<LABEL class="lblDescription" top ="0" left="140" width="160" height="45" textSize="16" textAlign="center_vertical,left"></LABEL>
+			<LABEL class="lblPrice" top ="0" left="310" width="90" height="45" textSize="16" textAlign="center"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

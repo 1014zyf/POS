@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraTableListFloorPlan">
+			<LIST class="listVerticalTable" top="0" left="0" foreground="#FFFFFF" background="#00000000"></LIST>
+			<FRAME class="fraNewTable" foreground="#999999" background="#FFFFFF"></FRAME>
+			<FRAME class="fraCleaningTable" foreground="#999999" background="#FFFFFF"></FRAME>
+			<FRAME class="fraOccupiedTable" foreground="#FFFFFF" background="#0055B8"></FRAME>
+			<FRAME class="fraPrintedTable" foreground="#FFFFFF" background="#5B6F73"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

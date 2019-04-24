@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOpenedCheckList">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			<BUTTON class="btnTableRef" top="80" left="30" width="450" height="40" background="#02428B" foreground="#FFFFFF" gradient="1" textsize="16" cornerRadius="2" shadowTop="5" shadowLeft="0" shadowRadius="10" shadowColor="#17000000"	></BUTTON>
+			<BUTTON class="btnShowAll" top="80" left="540" width="450" height="40" background="#02428B" foreground="#FFFFFF" gradient="1" textsize="16" cornerRadius="2" shadowTop="5" shadowLeft="0" shadowRadius="10" shadowColor="#17000000"	></BUTTON>
+			<FRAME class="fraCheckListCommonBasket" top="130" left="30" width="960" height="500" background="#FFFFFF" style="ListBackgroundDefaultStyle"></FRAME>
+	</FRAME>
+	</TEMPLATE>
+</POS>

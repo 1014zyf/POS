@@ -1,0 +1,56 @@
+2019-03-01 04:27:34.444 Fail to init port 6001, error: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+	at externallib.TCPLib.initServer(TCPLib.java:57)
+	at launcher.Service.run(Main.java:257)
+	at launcher.Main.main(Main.java:72)
+
+2019-03-01 04:27:57.349 Fail to init port 6001, error: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+	at externallib.TCPLib.initServer(TCPLib.java:57)
+	at launcher.Service.run(Main.java:257)
+	at launcher.Main.main(Main.java:72)
+
+2019-03-13 08:15:01.078 Fail to init port 6001, error: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+	at externallib.TCPLib.initServer(TCPLib.java:57)
+	at launcher.Service.run(Main.java:257)
+	at launcher.Main.main(Main.java:72)
+
+2019-03-14 03:27:37.761 Fail to init port 6001, error: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+	at externallib.TCPLib.initServer(TCPLib.java:57)
+	at launcher.Service.run(Main.java:257)
+	at launcher.Main.main(Main.java:72)
+
+2019-03-14 04:30:02.562 Terminate by client (UDID: 18171c6b8aa17862)
+2019-03-26 02:57:26.500 Fail to init port 6001, error: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at externallib.TCPLib.initServer(TCPLib.java:57)
+	at launcher.Service.run(Main.java:257)
+	at launcher.Main.main(Main.java:72)
+

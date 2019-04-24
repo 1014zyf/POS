@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCheckDetailInfo">
+			<FRAME class="fraLeftFrame" height="672" width="472" left="32" top="5" cornerRadius="12"></FRAME>
+			<LABEL class="lblBasicInfoHeader" top ="20" left="16" width="500" height="25" textSize="18" textAlign="left" textStyle="bold" foreground="#575757"></LABEL>
+			<FRAME class="fraListBasicDetail" top="56" left="10" width="500" height="220" visible="0"></FRAME>
+			<LIST class="listBasicDetail" top="0" left="0" width="500" height="240" visible="0"></LIST>
+			<FRAME class="fraBasicUnderline" top="52" left="16" width="480" height="1" background="#FFD8D8D8"></FRAME>
+			<FRAME class="fraListBasicDetail" top="56" left="10" width="500" height="220" visible="0"></FRAME>
+			<LABEL class="lblDetailTitle" top="0" left="0" width="185" height="21" foreground="#575757" textSize="15" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblContent" top="0" left="200" width="450" height="21" foreground="#575757" textSize="15" textAlign="center_vertical" visible="0"></LABEL>
+			<FRAME class="fraBasicDetail" top="0" left="0" width="480" height="29" visible="0"></FRAME>
+			
+			<LIST class="listOtherInformation" top="0" left="0" width="500" height="89" visible="0"></LIST>
+			<FRAME class="fraListOtherInformation" top="315" left="10" width="500" height="89" visible="0"></FRAME>
+			
+			<LIST class="listCheckTotalInformation" top="0" left="0" width="500" height="250" visible="0"></LIST>
+			<FRAME class="fraListCheckTotalInformation" top="444" left="10" width="500" height="250" visible="0"></FRAME>
+			
+			<LABEL class="lblOtherDetail" top="287" left="16" width="500" height="25" textSize="18" foreground="#FF333333" visible="0" textStyle="bold"></LABEL>
+			<FRAME class="lblOtherDetailUnderLineBottom" top="313" left="16" width="511" height="1" background="#FFD8D8D8" visible="0"></FRAME>
+			<LABEL class="lblChkTotalDetail" top="409" left="16" width="500" height="25" textSize="18" foreground="#FF333333" visible="0" textStyle="bold"></LABEL>
+			
+			<FRAME class="lblChkTotalDetailUnderLineBottom" top="440" left="16" width="511" height="1" background="#FFD8D8D8" visible="0"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

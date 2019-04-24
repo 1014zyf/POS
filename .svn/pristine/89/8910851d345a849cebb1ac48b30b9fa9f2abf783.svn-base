@@ -1,0 +1,48 @@
+2019-02-26 07:03:53.737 java.lang.NullPointerException
+	at app.FormMain.frameFirstPage_clickOK(FormMain.java:386)
+	at app.FrameFirstPage.clicked(FrameFirstPage.java:86)
+	at virtualui.VirtualUIForm.fireClicked(VirtualUIForm.java:62)
+	at virtualui.VirtualUIForm.finishUI(VirtualUIForm.java:533)
+	at virtualui.VirtualUIForm.show(VirtualUIForm.java:258)
+	at app.Main.main(Main.java:125)
+	at launcher.Service$AppMain.run(Main.java:810)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-02-26 07:03:54.611 java.lang.NullPointerException
+	at app.FormMain.frameFirstPage_clickOK(FormMain.java:386)
+	at app.FrameFirstPage.clicked(FrameFirstPage.java:86)
+	at virtualui.VirtualUIForm.fireClicked(VirtualUIForm.java:62)
+	at virtualui.VirtualUIForm.finishUI(VirtualUIForm.java:533)
+	at virtualui.VirtualUIForm.show(VirtualUIForm.java:258)
+	at app.Main.main(Main.java:125)
+	at launcher.Service$AppMain.run(Main.java:810)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-02-27 03:33:23.943 java.lang.NoSuchMethodException: app.FormMain.loadBusinessDayOfAMonth()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at app.AppThread.run(AppThread.java:166)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-02-27 03:33:23.943 java.lang.NoSuchMethodException: app.FormMain.loadWebReportURL()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at app.AppThread.run(AppThread.java:166)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-02-27 07:58:45.656 java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at app.FuncCoupon.<init>(FuncCoupon.java:69)
+	at app.FormMain.preProcessEachPayment(FormMain.java:11703)
+	at app.FormMain.addPaymentToCashier(FormMain.java:10897)
+	at app.FormMain.handlePaymentKey(FormMain.java:10890)
+	at app.FormMain.frameOrderingPanel_paymentClicked(FormMain.java:33758)
+	at app.FrameOrderingPanel.frameGeneralLookupButton_clicked(FrameOrderingPanel.java:918)
+	at app.FrameGeneralLookupButton.frameLookupButton_clicked(FrameGeneralLookupButton.java:345)
+	at app.FrameLookupButton.clicked(FrameLookupButton.java:510)
+	at virtualui.VirtualUIForm.fireClicked(VirtualUIForm.java:62)
+	at virtualui.VirtualUIForm.finishUI(VirtualUIForm.java:533)
+	at virtualui.VirtualUIForm.show(VirtualUIForm.java:258)
+	at app.Main.main(Main.java:125)
+	at launcher.Service$AppMain.run(Main.java:810)
+	at java.lang.Thread.run(Thread.java:748)
+

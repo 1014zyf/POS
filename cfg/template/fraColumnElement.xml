@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraColumnElement">
+			<FRAME class="fraPlaceButton" top="8" left="230" width="40" height="60" stroke="1" strokeColor="#1A000000" background="#FFFFFF"></FRAME>
+			<IMAGE class="fraPlaceButtonImage" width="22" height="22"></IMAGE>
+			<FRAME class="line" left="0" width="222" height="53" background="#00000000"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

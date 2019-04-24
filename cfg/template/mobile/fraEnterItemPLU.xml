@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraEnterItemPLU">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="398" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<LABEL class="lblItemCode" top="55" left="10" height="50" width="380" textSize="18" textAlign="center_vertical" foreground="#5B5758"></LABEL>
+			<TEXTBOX class="txtboxItemCode" left="10" height="50" width="380" textSize="30" foreground="#56575C" background="#BFD7E1" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<LABEL class="lblQuantity"  left="10" height="50" width="380" textSize="18" textAlign="center_vertical" foreground="#5B5758"></LABEL>
+			<TEXTBOX class="txtboxQuantity"  left="10" height="50" width="380" textSize="30" foreground="#56575C" background="#BFD7E1" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<FRAME class="fraSeatPanel" top="265" left="10" height="60" width="380" background="#CEEDFF"></FRAME>
+			<FRAME class="fraNumberPad" top="325" width="720" height="330" style="NumberPadBackgroundStyle"></FRAME>
+			<BUTTON class="btnOK" top="360" left="10" width="185" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnCancel" top="360" left="205" width="185" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

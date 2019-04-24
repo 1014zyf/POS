@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmLoyalty">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraLoyalty" top="10" left="200" width="880" height="730" background="#FFFFFF" cornerRadius="5,5,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraLoyaltyNumPad" top="20" left="430" width="420" height="680" background="#FFFFFF" cornerRadius="5,5,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraLoyaltyFailRedemption" top="120" left="210" width="880" height="490" background="#FFFFFF" cornerRadius="5,5,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraLoyaltyCheckBalance" top="136" left="256" width="768" height="480" background="#FFFFFF" cornerRadius="8" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

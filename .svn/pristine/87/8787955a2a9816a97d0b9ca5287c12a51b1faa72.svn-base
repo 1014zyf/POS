@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraPaymentDetail">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			<FRAME class="fraRightFrame" top="80" left="426" width="570" height="470" cornerRadius="12" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraCheckDetailUnderline" width="350" height="1" background="#D8D8D8"></FRAME>
+			
+			<LABEL class="lblTitle" top="5" left="24" width="800" height="61" textSize="24" foreground="#333333" textAlign="center_vertical,left" visible="0" textStyle="bold" style="PaymentDetailTitleLabelStyle"></LABEL>
+			
+			<FRAME class="fraCheckDetail" top="80" left="30" width="380" height="470" cornerRadius="12" background="#E1ECF8" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblWaiterNameHeader" top="12" left="16" width="220" height="48" textSize="18" textAlign="center_vertical,left" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" cornerRadius="12" style="PaymentDetailWaiterNameHeaderLabelStyle"></LABEL>
+			<LABEL class="lblCheckNoHeader" top="60" left="16" width="250" height="48" textSize="18" textAlign="center_vertical,left" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckNoHeaderLabelStyle"></LABEL>
+			<LABEL class="lblTableNoHeader" top="108" left="16" width="250" height="48" textSize="18" textAlign="center_vertical,left" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailTableNoHeaderLabelStyle"></LABEL>
+			<LABEL class="lblCheckSubTotalHeader" top="156" left="16" width="250" height="48" textSize="18" textAlign="center_vertical,left" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckSubTotalHeaderLabelStyle"></LABEL>
+			<LABEL class="lblCheckScHeader" top="204" left="16" width="250" height="48" textSize="18" textAlign="center_vertical,left" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckScHeaderLabelStyle"></LABEL>
+			<LABEL class="lblCheckTaxHeader" top="252" left="16" width="250" height="48" textSize="18" textAlign="center_vertical,left" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckTaxHeaderLabelStyle"></LABEL>
+			<LABEL class="lblCheckDiscountHeader" top="300" left="16" width="250" height="48" textSize="18" textAlign="center_vertical,left" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckDiscountHeaderLabelStyle"></LABEL>
+			<LABEL class="lblCheckRoundAmountHeader" top="348" left="16" width="250" height="48" textSize="18" textAlign="center_vertical,left" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckRoundAmountHeaderLabelStyle"></LABEL>
+			<LABEL class="lblCheckTotalHeader" top="406" left="16" width="250" height="48" textSize="24" textAlign="center_vertical,left" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckTotalHeaderLabelStyle"></LABEL>
+			
+			<LABEL class="lblWaiterName" top="12" left="230" width="134" height="48" textSize="18" textAlign="center_vertical,right" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailWaiterNameLabelStyle"></LABEL>
+			<LABEL class="lblCheckNo" top="60" left="230" width="134" height="48" textSize="18" textAlign="center_vertical,right" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckNoLabelStyle"></LABEL>
+			<LABEL class="lblTableNo" top="108" left="230" width="134" height="48" textSize="18" textAlign="center_vertical,right" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailTableNoLabelStyle"></LABEL>
+			<LABEL class="lblCheckSubTotal" top="156" left="230" width="134" height="48" textSize="18" textAlign="center_vertical,right" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckSubTotalLabelStyle"></LABEL>
+			<LABEL class="lblCheckSc" top="204" left="230" width="134" height="48" textSize="18" textAlign="center_vertical,right" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckScLabelStyle"></LABEL>
+			<LABEL class="lblCheckTax" top="252" left="230" width="134" height="48" textSize="18" textAlign="center_vertical,right" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckTaxLabelStyle"></LABEL>
+			<LABEL class="lblCheckDiscount" top="300" left="230" width="134" height="48" textSize="18" textAlign="center_vertical,right" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckDiscountLabelStyle"></LABEL>
+			<LABEL class="lblCheckRoundAmount" top="348" left="230" width="134" height="48" textSize="18" textAlign="center_vertical,right" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckRoundAmountLabelStyle"></LABEL>
+			<LABEL class="lblCheckTotal" top="406" left="230" width="134" height="48" textSize="24" textAlign="center_vertical,right" background="#E1ECF8" foreground="#575757" visible="0" padding="0,0,0,5" style="PaymentDetailCheckTotalLabelStyle"></LABEL>
+			
+			<FRAME class="fraCheckPaymentBasket" top="5" left="12" width="550" height="450" background="#FFFFFF"></FRAME>
+			
+			<BUTTON class="btnConfirm" top="565" left="859" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="24" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnCancel" top="565" left="24" width="144" height="56" background="#5B6F73" foreground="#FFFFFF" textSize="24" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

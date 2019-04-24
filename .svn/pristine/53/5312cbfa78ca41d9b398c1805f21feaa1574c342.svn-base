@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmKitchenMonitorOperation">
+			<FRAME class="fraKitchenMonitorOperation" top="60" left="255" width="770" height="655" background="#CEEDFF" stroke="1" strokeColor="#FFFFFF" cornerRadius="5" visible="0"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraFirstPage">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1260" height="70"></FRAME>
+			<!-- <FRAME class="fraLeftContent" top="16" left="23" width="920" height="675" background="#FFFFFF" cornerRadius="10,10,0,0" style="BackgroundDefaultStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME> -->
+ 			<FRAME class="fraItemList" top="120" left="50" width="600" height="500"></FRAME>
+			<BUTTON class="btnOK" top="650" left="558" width="144" height="56" textSize="22" background="#02428B"
+					gradient="1" foreground="#FFFFFF" style="InputBoxOKButtonStyle" shadowTop="3" shadowLeft="0"
+					shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<TEXTBOX class="txtBoxID" top="120" left="780" width="294" height="48" textSize="40" foreground="#FF999999" stroke="1"></TEXTBOX>
+<!-- 			<LABEL class="lblMessage" top="65" left="34" width="344" height="60" textSize="24" textAlign="center_vertical" foreground="#333333" style="InputBoxMessageStyle"></LABEL>-->		<FRAME class="NumberPad" top="220" left="580" width="720" height="370" style="NumberPadBackgroundStyle"></FRAME>		
+			<FRAME class="fraPage" top="600" left="312" width="80" height="24" background="#FFFFFF"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="24" height="53" foreground="#0055B8" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="600" left="288" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="600" left="400" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

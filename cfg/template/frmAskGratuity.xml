@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmAskGratuity">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="frmAskGratuity" top="53" left="125" width="1030" height="646" background="#FFFFFF" cornerRadius="8,8,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

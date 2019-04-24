@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmCheckDetailInfo">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraTitleBar" top="72" left="127" height="64" width="1024" background="#FFFFFF" ></FRAME>
+			<FRAME class="fraTitleBarUnderline" top="62" left="24" width="976" height="1" background="#999999"></FRAME>
+			<LABEL class="lblTitle" top="2" left="24" width="800" height="61" textSize="24" foreground="#333333" textAlign="center_vertical,left" visible="0" textStyle="bold"></LABEL>
+			<FRAME class="fraButClose" top="15" left="969" width="55" height="40"></FRAME>
+			<FRAME class="fraCheckDetailInfo" top="56" left="128" width="1024" height="640"  background="#FFFFFF" cornerRadius="5,5,0,0" visible="0"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraGuestDetail">
+			<LABEL class="lblBasicInfoHeader" top ="20" left="10" width="668" height="40" textSize="24" textAlign="left" textStyle="bold" foreground="#575757"></LABEL>
+			<FRAME class="fraListBasicDetail" top="56" left="10" width="668" height="204" visible="0"></FRAME>
+			<LIST class="listBasicDetail" top="0" left="0" width="668" height="204" visible="0"></LIST>
+			<FRAME class="fraBasicUnderline" top="56" left="10" width="648" height="1" background="#999999"></FRAME>
+			<FRAME class="fraUserUnderline" top="0" left="0" width="648" height="1" background="#999999"></FRAME>
+			
+			<LABEL class="lblInfoHeader" top ="274" left="10" width="668" height="40" textSize="24" textStyle="bold" textAlign="left" foreground="#575757"></LABEL>
+			<FRAME class="fraListUserInfo" top="314" left="10" width="668" height="206" visible="0"></FRAME>
+			<LIST class="listUserInfo" top="0" left="0" width="668" height="500" visible="0"></LIST>
+			
+			<FRAME class="fraBasicDetail" top="0" left="0" width="668" height="35" visible="0"></FRAME>
+			<FRAME class="fraUserInfo" top="0" left="0" width="668" height="500" visible="0"></FRAME>
+			<LABEL class="lblTitle" top="0" left="15" width="185" height="35" foreground="#575757" textSize="20" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblContent" top="0" left="250" width="450" height="35" foreground="#575757" textSize="20" textAlign="center_vertical" visible="0"></LABEL>
+			<LABEL class="lblUserInfo" top="0" left="0" width="668" height="500" foreground="#575757" textSize="20" visible="0"></LABEL>
+			
+			<FRAME class="fraListTab" top="6" left="10" width="648" height="254" background="#FFFFFF"></FRAME>
+			
+			<FRAME class="fraPhotoInfo" top="10" left="10" width="490" height="250" background="#000000"></FRAME>
+			<IMAGE class="imageSignature" top ="5" left="10" width="480" height="250" foreground="#575757" background="#FFFFFF"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraAdminPanel">
+			<FRAME class="fraAdminOrderingPanel" top="16" left="22" width="1236" height="672" background="#FFFFFF" cornerRadius="12,12,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style="FrameAdminOrderPanelStyle"></FRAME>
+			<FRAME class="fraFooter" top="624" left="10" width="750" height="30" cornerRadius="0,0,5,5"></FRAME>
+			<FRAME class="fraCover" top="0" left="0" width="1280" height="704" background="#EDEEF4"></FRAME>
+			<LABEL class="fraSelectedListTab" textSize="24"></LABEL>
+			<LABEL class="fraUnselectListTab" textSize="20"></LABEL>
+			<LABEL class="lblVersion" top="0" left="0" width="750" height="30" textSize="20" foreground="#6F878F" textAlign="center,right" visible="0"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

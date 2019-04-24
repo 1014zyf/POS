@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCheckDetail">
+			<FRAME class="fraWholeCover" top="0" left="0" width="480" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraPanelCover" top="400" left="0" width="480" height="400" background="#AA000000"></FRAME>
+			<FRAME class="fraFuncPanelCover" top="365" left="0" width="480" height="435" background="#AA000000"></FRAME>
+			<FRAME class="fraFuncPanelCoverForDirectPay" top="400" left="0" width="480" height="400" background="#AA000000"></FRAME>
+			<FRAME class="fraLeftHeaderCover" top="0" left="0" width="480" height="140" background="#AA000000"></FRAME>
+			<FRAME class="fraLeftHeaderCoverForDirectPay" top="0" left="880" width="400" height="200" background="#AA000000"></FRAME>
+			<IMAGE class="imgBackground" top="0" left="0" width="480" height="800"></IMAGE>
+			<IMAGE class="imgNewOrderButton" top="200" left="88" width="304" height="304"></IMAGE>
+			<IMAGE class="imgChgLangButton" top="690" left="370" width="100" height="100"></IMAGE>
+			<LABEL class="lblNewOrder" top="380" left="90" width="300" height="300" textSize="28" textAlign="center" background="#00000000" foreground="#015384"></LABEL>
+			<LABEL class="lblQuitPayResult" top ="100" left="0" width="480" height="100" textSize="40" textAlign="center" foreground="#ffffff"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

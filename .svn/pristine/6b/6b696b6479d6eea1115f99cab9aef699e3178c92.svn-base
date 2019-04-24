@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraGeneralLookupButton">
+			<FRAME class="fraButHotItem" background="#FFFFFF" foreground="#333333" cornerRadius="2" shadowTop="4" shadowLeft="0" shadowRadius="7" shadowColor="#37000000" style="GeneralLookupHotItemButtonStyle"></FRAME>
+			<LABEL class="lblButHotItem" foreground="#333333" textSize="20"></LABEL>
+			<FRAME class="fraButFunction" background="#02428B" foreground="#FFFFFF" textSize="16" gradient="1" cornerRadius="2" shadowTop="4" shadowLeft="0" shadowRadius="7" shadowColor="#50000000" style="GeneralLookupFunctionButtonStyle"></FRAME>
+			<LABEL class="lblButFunction" foreground="#FFFFFF" textSize="20"></LABEL>
+			<FRAME class="fraButNoFunction" foreground="#DDDDDD" gradient="0" cornerRadius="2" shadowTop="4" shadowLeft="0" shadowRadius="7" shadowColor="#50000000" style="GeneralLookupNoFunctionButtonStyle"></FRAME>
+			<LABEL class="lblButNoFunction" foreground="#DDDDDD" textSize="20"></LABEL>
+			<FRAME class="fraButHotModifier" background="#66A6F1" foreground="#FFFFFF" gradient="1" cornerRadius="2" shadowTop="4" shadowLeft="0" shadowRadius="7" shadowColor="#50000000" style="GeneralLookupHotModifierButtonStyle"></FRAME>
+			<LABEL class="lblButHotModifier" foreground="#FFFFFF" textSize="20"></LABEL>
+			<FRAME class="fraButLookup" background="#031E3E" foreground="#FFFFFF" textAlign="center" gradient="1" cornerRadius="2" shadowTop="4" shadowLeft="0" shadowRadius="7" shadowColor="#50000000" style="GeneralLookupButtonStyle"></FRAME>
+			<LABEL class="lblButLookup" foreground="#FFFFFF" textSize="20"></LABEL>
+			<FRAME class="fraButModifierLookup" background="#5B6F73" foreground="#FFFFFF" gradient="1" cornerRadius="2" shadowTop="4" shadowLeft="0" shadowRadius="7" shadowColor="#50000000" style="GeneralLookupModifierButtonStyle"></FRAME>
+			<LABEL class="lblButModifierLookup" foreground="#FFFFFF" textSize="20"></LABEL>
+			<FRAME class="fraButPayment" background="#F4F6F9" foreground="#666666" textSize="22" gradient="1" cornerRadius="2" shadowTop="4" shadowLeft="0" shadowRadius="7" shadowColor="#37000000" style="GeneralLookupPaymentButtonStyle"></FRAME>
+			<LABEL class="lblButPayment" foreground="#666666" textSize="20"></LABEL>
+			<FRAME class="fraButSubPanel" background="#EDEEF4" foreground="#333333" gradient="1" cornerRadius="2" shadowTop="4" shadowLeft="0" shadowRadius="7" shadowColor="#50000000" style="GeneralLookupSubPanelButtonStyle"></FRAME>
+			<LABEL class="lblButSubPanel" foreground="#333333" textSize="20"></LABEL>
+			<FRAME class="fraButDiscount" background="#663300" foreground="#FFFFFF" gradient="1" cornerRadius="2" shadowTop="4" shadowLeft="0" shadowRadius="7" shadowColor="#50000000" style="GeneralLookupDiscountButtonStyle"></FRAME>
+			<LABEL class="lblButDiscount" foreground="#FFFFFF" textSize="20"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmStockOperation">
+			<FRAME class="fraEditTaiwanGUIConfig" top="0" left="0" width="1280" height="750" background="#FFFFFF" cornerRadius="5,5,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

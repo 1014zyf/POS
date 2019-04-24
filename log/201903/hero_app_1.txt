@@ -1,0 +1,4 @@
+2019-03-26 03:05:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-03-26 03:05:22 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: change_language
+2019-03-26 03:05:33 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1
+2019-03-26 03:05:35 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: first_page

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraPMSEnquiryResult">
+			<FRAME class="fraTitleHeader" top="1" left="1" width="458" height="40" textSize="24" textAlign="center" foreground="#FFFFFF" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<FRAME class="fraInputInfo" top="45" left="0" width="458" height="88"></FRAME>
+			<TEXTBOX class="lblInputBox" top="0" left="10" width="300" height="40" textSize="22" foreground="#575757" background="#bed7e1" cornerRadius="5"></TEXTBOX>
+			<BUTTON class="butRoomEnquiry" top="50" left="10" width="150" height="40" textSize="22" textStyle="bold" textAlign="center" foreground="#015384" gradient="true" background="#E0E0E0"></BUTTON>
+			
+			<FRAME class="fraGuestListBackground" top="155" left="0" width="458" height="300"></FRAME>
+			<FRAME class="fraTagIndicator" top="175" left="10" width="150" height="3" background="#015384"></FRAME>
+			<FRAME class="fraGuestList" top="0" left="10" width="440" height="200" background="#FFFFFF"></FRAME>
+			<BUTTON class="butAREnquiry" top="85" left="165" width="150" height="40" textSize="22" textStyle="bold" textAlign="center" foreground="#015384" gradient="true" background="#E0E0E0"></BUTTON>
+			<BUTTON class="butRegisterEnquiry" top="90" left="320" width="150" height="40" textSize="22" textStyle="bold" textAlign="center" foreground="#015384" gradient="true" background="#E0E0E0"></BUTTON>
+																											 
+			<LABEL class="lblGuestListTag" top ="135" left="10" width="150" height="40" textSize="22" textAlign="center" foreground="#015384"></LABEL>
+			
+			<FRAME class="fraGuestDetail" top="385" left="10" width="440" height="390" background="#C8F0F8"></FRAME>
+			<BUTTON class="butBack" top="680" left="1130" width="120" height="40" background="#DCDCDC"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>	

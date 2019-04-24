@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmAdvanceOrder">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraAdvanceOrder" top="100" left="440" width="400" height="530" background="#FFFFFF" visible="0" cornerRadius="5,5,0,0"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

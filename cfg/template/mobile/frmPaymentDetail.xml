@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmPaymentDetail">
+			<FRAME class="fraCoverFrame" width="480" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraPaymentDetail" top="45" left="10" width="460" height="710" background="#CCF0FF" visible="0" cornerRadius="5" stroke="1" strokeColor="#FFFFFF"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

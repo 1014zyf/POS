@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraInputBoxLarge">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="70"></FRAME>
+			<TEXTBOX class="txtbox" left="32" width="0" height="0" textSize="24" foreground="#333333" background="#FFFFFF" stroke="1" strokeColor="#979797" cornerRadius="2" style="InputBoxTextBoxStyle"></TEXTBOX>
+			<BUTTON class="btnOK" top="560" left="856" width="144" height="56" textSize="22" background="#02428B" gradient="1" foreground="#FFFFFF" style="InputBoxOKButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnCancel" top="570" left="24" width="144" height="56" textSize="22" background="#5B6F73" gradient="1" foreground="#FFFFFF" style="InputBoxCancelButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<FRAME class="fraNumberPad" top="108" left="24" width="720" height="355" style="NumberPadBackgroundStyle"></FRAME>
+			<LABEL class="lblRemainingBalance" left="0" top="65" width="1024" height="80" textSize="40" textAlign="center" foreground="#5B5758"></LABEL>
+			<LABEL class="lblDesc" left="12" top="125" width="1000" height="50" textSize="24" textAlign="center" foreground="#5B5758"></LABEL>
+			<FRAME class="fraImageFrame" top="190" left="0" width="1024" height="514"></FRAME>
+			<IMAGE class="imgPaymentImage" top="0" left="0" width="1024" height="514" visible="0" contentMode="scale_aspect_fill"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

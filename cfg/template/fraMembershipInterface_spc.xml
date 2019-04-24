@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraMembershipInterface">
+			<FRAME class="fraTitleHeader" top="0" left="0" width="1260" height="65"></FRAME>
+			
+			<!-- Buttons -->
+			<BUTTON class="butSetMember" top="175" left="211" width="172" height="58" textSize="22" textStyle="bold" textAlign="center" foreground="#FFFFFF" background="#0055B8" cornerRadius="4" style="MemberEnquiryButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butMemberEnquiry" top="175" left="405" width="172" height="58" textSize="22" textStyle="bold" textAlign="center" foreground="#FFFFFF" background="#0055B8" cornerRadius="4" style="MemberEnquiryButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<!-- Label and textbox -->
+			<FRAME class="fraEnquiry" top="80" left="639" width="599" height="250" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<!-- Enquiry Label -->
+			<LABEL class="lblEnquiryTag" top ="16" left="21" width="200" height="50" textSize="24" textAlign="bold" foreground="#333333"></LABEL>
+			<FRAME class="fraEnquiryIndicator" top="48" left="20" width="559" height="1" background= "#D8D8D8"></FRAME>
+			
+			<!-- Member Number -->
+			<LABEL class="lblMemberNumberTag" top ="66" left="21" width="200" height="50" textSize="20" textAlign="left" foreground="#333333"></LABEL>
+			<TEXTBOX class="txtboxEnquiry" top="100" left="21" width="551" height="50" textSize="30" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			
+			<!-- Member Detail -->
+			<LABEL class="lblMemberRecordTitle" top="96" left="35" width="200" height="50" textSize="24" textAlign="bold" foreground="#333333"></LABEL>
+			<FRAME class="fraMemberDetailTagIndicator" top="128" left="30" width="599" height="1" background= "#D8D8D8"></FRAME>
+			
+			<FRAME class="fraMemberListCommonBasket" top="10" left="5" width="589" height="561" background="#FFFFFF"></FRAME>
+			<FRAME class="fraMemberDetail" top="129" left="30" width="599" height="581" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

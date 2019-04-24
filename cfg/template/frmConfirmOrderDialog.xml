@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmConfirmOrderDialog">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraConfirmOrderDialog" top="56" left="128" width="1024" height="640" background="#FFFFFF" cornerRadius="5,5,0,0" stroke="1" strokeColor="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

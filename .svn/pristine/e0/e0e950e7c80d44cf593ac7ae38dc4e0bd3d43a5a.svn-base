@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraReservationDetail">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			<LIST class="listResvDetail" top="68" left="32" width="960" height="490" visible="0"></LIST>
+			
+			<FRAME class="fraResvDetail" top="58" left="32" width="960" height="490" visible="0"></FRAME>
+			<LABEL class="lblListTitle" top="0" left="0" width="440" height="49" foreground="#575757" background="#B2CBDA" textSize="20" visible="0" textAlign="center_vertical" textStyle="bold" padding="0,0,0,10"></LABEL>
+			<LABEL class="lblContent" top="0" left="440" width="520" height="49" foreground="#575757" background="#FFFFFF" textSize="20" textAlign="center_vertical" visible="0" padding="0,0,0,10"></LABEL>
+			
+			<BUTTON class="btnOK" top="560" left="440" width="144" height="56" background="#0055B8" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

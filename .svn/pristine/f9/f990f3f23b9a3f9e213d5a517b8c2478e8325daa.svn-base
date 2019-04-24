@@ -1,0 +1,10 @@
+Card Number 	Result				Input Method
+--------------------------------------------------------------	 
+09101		Success 			Swipe card
+09102		Error (Invalid response)	Swipe card
+09103		Error (Card is not  valid)	Swipe card
+9101 		Success 			Key in
+9102		Success 			Key in
+9103		Error(Point Enquiry Error)	Key in 
+9014 		Error (Type is not  valid)	Key in 
+ 

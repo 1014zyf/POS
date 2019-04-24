@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraItemDetail">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			<FRAME class="fraImage" top="79" left="32" width="408" height="304" cornerRadius="5"></FRAME>
+			<IMAGE class="imgItem" top="0" left="0" width="408" height="304" visible="0" contentMode="scale_aspect_fill"></IMAGE>
+			<LABEL class="lblEmptyImage" top="0" left="0" width="408" height="304" textSize="26" textAlign="center" foreground="#015384"></LABEL>
+			<FRAME class="fraLeftInfo" top="399" left="32" width="408" height="217" cornerRadius="5" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraRightInfo" top="79" left="456" width="536" height="537" cornerRadius="5" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraBasicDetailBox" top="79" left="456" width="536" height="392"></FRAME>
+			<LABEL class="lblBasicDetail" top="16" left="16" width="300" height="33" foreground="#333333" textSize="24" textAlign="left" visible="0" style="ItemDetailSubBackgroundStyle"></LABEL>
+			<FRAME class="lblBasicDetailUnderLineTop" top="56" left="16" width="504" height="1" background="#979797" visible="0" style="ItemDetailSubBackgroundStyle"></FRAME>
+			<FRAME class="fraListBasicDetail" top="65" left="16" width="500" height="360" visible="0"></FRAME>
+			<LIST class="listBasicDetail" top="0" left="0" width="450" height="340" visible="0"></LIST>
+			<FRAME class="fraBasicDetail" top="8" left="0" width="450" height="25" visible="0"></FRAME>
+			<LABEL class="lblTitle" top="0" left="0" width="150" height="23" foreground="#5C5859" textSize="15" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblContent" top="0" left="155" width="295" height="23" foreground="#5C5859" textSize="15" visible="0"></LABEL>
+			<IMAGE class="imgContent" top ="0" left="155" width="40" height="40"></IMAGE>
+			<LIST class="listContent" top="0" left="155" width="295" height="23" visible="0"></LIST>
+			<LABEL class="lblItemContent" top="0" left="0" width="295" height="23" foreground="#5C5859" textSize="15" visible="0"></LABEL>
+			<BUTTON class="butOrder" top="542" left="654" width="140" height="58" foreground="#FFFFFF" textSize="22" background="#02428B" cornerRadius="2" gradient="1" visible="0" style="ItemDetailButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<!-- DISCOUNT INFO -->
+			<FRAME class="fraDiscountBox" top="471" left="456" width="536" height="161"></FRAME>
+			<LABEL class="lblDiscountInfo" top="16" left="16" width="300" height="33" foreground="#333333" textSize="24" textAlign="left" visible="0" style="ItemDetailSubBackgroundStyle"></LABEL>
+			<FRAME class="lblDiscountInfoUnderLineTop" top="56" left="16" width="504" height="1" background="#979797" visible="0" style="ItemDetailSubBackgroundStyle"></FRAME>
+			<FRAME class="fraDiscInfo" top="65" left="16" width="500" height="64" visible="0"></FRAME>
+			<LIST class="listItemDisc" top="0" left="0" width="500" height="64" visible="0"></LIST>
+			<LABEL class="lblItemDisc" top="0" left="0" width="340" height="23" foreground="#5C5859" textSize="15" visible="0"></LABEL>
+			
+			<!-- DETAIL DESCRIPTION -->
+			<FRAME class="fraDescBox" top="399" left="32" width="408" height="217"></FRAME>
+			<LABEL class="lblItemDetail" top="16" left="16" width="300" height="33" foreground="#333333" textSize="24" textAlign="left" visible="0" style="ItemDetailSubBackgroundStyle"></LABEL>
+			<FRAME class="lblItemDetailUnderLineTop" top="56" left="16" width="376" height="1" background="#979797" visible="0" style="ItemDetailSubBackgroundStyle"></FRAME>
+			<LIST class="listItemDescription" top="65" left="16" width="376" height="136" visible="0"></LIST>
+			<FRAME class="fraItemDescription" top="0" left="0" width="376" height="136" visible="0"></FRAME>
+			<LABEL class="lblDescriptionContent" top="0" left="0" width="376" height="165" foreground="#5C5859" textSize="15" visible="0"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

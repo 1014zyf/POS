@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCommonPageContainerFrame">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			
+			<FRAME class="fraLeftSwipe" top="0" left="0" width="200" height="55"></FRAME>
+			<IMAGE class="imgLeftSwipe" top="0" left="0" width="24" height="24" contentMode="scale_aspect_fit_center"></IMAGE>
+			
+			<FRAME class="fraRightSwipe" top="0" left="900" width="200" height="55"></FRAME>
+			<IMAGE class="imgRightSwipe" top="0" left="0" width="24" height="24" contentMode="scale_aspect_fit_center"></IMAGE>
+			
+			<FRAME class="fraUpperTabSeparator" top="0" left="0" width="1000" height="2" background="#999999"></FRAME>
+			<HORIZONTALLIST class="horListTab" top="0" left="48" width="800" height="118"></HORIZONTALLIST>
+			<HORIZONTALLIST class="horListChildTab" top="0" left="48" width="800" height="118"></HORIZONTALLIST>
+			<LABEL class="lblTab" top="0" left="0" width="200" height="100" textSize="20" foreground="#686363" textAlign="center"></LABEL>
+			<LABEL class="selectedTab" top="0" left="0" width="200" height="100" textSize="0" foreground="#05EAFF" textAlign="center" textStyle="bold"></LABEL>
+			<LABEL class="unselectedTab" top="0" left="0" width="200" height="100" textSize="0" foreground="#686363" textAlign="center" textStyle="bold"></LABEL>
+			
+			<FRAME class="fraTabSeparator" top="118" left="0" width="1000" height="2" background="#999999"></FRAME>
+			<FRAME class="fraCommonPageFrame" top="122" left="0" width="1000" height="480" background="#00F0FBFF" visible="0"></FRAME>
+			<FRAME class="fraBackground" top="0" left="0" width="1000" height="480" visible="0"></FRAME>
+			<FRAME class="imgBackground" top="0" left="2" width="30" height="30" visible="0" contentMode="scale_aspect_fit"></FRAME>
+			<BUTTON class="btnButton" top="18" left="40" width="144" height="56" background="#02428B" gradient="1" foreground="#FFFFFF" textStyle="bold" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

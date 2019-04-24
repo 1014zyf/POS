@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraStockSoldoutFunction">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="479" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			
+			<FRAME class="fraCommonTabList" top="55" left="24" width="432" height="680"></FRAME>
+			
+			<FRAME class="fraRightContent" top="80" left="662" width="340" height="150" background="#FFFFFF" cornerRadius="5,5,0,0" style="StockSoldoutRightContentFrame"></FRAME>
+			
+			<TEXTBOX class="txtboxSearchValue" top="16" left="16" width="308" height="48" textSize="18" foreground="#000000" background="#FFFFFF" stroke="1" strokeColor="#979797" cornerRadius="2" style="StockSoldoutSearchValueTextBox"></TEXTBOX>
+			<BUTTON class="btnSearchByName" top="80" left="16" width="144" height="56" background="#FFFFFF" gradient="1" foreground="#666666" style="StockSoldoutSearchByNameButton"></BUTTON>
+			<BUTTON class="btnShowAllResult" top="80" left="180" width="144" height="56" background="#02428B" gradient="1" foreground="#FFFFFF" style="StockSoldoutShowAllResultButton"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

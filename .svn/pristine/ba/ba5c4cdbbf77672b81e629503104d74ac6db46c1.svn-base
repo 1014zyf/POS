@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraStockOperation">
+			<FRAME class="fraLeftContent" top="16" left="23" width="810" height="675" background="#FFFFFF" cornerRadius="10,10,0,0" style="BackgroundDefaultStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraItemList" top="10" left="10" width="850" height="568"></FRAME>
+			
+			<BUTTON class="btnAddItemToStock" top="603" left="16" width="144" height="56" background="#FFFFFF" gradient="1" style="StockOperationAddItemToStockButton" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnDeleteItemInStock" top="603" left="176" width="144" height="56" background="#FFFFFF" gradient="1"  style="StockOperationDeleteItemInStockButton" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnEditStockSequence" top="603" left="336" width="144" height="56" background="#FFFFFF" gradient="1"  style="StockOperationEditStockSequenceButton" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<IMAGE class="ImgPrevPage" top="613" left="572" width="24" height="24" contentMode="SCALE_ASPECT_FIT"></IMAGE>
+			<FRAME class="fraPage" top="613" left="626" width="53" height="24"></FRAME>
+			<LABEL class="lblPage" top="612" left="603" width="116" height="24" textSize="24" foreground="#015384" textAlign="center"></LABEL>
+			<IMAGE class="ImgNextPage" top="613" left="720" width="24" height="24" contentMode="SCALE_ASPECT_FIT"></IMAGE>
+			
+			<FRAME class="fraSave" top="255" left="210" width="144" height="56" background="#0055B8" foreground="#000000" stroke="1" strokeColor="#868686"></FRAME>
+			
+			<FRAME class="fraRightContent" top="16" left="851" width="406" height="676" background="#FFFFFF" cornerRadius="10,10,0,0" style="BackgroundDefaultStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<TEXTBOX class="txtboxSearchValue" top="187" left="50" width="308" height="48" textSize="18" background="#FFFFFF" stroke="1" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<BUTTON class="btnSearchByName" top="53" left="50" width="144" height="56" background="#FFFFFF" gradient="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnSearchByDepartment" top="120" left="10" width="400" height="40" background="#FFFFFF" gradient="1" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnSearchByCategory" top="120" left="10" width="400" height="40" background="#FFFFFF" gradient="1" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnShowAllResult" top="53" left="210" width="144" height="56" background="#FFFFFF" gradient="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnSearchByPanel" top="120" left="50" width="144" height="56" background="#FFFFFF" gradient="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>	
+			<BUTTON class="btnSave" top="255" left="210" width="144" height="56" background="#FFFFFF"  style="StockOperationSaveButton" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnExit" top="255" left="50" width="144" height="56" background="#FFFFFF" gradient="1" style="StockOperationSaveButton" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<FRAME class="fraNumberPad" top="330" left="10" width="390" height="330" background="#FFFFFF" style="NumberPadBackgroundStyle"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

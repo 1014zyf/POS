@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmAskTender">
+			<FRAME class="fraWholeCover" top="0" left="850" width="448" height="410" background="#FFFFFF"></FRAME>
+			<FRAME class="fraDirectPaymentPanel" top="60" left="0" width="1280" height="720" background="#00000000"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

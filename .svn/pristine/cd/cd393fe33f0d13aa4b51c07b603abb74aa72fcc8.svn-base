@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraNumberPad">
+			<FRAME class="fraNumber" background="#FFFFFF" cornerRadius="4"></FRAME>
+			<LABEL class="lblNumber" foreground="#666666" textSize="22" textAlign="center"></LABEL>
+			<BUTTON class="butCancel" foreground="#666666" textSize="22" textAlign="center" background="#FFFFFF" cornerRadius="4"></BUTTON>
+			<BUTTON class="butEnter" foreground="#FFFFFF" textSize="22" textAlign="center" background="#0055B8" cornerRadius="4"></BUTTON>
+			<FRAME class="fraBackspace" background="#FFFFFF" cornerRadius="4"></FRAME>
+			<LABEL class="lblBackspace" foreground="#666666" textSize="22" textAlign="center"></LABEL>
+			<IMAGE class="ImgBackspace"></IMAGE>
+			<FRAME class="fraDot" background="#FFFFFF" cornerRadius="4"></FRAME>
+			<LABEL class="lblDot" foreground="#666666" textSize="22" textAlign="center"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

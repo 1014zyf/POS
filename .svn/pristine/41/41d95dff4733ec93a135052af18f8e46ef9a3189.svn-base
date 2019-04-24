@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmSearchMemberFunction">
+			<FRAME class="fraCoverFrame" width="480" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraSearchMemberFunction" top="10" left="10" width="460" height="780" background="#EAEAEA" cornerRadius="5"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

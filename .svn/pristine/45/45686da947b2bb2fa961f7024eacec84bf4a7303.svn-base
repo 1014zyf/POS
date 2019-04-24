@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmAdminPanel">
+			<FRAME class="fraCoverFrame" top="48" width="1280" height="752" background="#EBECF2"></FRAME>
+			<FRAME class="fraAdminPanel" top="64" left="22" width="672" height="1236" background="#FFFFFF" cornerRadius="12" style="FrameAdminOrderPanelStyle"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

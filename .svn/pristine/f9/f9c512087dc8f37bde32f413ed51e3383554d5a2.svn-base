@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraItemDetail">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="478" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			
+			<!-- IMAGE -->
+			<FRAME class="fraImage" top="55" left="115" width="250" height="180"></FRAME>
+			<IMAGE class="imgItem" top="0" left="0" width="250" height="180" visible="0" contentMode="scale_aspect_fill"></IMAGE>
+			<LABEL class="lblEmptyImage" top="0" left="0" width="250" height="180" textSize="26" textAlign="center" foreground="#015384"></LABEL>
+			
+			<!-- BASIC DETAIL -->
+			<FRAME class="fraBasicDetailBox" top="250" left="10" width="460" height="392"></FRAME>
+			<LABEL class="lblBasicDetail" top="0" left="5" width="130" height="20" foreground="#595758" textSize="20"  textAlign="center" visible="0" textStyle="bold"></LABEL>
+			<FRAME class="lblBasicDetailUnderLineTop" top="22" left="5" width="130" height="6" background="#015384" visible="0"></FRAME>
+			<FRAME class="lblBasicDetailUnderLineBottom" top="24" left="5" width="470" height="2" background="#015384" visible="0"></FRAME>
+			<FRAME class="fraListBasicDetail" top="32" left="5" width="470" height="200" background="#e6f8ff" visible="0"></FRAME>
+			<LIST class="listBasicDetail" top="5" left="5" width="460" height="300" background="#e6f8ff" visible="0"></LIST>
+			<FRAME class="fraBasicDetail" top="0" left="0" width="460" height="25" background="#e6f8ff" visible="0"></FRAME>
+			<LABEL class="lblTitle" top="0" left="0" width="100" height="18" foreground="#5C5859" textSize="18" visible="0" textAlign="center_vertical" textStyle="bold"></LABEL>
+			<LABEL class="lblContent" top="0" left="105" width="355" height="18" foreground="#5C5859" textSize="18" visible="0"></LABEL>
+			<IMAGE class="imgContent" top ="0" left="105" width="28" height="30"></IMAGE>
+			<LIST class="listContent" top="0" left="105" width="140" height="18" visible="0"></LIST>
+			<LABEL class="lblItemContent" top="0" left="0" width="140" height="18" foreground="#5C5859" textSize="18" visible="0"></LABEL>
+			<BUTTON class="butOrder" top="145" left="10" width="96" height="50" foreground="#FFFFFF" textSize="20" background="#3481B0" gradient="1" stroke="1" strokeColor="#003554" visible="0"></BUTTON>
+			
+			<!-- DETAIL DESCRIPTION -->
+			<FRAME class="fraDescBox" top="500" left="10" width="460" height="250"></FRAME>
+			<LABEL class="lblItemDetail" top="0" left="5" width="105" height="20" foreground="#595758" textSize="20" textAlign="center" visible="0" textStyle="bold"></LABEL>
+			<FRAME class="lblItemDetailUnderLineTop" top="22" left="5" width="105" height="6" background="#015384" visible="0"></FRAME>
+			<FRAME class="lblItemDetailUnderLineBottom" top="28" left="5" width="470" height="2" background="#015384" visible="0"></FRAME>
+			<LIST class="listItemDescription" top="32" left="5" width="470" height="100" background="#e6f8ff" visible="0"></LIST>
+			<FRAME class="fraItemDescription" top="0" left="0" width="470" height="95" visible="0"></FRAME>
+			<LABEL class="lblDescriptionTitle" top="2" left="2" width="100" height="18" foreground="#5C5859" textSize="18" visible="0" textAlign="center_vertical" textStyle="bold"></LABEL>
+			<LABEL class="lblDescriptionContent" top="2" left="105" width="365" height="93" foreground="#5C5859" textSize="18" visible="0"></LABEL>
+			
+			<!-- DISCOUNT INFO -->
+			<FRAME class="fraDiscountBox" top="650" left="10" width="460" height="150"></FRAME>
+			<LABEL class="lblDiscountInfo" top="0" left="5" width="90" height="20" foreground="#595758" textSize="20" textAlign="center" visible="0" textStyle="bold"></LABEL>
+			<FRAME class="lblDiscountInfoUnderLineTop" top="22" left="5" width="90" height="6" background="#015384" visible="0"></FRAME>
+			<FRAME class="lblDiscountInfoUnderLineBottom" top="28" left="5" width="470" height="2" background="#015384" visible="0"></FRAME>
+			<FRAME class="fraDiscInfo" top="32" left="5" width="470" height="100" background="#e6f8ff" visible="0"></FRAME>
+			<!-- <LABEL class="lblDisc" top="505" left="20" width="500" height="22" textSize="18" visible="0"></LABEL> -->
+			<LIST class="listItemDisc" top="5" left="5" width="455" height="95" visible="0"></LIST>
+			<LABEL class="lblItemDisc" top="0" left="0" width="360" height="18" foreground="#5C5859" textSize="18" visible="0"></LABEL>
+			
+		</FRAME>
+	</TEMPLATE>
+</POS>

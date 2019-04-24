@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraGuestDetail">
+			<LABEL class="lblBasicInfoHeader" top ="5" left="0" width="440" height="30" textSize="20" textAlign="left" textStyle="bold" foreground="#575757"></LABEL>
+			<FRAME class="fraListBasicDetail" top="35" left="0" width="440" height="200" background="#e6f8ff" visible="0"></FRAME>
+			<LIST class="listBasicDetail" top="0" left="0" width="440" height="200" background="#e6f8ff" visible="0"></LIST>
+			
+			<LABEL class="lblInfoHeader" top ="240" left="0" width="440" height="30" textSize="20" textAlign="left" textStyle="bold" foreground="#575757"></LABEL>
+			<FRAME class="fraListUserInfo" top="270" left="0" width="440" height="120" background="#e6f8ff" visible="0"></FRAME>
+			<LIST class="listUserInfo" top="0" left="0" width="440" height="120" background="#e6f8ff" visible="0"></LIST>
+			
+			<FRAME class="fraBasicDetail" top="0" left="0" width="450" height="45" background="#e6f8ff" visible="0"></FRAME>
+			<FRAME class="fraUserInfo" top="0" left="0" width="700" height="500" background="#e6f8ff" visible="0"></FRAME>
+			<LABEL class="lblTitle" top="0" left="0" width="150" height="45" foreground="#575757" background="#B2CBDA" textSize="20" visible="0" textAlign="center_vertical" textStyle="bold"></LABEL>
+			<LABEL class="lblContent" top="0" left="155" width="320" height="45" foreground="#575757" background="#ECF9FF" textSize="20" textAlign="center_vertical" visible="0"></LABEL>
+			<LABEL class="lblUserInfo" top="0" left="0" width="440" height="500" foreground="#575757" background="#ECF9FF" textSize="20" visible="0"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

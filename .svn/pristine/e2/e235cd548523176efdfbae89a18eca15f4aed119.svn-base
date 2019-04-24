@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraGamingInterface">
+			<!-- Header -->
+			<FRAME class="fraTitleHeader" top="0" left="0" width="1024" height="67"></FRAME>
+			
+			<!-- Enquiry Label and Textbox -->
+			<FRAME class="fraEnquiryBlock" top="80" left="30" width="322" height="250" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblEnquiryTag" top ="16" left="16" width="190" height="50" textSize="24" textAlign="bold" foreground="#333333"></LABEL>
+			<FRAME class="fraEnquiryIndicator" top="48" left="15" width="287" height="1" background= "#D8D8D8"></FRAME>
+			<LABEL class="lblEnquiryFieldTag" top ="66" left="16" width="195" height="50" textSize="20" textAlign="left" foreground="#333333"></LABEL>
+			<TEXTBOX class="txtboxEnquiryNumber" top="100" left="20" width="282" height="50" textSize="30" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			
+			<!-- Cover TextBox -->
+			<LABEL class="lblTextBoxCoverFrame" top="90" left="10" width="292" height="60" textSize="26" foreground="#333333" background="#00000000"></LABEL>
+			
+			<LABEL class="lblEnquiryNumber" top="110" left="27" width="271" height="30" textSize="26" textAlign="bold" foreground="#333333"></LABEL>
+			<BUTTON class="butEnquiry" top="175" left="167" width="137" height="53" textSize="22" textStyle="bold" textAlign="center" foreground="#FFFFFF" background="#0055B8" cornerRadius="4" style="MemberEnquiryButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butSetMember" top="175" left="20" width="137" height="53" textSize="22" textStyle="bold" textAlign="center" foreground="#FFFFFF" background="#0055B8" cornerRadius="4" style="MemberEnquiryButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butClearMember" top="175" left="167" width="137" height="53" textSize="22" textStyle="bold" textAlign="center" foreground="#FFFFFF" background="#0055B8" cornerRadius="4" style="MemberEnquiryButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<!-- Post Online Comp -->
+			<LABEL class="lblOnlineCompRedeemTag" top="176" left="16" width="195" height="50" textSize="20" textAlign="left" foreground="#333333"></LABEL>
+			<TEXTBOX class="txtboxOnlineComp" top="210" left="20" width="282" height="50" textSize="30" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblPatronDateOfBirthTag" top="270" left="16" width="195" height="50" textSize="20" textAlign="left" foreground="#333333"></LABEL>
+			<TEXTBOX class="txtboxPatronDateOfBirth" top="304" left="20" width="282" height="50" textSize="30"  foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<!-- Remark -->
+			<LABEL class="lblRemarks" top="364" left="16" width="195" height="50" textSize="20" textAlign="left" foreground="#333333"></LABEL>
+			<TEXTBOX class="txtboxRemarks" top="398" left="20" width="282" height="105" textSize="30" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblSelectedRemark" top="403" left="23" width="277" height="95" textSize="25" textAlign="left" foreground="#333333"></LABEL>
+			
+			<!-- Enquiry Result -->
+			<FRAME class="fraEnquiryResultBlock" top="130" left="380" width="600" height="500" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblEnquiryResultTitle" top="96" left="367" width="200" height="50" textSize="24" textAlign="bold" foreground="#333333"></LABEL>
+			<FRAME class="fraEnquiryResultTitleIndicator" top="128" left="362" width="734" height="1" background= "#D8D8D8"></FRAME>
+			<FRAME class="fraResultListCommonBasket" top="10" left="16" width="568" height="481" background="#FFFFFF"></FRAME>
+			
+			<FRAME class="fraListTab" top="78" left="380" width="600" height="500" background="#FFFFFF"></FRAME>
+			<FRAME class="fraPhotoInfo" top="55" left="10" width="490" height="480" background="#000000"></FRAME>
+			<IMAGE class="imagePhoto" top ="5" left="10" width="480" height="200" foreground="#575757" background="#FFFFFF"></IMAGE>
+			<IMAGE class="imageSign" top ="210" left="10" width="480" height="200" foreground="#575757" background="#FFFFFF"></IMAGE>
+			
+			<BUTTON class="butPaymentSubmit" top="550" left="830" width="144" height="56" textSize="22" textStyle="bold" textAlign="center" foreground="#FFFFFF" background="#0055B8" cornerRadius="4" style="MemberEnquiryButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<FRAME class="fraDisplayPanel" top="80" left="380" width="600" height="550" background= "#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+	
+			<FRAME class="fraPage" top="430" left="230" width="150" height="24" background="#FFFFFF"></FRAME>
+			<LABEL class="lblPage" top="0" left="50" textSize="24" width="50" height="53" foreground="#0055B8" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="0" left="0" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="0" left="126" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			
+			<FRAME class="fraResonCode" top="30" left="0" width="600" height="500" background="#FFFFFF" ></FRAME>
+			<FRAME class="fraRemarkCommonBasket" top="0" left="0" width="600" height="500" background="#FFFFFF"></FRAME>
+			<LABEL class="lblTextBoxDisabledColor" top="0" left="0" width="0" height="0" background="#b7b7b7"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

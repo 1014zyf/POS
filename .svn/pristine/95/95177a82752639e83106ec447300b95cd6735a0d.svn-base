@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraWebReport">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1260" height="65"></FRAME>
+			<WEBVIEW class="wbvReport" top="80" left="24" width="1212" height="562"></WEBVIEW>
+			<BUTTON class="btnOK" top="658" left="558" width="144" height="56" background="#5B6F73" gradient="1" foreground="#FFFFFF" cornerRadius="2" style="WebReportOKButton"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

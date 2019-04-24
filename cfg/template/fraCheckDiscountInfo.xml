@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCheckDiscountInfo">
+			<LABEL class="lblCheckDiscount" top="0" left="14" width="379" height="25" textSize="18" foreground="#FF333333" visible="0" textStyle="bold"></LABEL>
+			<FRAME class="lblCheckDiscountUnderLineBottom" top="32" left="14" width="379" height="1" background="#FFD8D8D8" visible="0"></FRAME>
+			<LIST class="listCheckDiscount" height="140" background="#FFFFFFFF" visible="0" ></LIST>
+			<LABEL class="lblCheckExtraCharge" top="185" left="20" width="460" height="25" textSize="18" foreground="#FF333333" visible="0" textStyle="bold"></LABEL>
+			<FRAME class="lblCheckExtraChargeUnderLineBottom" top="212" left="14" width="379" height="1" background="#FFD8D8D8" visible="0"></FRAME>
+			<LIST class="listCheckExtraCharge" height="140" background="#FFFFFFFF" visible="0"></LIST>
+		</FRAME>
+	</TEMPLATE>
+</POS>

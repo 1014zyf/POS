@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmCashier">
+			<FRAME class="fraPaymentMethodPanel" top="10" left="10" width="1260" height="730" background="#CCF0FF" cornerRadius="10"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

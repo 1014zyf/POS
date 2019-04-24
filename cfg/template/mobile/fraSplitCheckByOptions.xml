@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSplitCheckByOptions">
+			<FRAME class="fraTitleBar" top="0" left="0" width="880" height="50" background="#015384"></FRAME>
+			<LABEL class="lblTitle" top="0" left="0" width="880" height="50" textSize="24" foreground="#FFFFFF" textAlign="center" visible="0"></LABEL>
+			<FRAME class="fraButClose" top="5" left="825" width="55" height="40"></FRAME>
+			
+			<LABEL class="lblNumberOfTable" top="65" left="40" width="400" height="23" textSize="22" foreground="#015384"></LABEL>
+			<LABEL class="lblMessage" top="100" left="40" width="400" height="23" textSize="22" foreground="#015384"></LABEL>
+			
+			<FRAME class="fraTableInfoList" top="150" left="40" width="250" height="520"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

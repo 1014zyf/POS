@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraVoidCheckDetail">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="768" height="65"></FRAME>
+			<FRAME class="fraContentLine" left="16" width="620" height="1" background="#D8D8D8"></FRAME>
+			<FRAME class="fraContent" top="110" left="60" width="650" height="260" cornerRadius="8,8,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" background="#FFFFFF"></FRAME>
+			
+			<LABEL class="lblWaiterHeader" top="16" left="14" width="300" height="33" textSize="24" textAlign="center_vertical,left" foreground="#333333" visible="0" padding="0,0,0,5" style="VoidCheckDetailContentHeaderStyle"></LABEL>
+			<LABEL class="lblCheckNoHeader" top="65" left="14" width="300" height="33" textSize="24" textAlign="center_vertical,left" foreground="#333333" visible="0" padding="0,0,0,5" style="VoidCheckDetailContentHeaderStyle"></LABEL>
+			<LABEL class="lblTableNoHeader" top="114" left="14" width="300" height="33" textSize="24" textAlign="center_vertical,left" foreground="#333333" visible="0" padding="0,0,0,5" style="VoidCheckDetailContentHeaderStyle"></LABEL>
+			<LABEL class="lblCoverHeader" top="163" left="14" width="300" height="33" textSize="24" textAlign="center_vertical,left" foreground="#333333" visible="0" padding="0,0,0,5" style="VoidCheckDetailContentHeaderStyle"></LABEL>
+			<LABEL class="lblCheckTotalHeader" top="212" left="14" width="300" height="33" textSize="24" textAlign="center_vertical,left" foreground="#333333" visible="0" padding="0,0,0,5" style="VoidCheckDetailContentHeaderStyle"></LABEL>
+			
+			<LABEL class="lblWaiter" top="16" left="335" width="300" height="33" textSize="24" textAlign="center_vertical,right" foreground="#333333" visible="0" padding="0,0,0,5" style="VoidCheckDetailContentStyle"></LABEL>
+			<LABEL class="lblCheckNo" top="65" left="335" width="300" height="33" textSize="24" textAlign="center_vertical,right" foreground="#333333" visible="0" padding="0,0,0,5" style="VoidCheckDetailContentStyle"></LABEL>
+			<LABEL class="lblTableNo" top="114" left="335" width="300" height="33" textSize="24" textAlign="center_vertical,right" foreground="#333333" visible="0" padding="0,0,0,5" style="VoidCheckDetailContentStyle"></LABEL>
+			<LABEL class="lblCover" top="163" left="335" width="300" height="33" textSize="24" textAlign="center_vertical,right" foreground="#333333" visible="0" padding="0,0,0,5" style="VoidCheckDetailContentStyle"></LABEL>
+			<LABEL class="lblCheckTotal" top="212" left="335" width="300" height="33" textSize="24" textAlign="center_vertical,right" foreground="#333333" visible="0" padding="0,0,0,5" style="VoidCheckDetailContentStyle"></LABEL>
+			
+			<BUTTON class="butConfirm" top="400" left="402" width="144" height="56" background="#02428B" gradient="1" foreground="#FFFFFF" textSize="22" cornerRadius="2" visible="0" style="VoidCheckDetailConfirmStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butCancel" top="400" left="222" width="144" height="56" background="#5B6F73" gradient="1" foreground="#FFFFFF" textSize="22" cornerRadius="2" visible="0" style="VoidCheckDetailCancelStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

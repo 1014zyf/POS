@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmStockBalanceChange">
+			<FRAME class="fraStockBalanceChange" top="0" left="0" width="1280" height="750" background="#EAEAEA" cornerRadius="5"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

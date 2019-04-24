@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmDirectPaymentPanel">
+			<FRAME class="fraDirectPaymentPanel" top="30" left="0" width="1280" height="720" background="#00000000"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

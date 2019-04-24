@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraAskTable">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="459" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<LABEL class="lblTitle" top="1" width="459" left="1" height="40" foreground="#FFFFFF" background="#015383" textSize="29" textAlign="center" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblTableNoHeader" top="51" left="10" width="380" height="40" textSize="25" foreground="#54554F" textAlign="center"></LABEL>
+			<TEXTBOX class="txtTableNo" top="100" left="10" width="335" height="50" textSize="30" foreground="#56575C" background="#BFD7E1" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<LABEL class="lblTableNo" top="100" left="10" width="335" height="70" textSize="60" textAlign="center"></LABEL>
+			<LABEL class="lblMessage" top="160" left="10" height="50" textSize="30" textAlign="center_vertical,left"></LABEL>
+			
+			<FRAME class="fraListTableExtension" top="51" left="360" width="150" height="400" background="#E2F5FB" cornerRadius="0,0,5,0"></FRAME>
+			<LABEL class="lblTableExtensionHeader" top="0" left="0" width="150" height="40" textSize="18" foreground="#54554F" textAlign="center"></LABEL>
+			<LIST class="listTableExtension" top="56" left="18" width="67" height="360"></LIST>
+			<FRAME class="fraTableExtensionCell" left="8" width="160" height="54" visible="0"></FRAME>	
+			
+			<BUTTON class="btnOK" top="405" left="3" width="175" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnCancel" top="405" left="183" width="175" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<FRAME class="fraNumberPad" left="5" width="350" height="250" background="#D8E6F2"></FRAME>
+			<FRAME class="fraQwertyKeyboard" left="5" width="450" height="315" background="#D8E6F2"></FRAME>
+			<BUTTON class="btnSwitchKeyboard" left="5" width="350" height="30" foreground="#FFFFFF" background="#1B73A7" gradient="1" stroke="1" strokeColor="#868686"></BUTTON>
+			
+			<FRAME class="fraNewTable" foreground="#000000" background="#B0EAFE"></FRAME>
+			<FRAME class="fraCleaningTable" foreground="#000000" background="#B0EAFE"></FRAME>
+			<FRAME class="fraOccupiedTable" foreground="#FFFFFF" background="#9B0000"></FRAME>
+			<FRAME class="fraPrintedTable" foreground="#FFFFFF" background="#F1AD1A"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

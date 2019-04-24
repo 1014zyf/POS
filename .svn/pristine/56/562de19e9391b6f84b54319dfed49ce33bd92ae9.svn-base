@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraColumnElementLine">
+			<!--IMAGE class="ImgSelected" top ="2" left="0" width="40" height="40"></IMAGE>
+			<IMAGE class="ImgDeselected" top ="2" left="0" width="40" height="40"></IMAGE>
+			<LABEL class="quantity" top ="0" left="40" width="60" height="45" textSize="18" textAlign="center_vertical,center" foreground="#1D74A9"></LABEL>
+			<LABEL class="description" top ="0" left="100" width="200" height="45" textSize="18" textAlign="center_vertical,left" foreground="#1D74A9"></LABEL-->
+			<LABEL class="quantity" top ="0" left="0" width="60" height="45" textSize="18" textAlign="center" foreground="#1D74A9" background="#00000000"></LABEL>
+			<LABEL class="description" top ="0" left="60" width="240" height="45" textSize="18" textAlign="center_vertical,left" foreground="#1D74A9" background="#00000000"></LABEL>
+			<LABEL class="info" top ="25" left="60" width="240" height="20" textAlign="center_vertical,left" foreground="#7F7F7F" background="#00000000"></LABEL>
+			
+			<LABEL class="sectionDescription" top ="0" left="0" width="300" height="45" textSize="18" textAlign="center_vertical,left" foreground="#1D74A9"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

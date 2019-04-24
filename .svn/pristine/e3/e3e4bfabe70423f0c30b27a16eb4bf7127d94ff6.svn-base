@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraParkOrder">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1030" height="66"></FRAME>
+			<BUTTON class="btnOK" top="580" left="851" width="144" height="56" background="#0055B8" gradient="1" foreground="FFFFFF" style="ParkOrderButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<FRAME class="fraLeftContent" top="85" left="24" width="480" height="480" cornerRadius="5,5,0,0" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraRightContent" top="85" left="520" width="480" height="480" cornerRadius="5,5,0,0" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraParkOrderBasket" top="12" left="20" width="440" height="480" cornerRadius="5,5,0,0"></FRAME>
+			<FRAME class="fraItemDetailBasket" top="12" left="20" width="440" height="480" cornerRadius="5,5,0,0"></FRAME>
+			
+			<FRAME class="fraSelected" background="#0055B8" foreground="#FFFFFF"></FRAME>
+			<FRAME class="fraUnselect" background="#FFFFFF" foreground="#000000"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

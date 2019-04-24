@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraStockBalanceChange">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1280" height="65"></FRAME>
+			
+			<FRAME class="fraLeftContent" top="64" left="24" width="846" height="686" background="#FFFFFF" cornerRadius="0,0,0,5"></FRAME>
+			
+			<FRAME class="fraItemList" top="10" left="10" width="826" height="588"></FRAME>
+			
+			<IMAGE class="ImgPrevPage" top="614" left="654" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<FRAME class="fraPage" top="614" left="702" width="72" height="24" background="#FFFFFF"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="24" height="53" foreground="#0055B8" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgNextPage" top="614" left="798" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			
+			<FRAME class="fraRightContent" top="64" left="871" width="385" height="686" background="#FFFFFF" cornerRadius="0,0,5,0"></FRAME>
+			
+			<BUTTON class="btnSave" top="20" left="265" width="120" height="40" background="#5B6F73" gradient="1" foreground="#FFFFFF"></BUTTON>
+			
+			<TEXTBOX class="txtboxYrValue" top="90" left="10" width="120" height="40" textSize="18" foreground="#333333" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<TEXTBOX class="txtboxMthValue" top="90" left="140" width="60" height="40" textSize="18" foreground="#333333" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<TEXTBOX class="txtboxDayValue" top="90" left="210" width="60" height="40" textSize="18" foreground="#333333" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<BUTTON class="btnDate" top="90" left="280" width="120" height="40" background="#5B6F73" gradient="1" foreground="#FFFFFF"></BUTTON>
+			
+			<TEXTBOX class="txtboxSearchValue" top="140" left="10" width="375" height="40" textSize="18" foreground="#333333" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<BUTTON class="btnSearchByName" top="190" left="15" width="185" height="50" background="#5B6F73" gradient="1" foreground="#FFFFFF"></BUTTON>
+			<BUTTON class="btnSearchByDepartment" top="250" left="10" width="375" height="40" background="#5B6F73" gradient="1" foreground="#FFFFFF"></BUTTON>
+			<BUTTON class="btnSearchByCategory" top="250" left="10" width="375" height="40" background="#5B6F73" gradient="1" foreground="#FFFFFF"></BUTTON>
+			<BUTTON class="btnShowAllResult" top="190" left="210" width="185" height="50" background="#5B6F73" gradient="1" foreground="#FFFFFF"></BUTTON>
+			
+			<FRAME class="fraNumberPad" top="300" left="10" width="375" height="380" style="NumberPadBackgroundStyle"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraLoyaltyCheckBalance">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="768" height="65"></FRAME>
+			<LABEL class="lblHeader" top="0" left="40" width="688" height="50" textSize="22" textAlign="center" foreground="#FFFFFF" cornerRadius="5,5,0,0"></LABEL>
+			<FRAME class="fraLoyaltyCheckBalanceCommonBasket" top="66" left="32" width="700" height="300" visible="0"></FRAME>
+			<BUTTON class="btnPrint" top="400" left="32" width="144" height="56" background="#02428B" textSize="22" foreground="#FFFFFF" cornerRadius="2" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnOK" top="400" left="589" width="144" height="56"  background="#02428B" textSize="22" foreground="#FFFFFF" cornerRadius="2" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

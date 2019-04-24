@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraTableButton">
+			<FRAME class="fraContent" width="168" height="129"></FRAME>
+			
+			<LABEL class="lblTable" left="10" width="142" height="76" textSize="36" textAlign="center_vertical,left" textStyle="bold"></LABEL>
+			
+			<IMAGE class="imgLockedIcon" top="10" left="142" width="16" height="16" background="#00000000"></IMAGE>
+			<FRAME class="fraTableExtensionCount" top="28" left="142" width="16" height="16" background="#640000" cornerRadius="10"></FRAME>
+			<LABEL class="lblTableExtensionCount" top="28" left="142" width="16" height="16" foreground="#FFFFFF" textSize="12" textAlign="center" textStyle="bold" stroke="2"></LABEL>
+			
+			<FRAME class="fraHorizontalLine" top="66" left="0" width="168" height="10" background="#FF000000" shadowTop="6" shadowLeft="0" shadowRadius="5" shadowColor="#10000000"></FRAME>
+			
+			<FRAME class="fraCover" top="82" left="10" width="60" height="16"></FRAME>
+			<IMAGE class="imgCoverIcon" top="0" left="0" width="16" height="16" background="#00000000"></IMAGE>
+			<LABEL class="lblCover" top="0" left="16" width="34" height="14" textSize="14" textAlign="center_vertical,left"></LABEL>
+			
+			<LABEL class="lblOpenTime" top="106" left="10" width="50" height="14" textSize="14" textAlign="center_vertical,left"></LABEL>
+			<IMAGE class="imgTableDetailIcon" top="82" left="60" width="16" height="16" background="#00000000"></IMAGE>
+			<LABEL class="lblTableDetail" top="82" left="60" width="98" height="16" foreground="#9D9D9D" textSize="16" textAlign="center_vertical,right" textStyle="bold,no_wrap,auto_size"></LABEL>
+			<LABEL class="lblTableStatus" top="102" left="60" width="98" height="20" textSize="14" textAlign="center_vertical,right" textStyle="bold"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

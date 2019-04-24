@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraEditTaiwanGUIConfig">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1280" height="65"></FRAME>
+			<FRAME class="fraAddConfigTitleHeader" left="0" top="0" width="480" height="64"></FRAME>
+			<FRAME class="fraLeftContent" top="65" left="24" width="1000" height="670" background="#FFFFFF" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			
+			<FRAME class="fraItemList" top="50" left="10" width="1000" height="640"></FRAME>
+			<FRAME class="horListTab" top="5" left="0" width="1220" height="45" visible="0"></FRAME>
+			<FRAME class="fraPanelTabBase" top="0" left="0" width="200" height="55"></FRAME>
+			<LABEL class="lblPanelTab" top="0" left="10" width="200" height="50" textSize="20" foreground="#005389" textAlign="left" textStyle="bold"></LABEL>
+			<FRAME class="fraPanelTabUnderline" top="52" left="0" width="200" height="3" background="#1D74A9"></FRAME>
+			
+			<FRAME class="fraPanelTabSeparator" top="70" left="20" width="1000" height="2" background="#1D74A9"></FRAME>
+			<FRAME class="fraAddConfig" top="50" left="400" width="480" height="600" background="#FFFFFF" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblType" top="80" left="0" width="100" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblStartYear" top="130" left="0" width="100" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblStartMonth" top="130" left="230" width="20" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblStartDay" top="130" left="350" width="20" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblEndYear" top="180" left="0" width="100" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblEndMonth" top="180" left="230" width="20" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblEndDay" top="180" left="350" width="20" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblDateFormat" top="230" left="100" width="350" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblPrefix" top="280" left="0" width="100" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblStartNumber" top="330" left="0" width="100" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblEndNumber" top="380" left="0" width="100" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblWarning" top="430" left="0" width="100" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblStatus" top="480" left="0" width="100" height="40" textSize="18" foreground="#000000" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblTypeInput" top="80" left="130" width="340" height="40" textSize="18" foreground="#000000" textAlign="center" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></LABEL>
+			<LABEL class="lblStatusInput" top="480" left="130" width="340" height="40" textSize="18" foreground="#000000" textAlign="center" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></LABEL>
+			<TEXTBOX class="txtboxStartYear" top="130" left="130" width="100" height="40" textSize="18" foreground="#000000" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<TEXTBOX class="txtboxStartMonth" top="130" left="250" width="100" height="40" textSize="18" foreground="#000000" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<TEXTBOX class="txtboxStartDay" top="130" left="370" width="100" height="40" textSize="18" foreground="#000000" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<TEXTBOX class="txtboxEndYear" top="180" left="130" width="100" height="40" textSize="18" foreground="#000000" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<TEXTBOX class="txtboxEndMonth" top="180" left="250" width="100" height="40" textSize="18" foreground="#000000" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<TEXTBOX class="txtboxEndDay" top="180" left="370" width="100" height="40" textSize="18" foreground="#000000" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<TEXTBOX class="txtboxPrefix" top="280" left="130" width="340" height="40" textSize="18" foreground="#000000" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<TEXTBOX class="txtboxStartNumber" top="330" left="130" width="340" height="40" textSize="18" foreground="#000000" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<TEXTBOX class="txtboxEndNumber" top="380" left="130" width="340" height="40" textSize="18" foreground="#000000" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<TEXTBOX class="txtboxWarning" top="430" left="130" width="340" height="40" textSize="18" foreground="#000000" background="#FFFFFF" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+
+			<BUTTON class="btnAddTaiwanGUIConfig" top="10" left="25" width="172" height="58" foreground="#FFFFFF" textSize="22" textAlign="center" background="#0055B8" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnConfirmAddTaiwanGUI" top="540" left="190" width="124" height="40" foreground="#FFFFFF" textSize="22" textAlign="center" background="#0055B8" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnCancelAddTaiwanGUI" top="540" left="345" width="124" height="40" foreground="#FFFFFF" textSize="22" textAlign="center" background="#0055B8" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<FRAME class="fraRightContent" top="65" left="1035" width="222" height="670" background="#FFFFFF" cornerRadius="4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

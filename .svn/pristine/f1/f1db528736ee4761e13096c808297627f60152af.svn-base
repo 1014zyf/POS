@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraMembershipInterface">
+			<FRAME class="fraTitleHeader" top="0" left="0" width="1260" height="65"></FRAME>
+			
+			<!-- Buttons -->
+			<BUTTON class="butEnquiry" top="605" left="1090" width="144" height="56" textSize="20" textStyle="bold" textAlign="center" foreground="#FFFFFF" gradient="true" background="#02428B" style="MemberEnquiryButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butSetMember" top="605" left="930" width="144" height="56" textSize="20" textStyle="bold" textAlign="center" foreground="#FFFFFF" gradient="true" background="#02428B" style="MemberEnquiryButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butPrint" top="605" left="770" width="144" height="56" textSize="20" textStyle="bold" textAlign="center" foreground="#FFFFFF" gradient="true" background="#02428B" style="MemberEnquiryButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<BUTTON class="butClearMember" top="605" left="930" width="145" height="56" textSize="20" textStyle="bold" textAlign="center" foreground="#FFFFFF" gradient="true" background="#02428B" style="MemberEnquiryButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<!-- Label and textbox -->
+			<TEXTBOX class="txtboxEnquiryNumber" top="50" left="5" width="500" height="50" textSize="20" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblCouponTag" top ="15" left="5" width="500" height="30" textSize="20" textAlign="center,left" foreground="#015384"></LABEL>
+		 	
+		 	<TEXTBOX class="txtboxEmail" top="50" left="5" width="500" height="50" textSize="20" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblOtherTag" top ="15" left="5" width="500" height="30" textSize="20" textAlign="center,left" foreground="#015384"></LABEL>
+		 	
+			<LABEL class="lblNRICTag" top ="10" left="7" width="120" height="50" textSize="20" textAlign="center,left" foreground="#015384"></LABEL>
+			<TEXTBOX class="txtboxNRIC" top="10" left="155" width="200" height="50" textSize="20" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			
+			<TEXTBOX class="txtboxMobile" top="75" left="155" width="200" height="50" textSize="20" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblMobileNoTag" top ="75" left="7" width="120" height="50" textSize="20" textAlign="center,left" foreground="#015384"></LABEL>
+			<TEXTBOX class="txtboxCardNo" top="140" left="155" width="200" height="50" textSize="20" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblCardNoTag" top ="140" left="7" width="120" height="50" textSize="20" textAlign="center,left" foreground="#015384"></LABEL>
+			<TEXTBOX class="txtboxCustomerNo" top="205" left="155" width="200" height="50" textSize="20" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblCustomerNoTag" top ="205" left="7" width="120" height="50" textSize="20" textAlign="center,left" foreground="#015384"></LABEL>
+			<TEXTBOX class="txtboxName" top="270" left="155" width="200" height="50" textSize="20" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblEmailTag" top ="270" left="7" width="120" height="50" textSize="20" textAlign="center,left" foreground="#015384"></LABEL>
+			<TEXTBOX class="txtboxCountry" top="335" left="155" width="200" height="50" textSize="20" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblNameTag" top ="335" left="7" width="120" height="50" textSize="20" textAlign="center,left" foreground="#015384"></LABEL>
+			
+			<!-- tag and basket -->
+			<FRAME class="fraHorizontalList" top="65" left="7" width="620" height="50"></FRAME>
+			<FRAME class="fraEnquiryHorizontalList" top="65" left="620" width="630" height="50"></FRAME>
+			
+			<LABEL class="lblMemberDetailTag" top ="115" left="20" width="150" height="40" textSize="20" textAlign="center" foreground="#015384"></LABEL>
+			
+			<FRAME class="fraMemberListCommonBasket" top="0" left="0" width="599" height="570" background="#FFFFFF" visible="0"></FRAME>
+			
+			<FRAME class="fraMemberList" top="115" left="20" width="599" height="600" background="#FFFFFF"  shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			
+			<FRAME class="fraMemberDetail" top="115" left="20" width="599" height="600" background="#FFFFFF"  shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		 
+			<LIST class="listMemberDetail" top="0" left="0" width="599" height="600" background="#FFFFFF" ></LIST>
+			
+			<FRAME class="fraPage" top="693" left="242" width="74" height="24" background="#FFFFFF"></FRAME>
+			<LABEL class="lblPage" left="0" textSize="74" foreground="#0055B8" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="693" left="218" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="693" left="316" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			
+			<FRAME class="fraMemberRecord" top="0" left="30" width="599" height="44" background="#FFFFFF"></FRAME>
+			<LABEL class="lblMemberRecordTitle" top="0" left="0" width="200" height="44" foreground="#575757" background="#FFFFFF" textSize="22" textAlign="center_vertical" textStyle="bold"></LABEL>
+			<LABEL class="lblMemberRecordContent" top="5" left="200" width="399" height="44" foreground="#575757" background="#FFFFFF" textSize="22" textAlign="center_vertical"></LABEL>
+		
+			<LABEL class="lblAlertMsg" top="10" left="0" height="60" width="599" foreground="#FF0000" background="#FFFFFF" textSize="22" visible="0"></LABEL>
+		 
+			<FRAME class="fraMemberEnquiryTab" top="115" left="639" width="599" height="480" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" background="#FFFFFF"></FRAME>
+			<FRAME class="fraMemberEmailEnquiry" top="115" left="639" width="599" height="290" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" background="#FFFFFF"></FRAME>
+			<FRAME class="fraMemberNameEnquiry" top="115" left="639" width="599" height="290" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" background="#FFFFFF"></FRAME>
+		
+			<LIST class="listCoupon" top="0" left="0" width="599" height="245" background="#FFFFFF" visible="0"></LIST>
+			<FRAME class="fraCouponRecord" top="0" left="0" width="599" height="44" background="#FFFFFF" visible="0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblCouponRecordContent" top="0" left="0" width="599" height="44" foreground="#575757" background="#FFFFFF" textSize="22" visible="0" textAlign="center_vertical" textStyle="bold"></LABEL>
+			<LIST class="listOther" top="0" left="0" width="599" height="245" background="#FFFFFF" visible="0"></LIST>
+			<FRAME class="fraOtherRecord" top="0" left="0" width="599" height="44" background="#FFFFFF" visible="0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblOtherRecordContent" top="0" left="0" width="599" height="44" foreground="#575757" background="#FFFFFF" textSize="22" visible="0" textAlign="center_vertical" textStyle="bold"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

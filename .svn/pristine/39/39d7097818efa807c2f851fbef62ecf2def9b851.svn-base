@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraColumnElementLine">
+			<LABEL class="quantity" top ="0" left="5" width="51" height="53" textSize="15" textAlign="center" foreground="#FF333333" background="#00000000"></LABEL>
+			<LABEL class="description" top ="0" left="59" width="163" height="53" textSize="15" textAlign="center_vertical,left" foreground="#FF333333" background="#00000000"></LABEL>
+			<LABEL class="info" left="59" width="222" height="20" textSize="12" textAlign="center_vertical,left" foreground="#FF999999" background="#00000000"></LABEL>
+			<LABEL class="discount" left="59" width="222" height="20" textSize="12" textAlign="center_vertical,left" foreground="#FF999999" background="#00000000"></LABEL>
+			<LABEL class="sectionDescription" top ="0" left="0" width="270" height="53" textSize="15" textAlign="center_vertical,left" foreground="#1D74A9"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

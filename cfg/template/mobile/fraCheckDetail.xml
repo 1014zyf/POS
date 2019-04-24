@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- KingsleyKwan20171109 -->
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCheckDetail">
+			<FRAME class="fraTable" top="5" left="46" width="115" height="41"></FRAME>
+			<IMAGE class="ImgTableBg" top="0" left="0" width="115" height="41"></IMAGE>
+			<LABEL class="lblTableNum" top="0" left="50" width="60" height="41" textAlign="center" foreground="#000000"></LABEL>
+			
+			<FRAME class="fraCover" top="5" left="207" width="115" height="41"></FRAME>
+			<IMAGE class="ImgCoverBg" top="0" left="0" width="115" height="41"></IMAGE>
+			<LABEL class="lblCoverNum" top="0" left="50" width="60" height="41" textAlign="center" foreground="#000000"></LABEL>
+			
+			<FRAME class="fraDetail" top="5" left="368" width="66" height="41"></FRAME>
+			<IMAGE class="ImgDetailBg" top="0" left="0" width="66" height="41"></IMAGE>
+			
+			<!--<LABEL class="lblTableNoHeader" top="10" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL>-->
+			<LABEL class="lblCoverHeader" top="40" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL>
+			<LABEL class="lblCheckNoHeader" top="70" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL>
+			<LABEL class="lblItemTotalHeader" top="100" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL>
+			<LABEL class="lblServiceChargeHeader" top="130" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL>
+			<LABEL class="lblTaxHeader" top="160" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL>
+			<LABEL class="lblCheckTotalHeader" top="190" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL> 
+			<LABEL class="lblTableNo" top="10" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblCover" top="40" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblCheckNo" top="70" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblItemTotal" top="100" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblServiceCharge" top="130" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblTax" top="160" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblCheckTotal" top="190" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

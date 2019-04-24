@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraDirectReport">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="574" height="70"></FRAME>
+			<FRAME class="fraContent" top="64" left="0" width="574" height="700"></FRAME>
+			<WEBVIEW class="wbvReport" top="20" left="25" width="360" height="590"></WEBVIEW>
+			<LIST class="listReportType" top="14" left="403" width="290" height="590" backgound="#05527E"></LIST>
+			<LABEL class="listOption" top="16" left="0" width="144" height="56" textAlign="center" background="#E0E0E0" gradient="1" foreground="#333333" textSize="18" visible="0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></LABEL>
+			<BUTTON class="butPrint" top="553" left="403" width="144" height="56" background="#0055B8" gradient="1" foreground="#FFFFFF" style="DirectReportStyle" cornerRadius="2" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

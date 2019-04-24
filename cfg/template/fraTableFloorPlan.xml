@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraTableFloorPlan">
+			<BUTTON class="butMapTab" width="150" foreground="#000000" background="#E4EFF6"></BUTTON>
+			
+			<BUTTON class="butToggleTableDetail" left="5" width="150" foreground="#FFFFFF" background="#1B73A7" stroke="1" strokeColor="#003554"></BUTTON>
+			<BUTTON class="butToggleOrderingMode" left="160" width="150" foreground="#FFFFFF" background="#1B73A7" stroke="1" strokeColor="#003554"></BUTTON>
+			
+			<BUTTON class="butAskTableScreen" left="815" width="150" foreground="#FFFFFF" background="#1B73A7" stroke="1" strokeColor="#003554"></BUTTON>
+			<BUTTON class="butTimeInOut" left="970" width="150" foreground="#FFFFFF" background="#1B73A7" stroke="1" strokeColor="#003554"></BUTTON>
+			<BUTTON class="butLogout" left="1125" width="150" foreground="#FFFFFF" background="#1B73A7" stroke="1" strokeColor="#003554"></BUTTON>
+			
+			<IMAGE class="imgAskTableScreen" width="50" height="50" contentMode="scale_aspect_fit_center"></IMAGE>
+			<IMAGE class="imgToggleTableDetail" width="50" height="50" contentMode="scale_aspect_fit_center"></IMAGE>
+			<IMAGE class="imgToggleTableMode" width="50" height="50" contentMode="scale_aspect_fit_center"></IMAGE>
+			<IMAGE class="imgLogout" width="50" height="50" contentMode="scale_aspect_fit_center"></IMAGE>
+			
+			<FRAME class="frmTableView" top="0" left="875" width="138" height="48"></FRAME>
+			<IMAGE class="ImgTableView" top="17" left="0" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblTableView" top="1" left="24" width="97" height="47" textSize="15" textAlign="center_vertical,left" foreground="#FFFFFF"></LABEL>
+			
+			<FRAME class="frmCardView" top="0" left="1020" width="138" height="48"></FRAME>
+			
+			<IMAGE class="ImgCardView" top="17" left="0" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblCardView" top="1" left="24" width="97" height="47" textSize="15" textAlign="center_vertical,left" foreground="#FFFFFF"></LABEL>
+			
+			<FRAME class="frmSwitchInfo" top="0" left="1158" width="138" height="48"></FRAME>
+			
+			<IMAGE class="ImgSwitchInfo" top="17" left="0" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblSwitchInfo" top="1" left="24" width="97" height="47" textSize="15" textAlign="center_vertical,left" foreground="#FFFFFF"></LABEL>
+			
+			<FRAME class="fraWhiteCol" top="11" width="2" height="27" background="#FFFFFF"></FRAME>
+			
+			<BUTTON class="butToggleTableMode" left="315" width="150" foreground="#FFFFFF" background="#1B73A7" stroke="1" strokeColor="#003554"></BUTTON>
+			
+			<FRAME class="fraFloorPlanHeader" top="670" left="0" height="48" background="#999999"></FRAME>
+			
+			<FRAME class="fraFloorPlanContainer" top="0" left="0" width="1280" height="656" background="#EDEEF4"></FRAME>
+			
+			<LABEL class="lblFloorDesc" width="200" foreground="#FFFFFF" textSize="18" textAlign="center" background="#00000000"></LABEL>
+			<LIST class="lstFloor" background="#00000000"></LIST>
+			<IMAGE class="imgFloor"></IMAGE>
+			<LABEL class="lblFloorOption" height="70" foreground="#8E8E8E" background="#00000000" textSize="18" textAlign="center"></LABEL>
+			<!--<BUTTON class="butActionCancel" left="1125" width="150" foreground="#FFFFFF" background="#FF00FF"></BUTTON>-->
+			<FRAME class="fraActionCancel" left="1125" width="150" background="#FF0000"></FRAME>
+			<LABEL class="lblActionCancel" top="0" left="0" width="150" background="#FF0000" foreground="#FFFFFF" textSize="20" textAlign="center_vertical,center"></LABEL>
+			<LABEL class="lblActionDesc" left="60" width="510" foreground="#FFFF00" background="#00000000" textSize="20" textAlign="left,center_vertical"></LABEL>
+			<IMAGE class="imgActionIcon" top="12" left="5" width="34" height="34" contentMode="scale_aspect_fit_center"></IMAGE>
+			<FRAME class="fraMapIndicator" left="0" background="#00000000"></FRAME>
+			
+			<IMAGE class="imgMapIndicator" top="0" left="5" width="17" height="17" contentMode="scale_aspect_fit_center"></IMAGE>
+			
+			<FRAME class="fraTableFloorPlanFunctionBar" left="0" width="560"></FRAME>
+			<FRAME class="fraNewTable" foreground="#999999" background="#FFFFFF"></FRAME>
+			<FRAME class="fraCleaningTable" foreground="#FFFFFF" background="#A0B3B7"></FRAME>
+			<FRAME class="fraOccupiedTable" foreground="#FFFFFF" background="#0055B8"></FRAME>
+			<FRAME class="fraPrintedTable" foreground="#FFFFFF" background="#5B6F73"></FRAME>
+			<FRAME class="fraCookingOvertimeTable" foreground="#FFFFFF" background="#031E3E"></FRAME>
+			<FRAME class="fraReservationTable" foreground="#FFFFFF" background="#00A2E8"></FRAME>
+			<FRAME class="fraTableMode" foreground="#000000" background="#00000000"></FRAME>
+			<FRAME class="fraScreenSaver" width="1280" height="800" background="#000000"></FRAME>
+			<IMAGE class="fraScreenSaverImage" width="1280" height="800" background="#000000"></IMAGE>
+			<FRAME class="fraVacantTable" foreground="#999999" background="#FFFFFF"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

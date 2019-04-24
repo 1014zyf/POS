@@ -1,0 +1,536 @@
+HERO Server Installation Quide
+------------------------------
+
+Table of Content
+================
+
+- General System Installation
+	- Install Utilities
+	- Install MySQL
+	- Install PHP5 (5.4.X  VC9)
+	- Install Apache (2.4.X VC9)
+	- Install phpMyAdmin
+	- Install CakePHP
+	- Install Java SDK
+	- Install Tomcat
+	- Install Birt (Report Enginee & Viewer)
+- HERO Server & Application Installation
+	- Install HERO Server
+	- Install HERO POS Application Server
+	- Install HERO Report
+- HERO Print Server Installation
+	- Install OS
+	- Install by Installation Script
+
+
+General System Installation
+===========================	
+	
+Install Utilities
+-----------------
+	7-zip
+		- Download from http://www.7-zip.org/  (64-bit)
+		- Run download file : 7z920-x64.msi
+	Notepad++
+		- Download from http://notepad-plus-plus.org/
+		- Run download file : npp.6.3.Installer.exe
+
+
+Install MySQL
+-------------
+	- Download from http://dev.mysql.com/downloads/mysql/ for 64 bit windows
+		File : mysql-5.5.XX-winx64.msi
+	- Select "Complete" features
+	- Select "Detail Configuration", "Server Machine", "Multifunctional Database", 
+	- InnoDB Table is placed at C: Installation Path
+	- Select "Decision Support (DSS)/OLAP", 
+	- Check "Enable TCP/IP Networking" and "Enable Strict Mode"
+	- Select "Best Support for Multilingualism" (i.e. UTF8)
+	- Select "Install As Windows Service"
+	- Set root password : infrasys
+	- In case of row-size exceeds limit of 65535 bytes for the combined size of all columns, need to edit C:\Program Files\MySQL\MySQL Server X.X\my.ini (Refer : http://dev.mysql.com/doc/refman/5.0/en/innodb-restrictions.html)
+			[mysqld]	
+			innodb_file_format = barracuda
+			innodb_file_per_table = 1
+
+
+Install PHP5 (5.4.X  VC9)
+-------------------------
+	Download latest php (zip package) from www.php.net (For Windows VC9 x86 Thread Safe) for 32 bit windows
+		File : php-5.4.15-Win32-VC9-x86.zip
+
+	- Create directory C:\PHP and extract content in this directory
+
+	- Create sub directories under c:\PHP
+		sessions
+		upload
+		log
+
+	- Set environment path
+	- From "Start Menu", Right click "Computer", select "Properties" -> "Advanced system settings" -> "Advanced" -> "Environment Variables" -> "System variables"
+	- Edit "Path", add ";C:\PHP" at the end
+	- Add new variables "PHPRC" with value "C:\PHP" <-- tell Windows where to look for php.ini
+	
+	- Copy "php.ini-production" to "php.ini", and edit the file 
+		1)	Replace : ; extension_dir = "ext"
+			To      : extension_dir = "ext"
+		2)	Replace : ;session.save_path = "/tmp"
+			To      : session.save_path = "c:\PHP\sessions"
+		3)	Replace : ;upload_tmp_dir =
+			To      : upload_tmp_dir = "C:\PHP\upload"
+		4)	Replace : ;error_log = syslog
+			To      : error_log = "C:\PHP\log\php.log"
+		5)	Replace : short_open_tag = Off
+			To      : short_open_tag = On     <-- Support <? ... ?> short tag format, default        
+		6)	Remove the remark for extension library you want, the commons are :
+			extension=php_gd2.dll          <-- Handle graphic, must have it
+			extension=php_mbstring.dll     <-- Handle double byte string conversion
+			extension=php_mysql.dll        <-- MySQL APIs (old)
+			extension=php_mysqli.dll
+			extension=php_pdo_mysql.dll    <-- MySQL APIs for CakePHP to call (new)
+			extension=php_gettext.dll
+			extension=php_soap.dll
+			extension=php_sockets.dll
+		7) If allow uploading file, can set larger upload size limit
+			Make sure "file_uploads = On"
+			Replace : post_max_size = 8M
+			To      : post_max_size = 60M
+			Replace : upload_max_filesize = 2M
+			To      : upload_max_filesize = 60M
+			
+	- Support ioncube loader to in case you need to read the encoded PHP files     
+		- Download ioncube from http://www.ioncube.com/loaders.php, select Windows VC9 (x86) OS/Platform
+			Copy whole "ioncube" folder to C:\PHP
+		- Edit C:\PHP\php.ini, add the line under the top section [PHP]
+			zend_extension = "C:\PHP\ioncube\ioncube_loader_win_5.4.dll"
+			
+	- Support pthreads for multi-threading of PHP
+		- Download pthreads from http://windows.php.net/downloads/pecl/releases/pthreads/
+			Select latest version 0.44, php_pthreads-0.44-5.4-ts-vc9-x86.zip
+		- Extract the package and
+			- Copy the file "php_pthreads.dll" to C:\PHP\ext folder
+			- Copy the file "pthreadVC2.dll" to C:\PHP
+		- Edit C:\PHP\php.ini, add the line under the top section [PHP]
+			extension=php_pthreads.dll
+		- Restart Apache
+		- Refer : http://windows.php.net/downloads/pecl/releases/pthreads/
+
+
+Install Apache (2.4.X VC9)
+--------------------------
+	- For PHP supported VC9, you should download the apache version with VC9 compiled
+
+	- Before all, should download the Microsoft Visual C++ 2010 SP1 Redistributable Package (x86) from
+		http://www.microsoft.com/en-us/download/details.aspx?id=8328
+		file : vcredist_x86.exe
+		Run the file to install the package
+	  For Windows Server 2008, you need to download Microsoft Visual C++ 2008 Redistributable Package (x86) also
+		http://www.microsoft.com/en-us/download/details.aspx?id=29
+		file : vcredist_x86.exe
+		Run the file to install the package
+		
+	- Configure C:\Windows\System32\drivers\etc\hosts
+		In order to let the web server can resolve localhost address, edit the file and add the line at the bottom
+			127.0.0.1       localhost
+			#::1             localhost
+			* Remark the entry ::1 otherwise will be very slow when calling web service	
+		Please note that use may need to run "Notepad" as administrator to edit the file or you may not have the permission to edit the file
+
+	- Download VC9 compiled apache from
+		http://www.apachelounge.com/download/
+		file : httpd-2.2.4-win32-ssl_0.9.8.zip
+
+	- Extract the file, move the folder "Apache24" to C:\
+	By default your webpages is DocumentRoot "c:/Apache24/htdocs"
+
+	- Create your own root document folder,
+		e.g. C:\MyWeb
+		
+	- Edit C:\Apache2\conf\http.conf
+
+		- Remove the remark for lines :
+			LoadModule rewrite_module modules/mod_rewrite.so
+			LoadModule ssl_module modules/mod_ssl.so
+			
+		- Set the ServerName by
+			ServerName 127.0.0.1:80
+			
+		- Remark the line :
+			DocumentRoot "C:/Program Files/Apache Software Foundation/Apache2.2/htdocs"  
+			
+		- Add following lines (example to use HERO-PC as your server name) :
+			<VirtualHost *:80>
+			ServerName HERO-PC
+			DocumentRoot "C:/MyWeb"
+			</VirtualHost>
+			
+		- Change from : 
+			<Directory "c:/Apache24/htdocs">
+			...
+			AllowOverride None
+		  to
+			<Directory "C:/MyWeb">
+			...
+			AllowOverride All
+
+		- Set apache to automatically look for an index.php, search httpd.conf for DirectoryIndex and modify like this:
+			<IfModule dir_module>
+			DirectoryIndex index.php index.html default.html
+			</IfModule>
+
+		- Support PHP, add at the end
+			LoadModule php5_module "C:/PHP/php5apache2_4.dll"
+			AddType application/x-httpd-php .php
+			PHPIniDir "C:/PHP"	               
+
+		- Apache 2.4 on Windows responds slowly, hangs when serving some dynamic pages, should add following at the end
+			AcceptFilter http none
+			AcceptFilter https none
+			EnableSendfile Off 
+			EnableMMAP off
+		  (Refer : http://superuser.com/questions/516030/apache-2-4-on-windows-responds-slowly-hangs-when-serving-some-dynamic-pages)
+			
+	- To start apache in a DOS command (must be run as administrator), change directory to "C:\Apache2\bin" and run :
+		> httpd.exe
+
+	- To install apache as a service, run:
+		> httpd.exe -k install
+		* For Windows 7, if UAC is turned on, system may not allow you to open the service manager.
+		* Find cmd.exe and right click to select run as administrator
+
+	- To run Apache Monitor, run C:\Apache24\bin\ApacheMonitor.exe, or put the shortcut in your Startup folder.
+
+	- Create a testing page
+		- In directory C:\MyWeb, create a file named "phpinfo.php" with following content :
+			<?php
+			phpinfo();
+			?>
+		- Open browser and go to URL : http://localhost/phpinfo.php
+
+
+Install phpMyAdmin
+------------------
+	- Download from http://www.phpmyadmin.net/home_page/downloads.php
+		File : phpMyAdmin\phpMyAdmin-3.5.7-all-languages.zip
+
+	- Extract file and rename directory to "phpmyadmin", move it under "C:\MyWeb"
+
+	- In directory C:\Myweb\phpmyadmin\, copy config.sample.inc.php to config.inc.php, edit the file :
+		$cfg['blowfish_secret'] = '<Something you want>';
+
+		// Or only allow console localhost to use root as login
+		$cfg['Servers'][$i]['AllowDeny']['order'] = 'deny,allow';
+		$cfg['Servers'][$i]['AllowDeny']['rules'] = array('deny root from all', 'allow root from localhost');
+
+	- Disable Version checkm by editing the config.inc.php
+		$cfg['VersionCheck'] = false;
+	
+	- Open browser and go to URL : http://localhost/phpmyadmin
+
+	- Create a new user "admin" (password: Hero682) with root privileges
+	
+	- Create a new user "sdev" (password: infsdev) with root privileges
+
+
+Install CakePHP
+---------------
+	- Download latest version from http://cakephp.org
+		File : cake version 2.2.8
+
+	- Extract the file to C:\MyWeb\cake and rename to  "cake_2_2_8" according to the version no. of the CakePHP
+
+	- For CakePHP 2.2.8 version, edit the file C:\MyWeb\cake\cake_2_2_8\lib\Cake\Core\App.php
+
+		From:
+			protected static function _map($file, $name, $plugin = null) {
+				$key = $name;
+				if ($plugin) {
+					$key = 'plugin.' . $name;
+				}
+				...
+				if (!$plugin && empty(self::$_map['plugin.' . $name])) {
+					self::$_map[$key] = $file;
+				}
+				...
+			}
+		To :
+			protected static function _map($file, $name, $plugin = null) {
+				$key = $name;
+				if ($plugin) {
+					$key = 'plugin.' . $plugin . '.' . $name;
+				}
+				...
+				if (!$plugin && empty(self::$_map['plugin.' . $plugin . '.' . $name])) {
+					self::$_map[$key] = $file;
+				}
+				....
+			}
+
+		From :
+			protected static function _mapped($name, $plugin = null) {
+				$key = $name;
+				if ($plugin) {
+					$key = 'plugin.' . $name;
+				}
+				return isset(self::$_map[$key]) ? self::$_map[$key] : false;
+			}
+		To : 
+			protected static function _mapped($name, $plugin = null) {
+				$key = $name;
+				if ($plugin) {
+					$key = 'plugin.' . $plugin . '.' . $name;
+				}
+				return isset(self::$_map[$key]) ? self::$_map[$key] : false;
+			}
+
+			
+Install Java SDK
+----------------
+	- Download JAVA runtime "Java Platform (JDK)" from JAVA website : http://www.oracle.com/technetwork/java/javase/downloads/index.html
+	  Select Windows x64 Version
+		File: jdk-7u21-windows-x64.exe
+		
+	- Install the JAVA runtime "Java Platform (JDK)" according to the default option
+	
+	- After install, make sure the following path is existing : C:\Program Files\Java\jdkX.X.X (e.g. C:\Program Files\Java\jdk1.7.0_21)
+	
+	- Add a Windows environment variable under Control Panel -> System -> Advanced system settings -> Advanced -> Environment Variables
+		Variable : JAVA_TOOL_OPTIONS
+		Value : -Dfile.encoding=utf-8
+
+		
+Install Tomcat
+--------------
+	- Download 32-bit/64-bit version from http://tomcat.apache.org/download-70.cgi
+    
+	- The latest version is 7.0
+
+		- Install Tomcat with "Normal" installation
+
+		- Default installation path is C:\Program Files\Apache Software Foundation\Tomcat 7.0
+
+
+Install Birt (Report Enginee & Viewer)
+--------------------------------------
+	- Rename "[HERO Report]\birt_custom_x.x.x.war" (according to the latest version of Birt) to birt.war
+	
+	- Copy the birt.war to <Tomcat install path>/webapps, i.e. C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps
+	
+	- Restart the Tomcat Services
+    
+	- Try to go to http://127.0.0.1:8080/birt (8080 is the default port for tomcat installation)
+	
+
+HERO Server & Application Installation
+======================================
+
+Install HERO Server
+-------------------
+	- Create following database by http://localhost/phpmyadmin and import the data into the database
+		gm4g_system
+		gm4g_user
+		gm4g_media
+		gm4g_outlet
+		gm4g_menu
+		gm4g_printing
+		gm4g_pos
+		gm4g_voice_messaging
+		
+	- Create folder "hero" under C:\MyWeb folder and extract the gourmate4g source/encoded files to here:
+
+	- Create folder "hero_files" under C:\MyWeb folder and create following sub folders :
+		\data
+		\data\pos_print_formats
+		\media
+		\print_jobs
+		\user_photos
+	  If have existing data files, extract them to corresponding folders.
+
+	- Edit C:\Apache2\conf\httpd.conf
+		<IfModule alias_module>
+		...
+		Alias /hero/files C:/MyWeb/hero_files
+		...
+		</IfModule>
+	  Restart Apache after edit
+		
+	- Edit the C:\MyWeb\gm4g_demo\webroot\index.php
+		define('ROOT', 'C:'.DS.'MyWeb');
+		...
+		define('APP_DIR', 'hero');
+		...
+		define('CAKE_CORE_INCLUDE_PATH', 'C:'.DS.'MyWeb'.DS.'cake'.DS.'cake_2_2_8'.DS.'lib');
+
+	- Open firefox and go to URL : http://localhost/hero for testing
+
+	- Create a Firefox shortcut on desktop with target:
+		"C:\Program Files (x86)\Mozilla Firefox\firefox.exe" "http://localhost/hero"	
+	
+
+Install HERO POS Application Server
+-----------------------------------
+	- Extract "[Server Package]\hero_pos_X_X_X_X.zip" (according to the latest version of HERO POS application)
+	
+	- Under directory "C:\MyWeb", create sub-directories : hero_pos
+	
+	- Copy all the contents under the unzipped folder "hero_pos" to "C:\MyWeb\hero_pos"
+	
+	- Edit the configuration file C:\MyWeb\hero_pos\cfg\config.ini
+		[connection]
+		db_wsdl=<HERO platform web service wsdl>
+		server_ip_address=<HERO POS application server IP address>
+		launcher_port=<Port no. of the launcher>
+		client_starting_port=<Start port no. for client connection>
+		client_port_count=<Number of ports used for client connection>
+
+		e.g.
+		[connection]
+		db_wsdl=http://192.168.7.248/hero/chi/http_interface/
+		server_ip_address=192.168.7.248
+		launcher_port=6001
+		client_starting_port=7001
+		client_port_count=20
+
+	- For 32-bits Windows:
+		Install launcher Windows service by running the bat file "hero_pos_services_install.bat" under the installation package
+	
+	- For 64-bits Windows:
+		Install launcher Windows service by running the bat file "hero_pos_services_install_64bits.bat" under the installation package
+
+	- Go to the Control Panel -> Administrative Tools -> Services, change the startup type to "Automatic" by right-clicked the service "Hero POS Launcher Service" and go to Properties
+		
+	- Unzip the database_script_X_X_X_X.zip
+	
+	- Open browser and go to URL : http://localhost/phpmyadmin
+		Select database "gm4g_pos" and import the data to the tables (pos_functions and pos_system_types) by using the unzipped scripts
+	
+Install HERO Report
+-------------------
+
+	- Create folder "hero_report" under C:\MyWeb folder and extract the gm4g_report source/encoded files to here
+
+	- Edit config.php in hero_report/Config folder
+		$config['System']['report_viewer_path'] = 'http://{Birt Viewer Server IP Address}:8080/birt/frameset';
+		$config['System']['web_service_path'] = 'http://{Hero Server IP Address}/hero';
+
+	- Create a Firefox shortcut on desktop with target:
+		"C:\Program Files (x86)\Mozilla Firefox\firefox.exe" "http://localhost/hero_report"
+		
+		
+
+
+HERO Print Server Installation
+==============================
+- Installation Disk & File Packages
+	- OS : ubuntu-12.04.2-server-i386.iso
+	- Upload Installation Files to the system after OS intstallation : ${HOME}/install
+	- Installation File List
+		- AdbeRdr9.5.5-1_i386linux_enu.deb
+		- epson-tm-t88iv-u220-modified.ppd.<ccyymmdd>.zip
+		- HeroPrintService.zip
+		- installHeroPrintService.tar
+		- mswindows_fonts.zip
+		- tmt-cups-1.3.2.0.tar.gz
+		- tmu-cups-1.0.0.0.tar.gz
+		- wkhtmltopdf-0.11.0_rc1-static-i386.tar.bz2
+
+
+- Install OS
+	OS : Ubuntu Linux version 12.04.2 (Kernel  : 3.2.0-25) (ubuntu-12.04.2-server-i386.iso)
+
+	Ubuntu 12.04 Installation
+	- Select "English" Language -> Select "Install Ubuntu Server"
+	- Select a language -> English - English
+	- Select your location -> <Local Location> e.g. Hong Kong
+	- Configure the keyboard -> Detect keyboard layout? „³ No
+	- Configure the keyboard -> Country of origin for the keyboard „³ English (US)
+	- Configure the keyboard -> Keyboard layout „³ English (US)
+	- Configure the network -> Network autoconfiguration failed „³ <Continue>
+	- Configure the network -> Configure network manually -> IP address -> Netmask -> Gateway -> Name Server addresses -> Hostname -> Any hostname (e.g. infrasys) -> Domain name (blank if not defined)
+	- Set up users and passwords -> Full name for the new user -> e.g. System Administrator ->  Continue
+	- Set up users and passwords -> Username for your account -> e.g. sysadm -> Continue
+	- Set up users and passwords -> Choose a password for the new user -> xxxxxx ->  Continue
+	- Set up users and passwords -> Re-enter password to verify -> xxxxxx -> Continue
+	- Set up users and passwords -> Encrypt your home directory? -> No
+	- Configure the clock -> Is this time zone correct? -> Yes
+	- Partition disks -> Guided ¡V use entire disk
+	- Partition disks -> Select disk to partition -> e.g. SCSI3 (0,0,0)  (sda) ¡K
+	- Partition disks -> Write the changes to disks? <Please check the details. If OK, select Yes>
+	- Configure the package manager ->  HTTP proxy information (blank for none) -> Blank or input info -> Continue
+	- Configuring tasksel -> No automatic updates
+	- Software Selection
+		- OpenSSH Server
+„X		- Samba file server
+	- Configuring grub-pc -> Install the GRUB boot loader to the master boot record? -> Yes
+	- Finish the installation -> Installation complete -> continue
+
+	Setup
+	- Setup Network : /etc/network /interfaces
+		auto eth0
+		iface eth0 inet static address 192.168.1.5
+		netmask 255.255.255.0
+		network 192.168.1.0
+		broadcast 192.168.1.255
+		gateway 192.168.1.1
+	- Setup host for network card (add entry in /etc/hosts)
+	- Setup DNS
+„X		- Modify /etc/resolv.conf
+		- Add lines for DNS e.g. 
+„X		- nameserver 192.168.99.1xx
+		- nameserver 192.168.99.2xx
+	- Restart network to make it effective
+„X		- sudo /etc/init.d/networking restart
+
+	System Host File
+		- Add the entry for the current IP address to /etc/hosts
+		- If it is not correct, the system may not get the MAC address so that it cannot connect to remote server.
+
+- Install by Installation Script
+	- Extract the installation script (installHeroPrintService.s) from the installation file folder
+		- tar xvf installHeroPrintService.tar
+	- Run the Installation Script
+		- cd $HOME/install
+		- ./installHeroPrintService.s
+	- In the script, there is the automated part to install the required files. In the manual installation part, it is required the manual configuration or setup to the system files. Please follow the installation script and the Installation Manual to complete the installation.
+	- 9 Steps in the current version of installation script
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+			*** Installation Start ***
+			All installation files and script must be uploaded to the folder of current machine : /home/sysadm/install/
+			Step 001) PLEASE PRESS [ENTER] TO START INSTALLATION!
+
+			Update Package Cache
+			Step 002) PLEASE PRESS [ENTER] TO CONTINU
+
+			Install extra library & Tools : libXrender.so, libfontconfig.so, zip tools, Fontconfig Tools
+			Step 003) PLEASE PRESS [ENTER] TO CONTINUE
+
+			Install Acrobat Reader
+			Step 004) PLEASE PRESS [ENTER] TO CONTINUE
+
+			Install wkhtmltopdf
+			Step 005) PLEASE PRESS [ENTER] TO CONTINUE
+
+			Install Java 7 Runtime
+			Step 006) PLEASE PRESS [ENTER] TO CONTINUE
+
+			Install CUPS
+			Step 007) PLEASE PRESS [ENTER] TO CONTINUE
+
+			Install Printer PPD"
+			Step 008) PLEASE PRESS [ENTER] TO CONTINUE
+
+			Install Print Service Application
+			Step 009) PLEASE PRESS [ENTER] TO CONTINUE
+
+			*** Installation Complete ***
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+- Manual Installation
+	- Install Tools
+		- wkhtmltopdf (HTML Web Page to PDF), Java Runtime, CUPS (Print Service in Linux), Acrobat Reader
+	- Install Printer Drivers
+		- Epson TM series driver, Laser Jet driver
+	- Install Fonts
+		- Standard Fonts, MS Windows Fonts
+
+		

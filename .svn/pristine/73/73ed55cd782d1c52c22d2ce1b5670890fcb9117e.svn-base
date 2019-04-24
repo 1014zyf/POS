@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraHorizontalTabList">
+			<HORIZONTALLIST class="horListTab" top="5" left="5" height="45"></HORIZONTALLIST>
+			<FRAME class="fraPageTabBase" top="0" left="0" width="150" height="45"></FRAME>
+			<LABEL class="lblPageTab" top="0" left="0" width="150" height="40" textSize="18" foreground="#FFFFFF" textAlign="center" textStyle="bold"></LABEL>
+			<FRAME class="fraPageTabUnderline" top="0" left="0" width="150" height="40" background="#015384" foreground="#FFFFFF" cornerRadius="8"></FRAME>
+			
+			<FRAME class="fraPageTabSeparator" top="50" left="15" height="2" background="#015384"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

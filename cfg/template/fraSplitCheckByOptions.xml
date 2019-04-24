@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSplitCheckByOptions">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="812" height="65"></FRAME>
+			
+			<FRAME class="fraLeftFrame"  top="79" left="27" width="392" height="536" background="#FFFFFF" cornerRadius="5,5,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraRightFrame" top="79" left="430" width="360" height="536" background="#FFFFFF" cornerRadius="5,5,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			
+			<LABEL class="lblNumberOfTable" top="65" left="40" width="400" height="23" textSize="22" foreground="#015384"></LABEL>
+			<LABEL class="lblMessage" top="100" left="40" width="400" height="23" textSize="22" foreground="#015384"></LABEL>
+			
+			<FRAME class="fraTableInfoList" top="79" left="37" width="372" height="536" cornerRadius="10,10,0,0" background="#FFFFFF" textStyle="auto_size"></FRAME>
+			<FRAME class="fraInput" top="79" left="440" width="340" height="536" background="#FFFFFF" cornerRadius="10,10,0,0"></FRAME>
+			<LABEL class="lblSubTitle" top="10" left="15" width="308" height="33" textSize="24" background="#FFFFFF"></LABEL>
+			<FRAME class="fraSubTitleUnderline" top="50" left="16" width="308" height="1" background="#D8D8D8"></FRAME>
+			<LABEL class="lblDescription" top="86" left="15" width="308" height="33" textSize="24" background="#FFFFFF" textStyle="auto_size"></LABEL>
+			<TEXTBOX class="txtboxValue" top="128" left="15" width="308" height="48" textSize="24" background="#FFFFFF" stroke="1" cornerRadius="5"></TEXTBOX>
+			<FRAME class="fraNumberPad" top="180" left="0" width="340" height="346" background="#FFFFFF"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

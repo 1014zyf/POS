@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraStockOperation">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="479" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<FRAME class="fraLeftContent" top="51" left="10" width="460" height="745" background="#CCF0FF" cornerRadius="5,5,0,0"></FRAME>
+			<FRAME class="fraItemList" top="20" left="10" width="438" height="682"></FRAME>
+			<LABEL class="lblPage" top="705" left="193" width="74" height="40" textSize="20" foreground="#005080" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="705" left="130" width="60" height="40" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="705" left="290" width="60" height="40" contentMode="scale_aspect_fit"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOptionBox">
+			<FRAME class="fraBase" top="150" left="60" width="360" height="500" background="#CCF0FF" stroke="1" strokeColor="#FFFFFF" visible="0" cornerRadius="5"></FRAME>
+			<FRAME class="fraTitleHeader" left="1" top="1" width="359" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<!-- <LABEL class="lblTitle" top="1" left="1" height="60" foreground="#FFFFFF" background="#015383" textSize="24" textAlign="center" cornerRadius="5,5,0,0"></LABEL> -->
+			<LIST class="listTable" top="55" left="24" height="360" visible="0" foreground="#8fc1da"></LIST>
+			<FRAME class="listOption" top="2" left="2" height="60" visible="0"></FRAME>
+			<LABEL class="listlblOption" top="0" left="10" height="60" textAlign="center" foreground="#575757" textSize="24"></LABEL>
+			<BUTTON class="btn" top="430" left="4" width="290" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnHalf" top="430" left="4" width="160" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

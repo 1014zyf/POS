@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+    <TEMPLATE>
+        <FRAME class="fraCommonLookupButtons">
+		    <FRAME class="scrfraPanel" top="0" left="0"  width="0" height="0"></FRAME>
+			<FRAME class="fraLooupButton"></FRAME>
+        </FRAME>
+    </TEMPLATE>
+</POS>

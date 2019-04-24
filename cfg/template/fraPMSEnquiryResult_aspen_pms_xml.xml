@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraPMSEnquiryResult">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1260" height="65"></FRAME>
+			<FRAME class="fraGuestListBackground" top="184" left="32" width="510" height="520" cornerRadius="12,12,0,0" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraInputInfo" top="80" left="32" width="1194" height="88" cornerRadius="12,12,0,0" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<TEXTBOX class="lblInputBox" top="20" left="16" width="264" height="48" textSize="30" foreground="#575757" background="#FFFFFF" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<BUTTON class="butRoomEnquiry" top="16" left="312" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="16" textAlign="center" shadowTop="3" shadowLeft="0" shadowRadius="2" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butSetRoom" top="16" left="479" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="16" textAlign="center" shadowTop="3" shadowLeft="0" shadowRadius="2" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butClearRoom" top="16" left="479" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="16" textAlign="center" shadowTop="3" shadowLeft="0" shadowRadius="2" shadowColor="#17000000"></BUTTON>
+			<FRAME class="fraGuestList" top="0" left="12" width="490" height="520" cornerRadius="12"></FRAME>
+			<FRAME class="fraSubGuestList" top="260" left="12" width="490" height="260" cornerRadius="12"></FRAME>
+			<FRAME class="fraGuestDetail" top="184" left="558" width="668" height="520" background="#FFFFFF" cornerRadius="12,12,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

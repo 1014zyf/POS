@@ -1,0 +1,501 @@
+2019-04-18 01:17:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 01:17:50 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 3003
+2019-04-18 01:17:54 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 01:17:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 01:17:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 01:18:00 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 3003
+2019-04-18 01:18:02 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 3003
+2019-04-18 01:18:03 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 01:18:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 3003
+2019-04-18 01:50:53 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 01:51:02 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: change_language
+2019-04-18 01:51:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: daily_close
+2019-04-18 01:51:19 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: release_payment
+2019-04-18 01:51:32 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: void_check
+2019-04-18 01:51:39 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: void_check
+2019-04-18 01:51:46 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: void_check
+2019-04-18 01:51:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: void_check
+2019-04-18 01:52:09 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: release_payment
+2019-04-18 01:53:01 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: check_listing
+2019-04-18 01:53:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: daily_close
+2019-04-18 01:53:52 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: release_payment
+2019-04-18 01:54:12 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: refresh_table_status_by_table_num
+2019-04-18 01:54:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 6006
+2019-04-18 01:54:22 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 01:58:08 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 01:58:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 01:58:26 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 01:59:09 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: cancel
+2019-04-18 01:59:10 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: admin_mode
+2019-04-18 01:59:13 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: reload_business_setting
+2019-04-18 01:59:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: logout
+2019-04-18 01:59:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 01:59:24 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:00:34 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 02:00:40 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 2002
+2019-04-18 02:00:45 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:05:25 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 02:05:42 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 2002
+2019-04-18 02:05:45 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:07:54 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 02:08:24 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 2002
+2019-04-18 02:08:29 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:08:31 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:08:34 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 02:08:35 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 2002
+2019-04-18 02:08:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 2002
+2019-04-18 02:08:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 02:08:41 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 2002
+2019-04-18 02:15:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 02:15:57 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:16:02 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 02:16:02 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 02:16:04 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 02:16:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 02:16:09 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 02:18:32 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 02:18:42 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 02:18:44 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 02:18:47 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 02:26:24 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: reconnect
+2019-04-18 02:29:03 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: admin_mode
+2019-04-18 02:29:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: reload_business_setting
+2019-04-18 02:29:10 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: logout
+2019-04-18 02:29:15 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 1001: void_check
+2019-04-18 02:29:27 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 02:29:32 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:29:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 02:29:37 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 02:29:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 02:29:40 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 02:29:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 02:30:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 02:30:45 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 1001: void_check
+2019-04-18 02:30:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 02:31:05 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 02:31:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 02:31:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 02:31:11 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 02:31:12 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 02:31:24 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 02:31:26 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 02:31:32 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:31:41 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 02:31:41 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 02:31:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 02:31:48 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 02:31:49 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 02:31:55 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $200
+2019-04-18 02:31:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 02:32:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 3003
+2019-04-18 02:32:14 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:32:17 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 02:32:18 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 3003
+2019-04-18 02:32:19 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 3003
+2019-04-18 02:32:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 02:32:24 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 3003
+2019-04-18 02:33:32 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 3003: void_check
+2019-04-18 02:33:42 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 3003
+2019-04-18 02:34:10 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:34:13 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 02:34:13 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 3003
+2019-04-18 02:35:02 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 3003: void_check
+2019-04-18 02:35:35 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 3003
+2019-04-18 02:35:41 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:35:44 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 02:35:45 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 3003
+2019-04-18 02:36:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 3003
+2019-04-18 02:36:08 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 02:36:11 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 3003
+2019-04-18 02:36:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 3003: void_check
+2019-04-18 02:36:32 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 3003
+2019-04-18 02:36:37 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 02:36:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 3003
+2019-04-18 02:36:39 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 3003
+2019-04-18 02:36:42 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:36:46 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 02:36:47 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 3003
+2019-04-18 02:37:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 3003
+2019-04-18 02:37:39 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 02:37:40 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 3003
+2019-04-18 02:37:53 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 02:37:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 3003
+2019-04-18 02:37:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:38:50 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 02:38:53 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 3003
+2019-04-18 02:39:04 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 02:59:04 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 02:59:11 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 1001: unlock_table
+2019-04-18 02:59:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 02:59:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 02:59:24 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 02:59:25 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 02:59:52 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 02:59:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 02:59:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:00:14 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:00:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:00:23 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 03:00:23 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:00:53 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:00:55 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 03:00:58 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:01:01 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:01:02 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_check
+2019-04-18 03:01:05 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:01:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:01:10 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: paid
+2019-04-18 03:01:12 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_check
+2019-04-18 03:01:15 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:01:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:13:23 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 03:13:39 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 1001: void_check
+2019-04-18 03:13:49 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 03:13:52 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:13:54 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:13:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 03:13:57 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:13:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:14:00 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 03:14:00 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:14:04 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $200
+2019-04-18 03:30:11 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 03:30:14 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 2002: void_check
+2019-04-18 03:30:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 3003: void_check
+2019-04-18 03:30:29 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 4004: void_check
+2019-04-18 03:31:32 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 03:31:40 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 5005: void_check
+2019-04-18 03:31:48 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 6006: void_check
+2019-04-18 03:31:58 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: change_language
+2019-04-18 03:32:01 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: daily_close
+2019-04-18 03:32:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 03:32:13 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:32:18 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 03:32:19 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:32:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:32:22 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 03:32:23 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:32:27 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $200
+2019-04-18 03:41:00 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 03:42:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 03:42:10 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:42:13 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:42:15 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 03:42:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:42:17 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:42:22 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 03:42:22 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:42:26 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $200
+2019-04-18 03:44:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-18 03:44:29 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 03:44:32 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:44:35 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 03:44:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:44:37 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:44:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 03:44:39 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:44:41 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $200
+2019-04-18 03:45:12 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 03:53:44 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 03:53:50 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:53:54 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 03:53:55 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:53:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:53:58 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 03:54:01 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:54:24 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 1001: void_check
+2019-04-18 03:54:31 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 03:54:35 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:54:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:54:40 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 03:54:41 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:54:42 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:54:42 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 03:54:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:54:46 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $200
+2019-04-18 03:57:30 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 03:57:33 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 03:57:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:57:42 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 03:57:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:57:44 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:57:45 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 03:57:48 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:59:05 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 1001: void_check
+2019-04-18 03:59:12 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 03:59:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 03:59:19 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 03:59:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:59:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 03:59:22 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 03:59:23 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 03:59:26 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $200
+2019-04-18 03:59:28 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 05:27:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-18 05:27:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-18 05:42:05 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-18 05:42:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 05:42:12 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-18 05:42:15 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 05:42:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-18 05:42:19 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $200
+2019-04-18 06:05:26 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 06:05:30 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 2002
+2019-04-18 06:05:53 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 06:05:54 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 2002
+2019-04-18 06:05:58 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $235
+2019-04-18 06:06:00 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 06:06:04 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 2002
+2019-04-18 06:06:10 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 06:06:12 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 2002
+2019-04-18 06:06:14 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $235
+2019-04-18 06:06:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 06:06:22 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 2002
+2019-04-18 06:06:28 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-18 06:06:30 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 2002
+2019-04-18 06:06:33 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $40
+2019-04-18 06:06:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-18 06:06:44 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: admin_mode
+2019-04-18 06:06:47 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: check_listing
+2019-04-18 07:34:04 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: admin_mode
+2019-04-18 07:34:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Admin Mode Function: check_listing
+2019-04-19 03:19:31 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-19 03:19:44 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 03:19:51 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 03:19:54 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 03:19:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 03:20:03 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 03:20:08 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 03:20:12 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $200
+2019-04-19 03:20:33 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 03:20:37 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 03:20:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: Direct payment
+2019-04-19 03:20:58 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 03:21:00 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 03:21:01 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 03:21:03 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: Direct payment
+2019-04-19 03:21:18 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 03:21:18 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 03:21:33 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $50
+2019-04-19 03:21:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $150
+2019-04-19 03:38:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-19 03:38:49 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 03:38:54 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 03:38:55 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 03:38:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 03:38:58 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 03:38:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 03:39:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 03:39:10 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 03:39:17 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $194
+2019-04-19 03:41:51 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-19 03:42:01 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 03:42:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 03:42:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 03:42:08 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 03:42:15 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 03:42:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 03:42:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 03:42:23 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 03:42:26 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $194
+2019-04-19 03:58:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 03:58:25 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 03:58:30 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 03:58:32 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 03:58:33 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 03:58:34 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 03:58:37 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 04:00:47 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 1001: void_check
+2019-04-19 04:00:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 04:01:02 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 04:01:03 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 04:01:04 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 04:01:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 04:01:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 04:01:11 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 04:01:14 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 04:01:15 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $194
+2019-04-19 04:01:18 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 04:28:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 04:28:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 04:28:22 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 04:28:24 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 04:28:26 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 04:28:27 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 04:28:33 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 04:28:35 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 04:28:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $194
+2019-04-19 05:10:40 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 05:10:45 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 05:10:49 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 05:10:50 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:10:54 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 05:10:55 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 05:10:55 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:10:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 05:11:02 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 05:11:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $194
+2019-04-19 05:11:08 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 05:13:45 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 05:13:50 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 05:13:51 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:13:54 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 05:13:55 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 05:13:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:14:03 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 05:14:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 05:14:09 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $194
+2019-04-19 05:15:57 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 05:16:02 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 05:16:08 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 05:16:09 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:16:11 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 05:16:13 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 05:16:14 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:16:17 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 05:16:19 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 05:16:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $194
+2019-04-19 05:18:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 05:18:25 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 05:18:29 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 05:18:30 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:18:34 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 05:18:40 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 05:18:41 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:18:49 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 05:18:54 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 05:18:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $194
+2019-04-19 05:24:52 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 05:25:17 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 05:25:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 05:25:22 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:25:25 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 05:25:28 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 05:25:29 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:25:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $4
+2019-04-19 05:25:44 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $21
+2019-04-19 05:31:29 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 05:31:35 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 05:31:39 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 05:31:40 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:31:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 05:31:46 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 05:31:46 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:31:51 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 05:31:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $22
+2019-04-19 05:38:39 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 05:38:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 05:38:48 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 05:38:49 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:38:51 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 05:38:52 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 05:38:52 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 05:38:57 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 05:38:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $22
+2019-04-19 06:15:28 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 06:15:32 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 06:15:39 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 06:15:40 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 06:15:41 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 06:15:44 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 06:15:45 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 06:15:48 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 06:15:51 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $22
+2019-04-19 06:17:22 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 06:17:26 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 06:17:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-19 06:17:46 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 06:17:47 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 06:17:48 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 06:17:49 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 06:17:50 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 06:17:55 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 06:17:57 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $22
+2019-04-19 06:28:23 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 06:28:26 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 06:28:30 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 06:28:31 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 06:28:32 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 06:28:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 06:28:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 06:28:39 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 06:28:42 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $22
+2019-04-19 06:30:55 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 06:30:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 06:31:04 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 06:31:05 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 06:31:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 06:31:08 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 06:31:08 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 06:31:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $4
+2019-04-19 06:31:27 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $21
+2019-04-19 06:42:25 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 06:42:29 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 06:42:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 06:42:39 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 06:42:40 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 06:42:42 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 06:42:42 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 06:42:46 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 06:42:49 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $22
+2019-04-19 07:43:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 07:43:10 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 07:43:15 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 07:43:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 07:43:17 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 07:43:19 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 07:43:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 07:43:27 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 07:43:30 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $22
+2019-04-19 08:09:50 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 08:09:53 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 08:09:58 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 08:09:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 08:09:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 08:10:02 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 08:10:03 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 08:10:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 08:10:08 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $22
+2019-04-19 08:16:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 08:16:41 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 08:16:46 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 08:16:47 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 08:16:48 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 08:16:49 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 08:16:50 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 08:16:53 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $6
+2019-04-19 08:16:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $19
+2019-04-19 08:26:34 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 08:26:37 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 08:26:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 08:26:44 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 08:26:46 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 08:26:47 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 08:26:48 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 08:26:52 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $4
+2019-04-19 08:26:55 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $21
+2019-04-19 08:35:44 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Exit Cashier
+2019-04-19 08:35:48 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 08:35:50 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 08:35:57 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 08:36:05 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 08:36:06 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 08:36:08 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 08:36:09 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 08:36:10 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 08:36:14 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 08:36:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $22
+2019-04-19 09:20:58 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-19 09:21:04 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-19 09:21:15 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-19 09:21:17 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 09:21:18 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-19 09:21:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-19 09:21:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-19 09:21:24 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $3
+2019-04-19 09:21:27 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $22
+2019-04-22 01:35:03 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-22 01:35:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-22 01:35:29 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: first_page
+2019-04-22 01:38:10 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-22 01:56:25 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login

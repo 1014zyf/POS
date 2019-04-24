@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSmartCardOperation">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="770" height="65"></FRAME>
+			
+			<LABEL class="lblInformation" top="240" left="10" width="748" height="50" textSize="24" foreground="#575757" textAlign="center" visible="0"></LABEL>
+			
+			<FRAME class="bktCardInformation" top="60" left="10" width="748" height="505" background="#FFFFFF"></FRAME>
+			<IMAGE class="imgReadCard" top="0" left="400" width="444" height="448" contentMode="scale_aspect_fill"></IMAGE>
+			
+			<BUTTON class="btnCancel" top="575" left="10" width="750" height="70" foreground="#FFFFFF" background="#3A80B3" textSize="24"></BUTTON>
+			<IMAGE class="imgExit" top="10" left="1105" width="25" height="25" contentMode="scale_aspect_fill"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

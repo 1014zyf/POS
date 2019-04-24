@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmCommonBasketSelection">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraCommonBasketSelection" top="55" left="330" width="620" height="630" background="#CCF0FF" stroke="1" strokeColor="#FFFFFF" visible="0" cornerRadius="5"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

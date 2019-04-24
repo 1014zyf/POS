@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraDirectPaymentPanel">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="480" height="50" background="#015384"></FRAME>
+			<FRAME class="fraTitleBar" top="0" left="0" width="480" height="50" background="#015384"></FRAME>
+			<FRAME class="fraBackground" top="40" left="0" width="480" height="800" background="#CCF0FF"></FRAME>
+			<LABEL class="lblTitle" top="0" left="0" width="476" height="50" textSize="24" foreground="#FFFFFF" textAlign="center"></LABEL>
+			<FRAME class="fraButClose" top="5" left="430" width="50" height="40" foreground="#FFFFFF" background="#00000000"></FRAME>
+			
+			<LABEL class="lblCheckNoHeader" top="60" left="20" width="100" height="40" textSize="22" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblCheckNo" top="60" left="130" width="100" height="40" textSize="22" foreground="#000000" background="#B2CBDA" textAlign="center"></LABEL>
+			<LABEL class="lblTableHeader" top="60" left="250" width="100" height="40" textSize="22" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblTable" top="60" left="360" width="100" height="40" textSize="22" foreground="#000000" background="#B2CBDA" textAlign="center"></LABEL>
+			
+			<LABEL class="lblPaymentMethodHeader" top="120" left="20" width="210" height="40" textSize="22" textStyle="bold" textAlign="center_vertical" foreground="#575757" visible="0"></LABEL>
+			<LABEL class="lblPaymentMethod" top="120" left="230" width="240" height="40" textSize="22" background="#B2CBDA" foreground="#575757" textAlign="center" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblTotalHeader" top="165" left="20" width="210" height="40" textSize="22" textStyle="bold" textAlign="center_vertical" foreground="#575757" visible="0"></LABEL>
+			<LABEL class="lblTotal" top="165" left="230" width="240" height="40" textSize="22" background="#B2CBDA" foreground="#575757" textAlign="center_vertical, right" padding="0,5,0,0"></LABEL>
+			<LABEL class="lblTipsHeader" top="210" left="20" width="210" height="40" textSize="22" textStyle="bold" textAlign="center_vertical" foreground="#575757" visible="0"></LABEL>
+			<LABEL class="lblTips" top="210" left="230" width="240" height="40" textSize="22" background="#B2CBDA" foreground="#575757" textAlign="center_vertical, right" padding="0,5,0,0"></LABEL>
+			<LABEL class="lblSurchargeHeader" top="255" left="20" width="210" height="40" textSize="22" textStyle="bold" textAlign="center_vertical" foreground="#575757" visible="0"></LABEL>
+			<LABEL class="lblSurcharge" top="255" left="230" width="240" height="40" textSize="22" background="#B2CBDA" foreground="#575757" textAlign="center_vertical, right" padding="0,5,0,0"></LABEL>
+			
+			<FRAME class="fraBackground2" top="380" left="315" width="155" height="50"></FRAME>
+			<FRAME class="fraNumberPad" top="440" left="30" width="420" height="360"></FRAME>
+			
+			<FRAME class="fraTenderAmountButtons" top="280" left="20" width="440" height="120" cornerRadius="10"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

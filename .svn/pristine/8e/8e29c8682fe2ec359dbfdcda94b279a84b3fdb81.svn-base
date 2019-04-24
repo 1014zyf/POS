@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOrderingPanel">
+			<HORIZONTALLIST class="horListTab" top="0" left="0" width="480" height="60"></HORIZONTALLIST>
+			<FRAME class="fraBtnTabBase" top="0" left="0" width="160" height="60"></FRAME>
+			<LABEL class="lblPageTab" top="0" left="0" width="150" height="40" textSize="18" foreground="#015384" textAlign="bottom,center" textStyle="bold"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

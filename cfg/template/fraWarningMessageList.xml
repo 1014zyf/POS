@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraWarningMessageList">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			<FRAME class="fraContent" top="62" left="0" width="1024" height="579" background="#FFFFFF"></FRAME>
+			
+			<FRAME class="fraListTab" top="0" left="24" width="976" height="572" background="#FFFFFF"></FRAME>
+			<LABEL class="fraSelectedListTab" top="0" left="0" width="160" height="90" textSize="24" foreground="#0055B8" background="#FFFFFF"></LABEL>
+			<LABEL class="fraUnselectListTab" top="0" left="0" width="160" height="90" textSize="20" foreground="#999999" background="#FFFFFF"></LABEL>
+			<FRAME class="scrfraWarningMessageList" top="62" left="0" width="1220" height="606" background="#FFFFFF"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

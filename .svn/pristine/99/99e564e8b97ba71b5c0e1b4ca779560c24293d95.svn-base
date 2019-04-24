@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOrderingBasket">
+			<FRAME class="fraOrderingBasketExtraInfoSection" top="0" left="0" background="#FFFFFF"></FRAME>
+			<LIST class="listOrderingBasket" top="0" left="0" width="400" height="395" background="#FFFFFF" style="OrderingBasketListBackgroundStyle"></LIST>
+			<LABEL class="lblLoading" top="0" left="0" width="400" height="275" foreground="#000000" background="#FFFFFF" textSize="18" textAlign="center"></LABEL>
+			<FRAME class="fraOrderingBasketSection" top="1" left="0" width="400" height="25" foreground="#999999" background="#FFFFFF" style="OrderingBasketTitleStyle"></FRAME>
+			<FRAME class="fraOrderingBasketSelectSection" top="1" left="0" width="400" height="36" foreground="#333333" background="#FFFFFF" style="OrderingBasketTitleStyle"></FRAME>
+			<LABEL class="lblOrderType" top="6" left="150" width="108" height="40" textSize="24" textAlign="center_vertical,center" foreground="#FF666666"></LABEL>
+			<LABEL class="lblHeader" height="56" textSize="16" textAlign="left" foreground="#333333" style="CommonBasketHeaderLabel"></LABEL>
+			<FRAME class="fraUpperline" top="0" left="0" height="2" background="#D8D8D8"></FRAME>
+			<FRAME class="fraHeader" top="1" left="0" height="40" ></FRAME>
+			<FRAME class="fraUnderline" top="0" left="0" height="1" background="#D8D8D8"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraMemberBonusRedemption">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="880" height="65"></FRAME>
+			
+			<LIST class="listMemberBasicInfo" top="65" left="15" width="650" height="140"></LIST>
+			<FRAME class="fraMemberBasicInfo" top="0" left="0" width="700" height="42"></FRAME>
+			<LABEL class="lblInfoTitle" top="0" left="0" width="250" height="40" textSize="18" textAlign="center_vertical,left" foreground="#575757" background="#B2CBDA" padding="0,0,0,10" textStyle="bold"></LABEL>
+			<LABEL class="lblInfoContent" top="0" left="255" width="395" height="40" textSize="18" textAlign="center_vertical,left" foreground="#575757" background="#FFFFFF" padding="0,0,0,10"></LABEL>
+			
+			<FRAME class="fraBonusBasket" top="215" left="15" width="850" height="440"></FRAME>
+			
+			<FRAME class="fraPage" top="670" left="687" width="74" height="40"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="20" foreground="#015384" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="670" left="593" width="94" height="40" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="670" left="761" width="94" height="40" contentMode="scale_aspect_fit"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

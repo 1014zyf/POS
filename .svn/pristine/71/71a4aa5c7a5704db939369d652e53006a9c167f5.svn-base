@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSearchUser">
+			<FRAME class="fraTitleHeader" left="5" top="5" width="470" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<FRAME class="fraResultList" top="55" left="5" width="470" height="740" background="#FFFFFF"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

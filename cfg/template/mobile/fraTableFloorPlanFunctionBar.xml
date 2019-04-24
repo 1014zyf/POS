@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraTableFloorPlanFunctionBar">
+			<LABEL class="lblFunction" top="0" width="120" height="48" foreground="#000000" textSize="15" textAlign="center"></LABEL>
+			<FRAME class="fraWhiteCol" top="11" width="2" height="26" background="#FFFFFF"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

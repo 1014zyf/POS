@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraMenuMode">
+			<FRAME class="fraWholeCover" top="0" left="0" width="1280" height="850" background="#E6E6E6"></FRAME>
+			<IMAGE class="imgNewOrderBack" top="0" left="0" width="1280" height="850"></IMAGE>
+			
+			<IMAGE class="imgNewOrderButton" top="200" left="350" width="250" height="250"></IMAGE>
+			<IMAGE class="imgCheckReviewButton" top="200" left="680" width="250" height="250"></IMAGE>
+			
+			<IMAGE class="imgChgLangButton" top="610" left="1170" width="100" height="100"></IMAGE>
+			
+			<LABEL class="lblNewOrder" top="380" left="350" width="250" height="250" textSize="28" textAlign="center" background="#00000000" foreground="#015384"></LABEL>
+			<LABEL class="lblCheckReivew" top="380" left="680" width="250" height="250" textSize="28" textAlign="center" background="#00000000" foreground="#015384"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

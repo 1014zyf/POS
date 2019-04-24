@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraDatePicker">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="419" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<LABEL class="lblTitle" top="1" left="1" width="418" height="40" foreground="#FFFFFF" background="#015384" textSize="24" textAlign="center" cornerRadius="5,5,0,0"></LABEL>
+			
+			<FRAME class="fraYear" top="50" left="20" width="120" height="150"></FRAME>
+			
+			<IMAGE class="imgAddYear" top="10" left="35" width="60" height="40"></IMAGE>
+			<LABEL class="lblYear" top="60" left="25" width="60" height="40" textSize="20" textAlign="center" background="#FFFFFF" stroke="1" strokeColor="#868686"></LABEL>
+			<IMAGE class="imgMinusYear" top="110" left="35" width="60" height="40"></IMAGE>
+			
+			<FRAME class="fraMonth" top="50" left="150" width="120" height="150"></FRAME>
+			
+			<IMAGE class="imgAddMonth" top="10" left="35" width="60" height="40"></IMAGE>
+			<LABEL class="lblMonth" top="60" left="25" width="60" height="40" textSize="20" textAlign="center" background="#FFFFFF" stroke="1" strokeColor="#868686"></LABEL>
+			<IMAGE class="imgMinusMonth" top="110" left="35" width="60" height="40"></IMAGE>
+			
+			<FRAME class="fraDay" top="50" left="280" width="120" height="150"></FRAME>
+			
+			<IMAGE class="imgAddDay" top="10" left="35" width="60" height="40"></IMAGE>
+			<LABEL class="lblDay" top="60" left="25" width="60" height="40" textSize="20" textAlign="center" background="#FFFFFF" stroke="1" strokeColor="#868686"></LABEL>
+			<IMAGE class="imgMinusDay" top="110" left="35" width="60" height="40"></IMAGE>
+			
+			<BUTTON class="btnOK" top="220" left="20" width="185" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnCancel" top="220" left="215" width="185" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

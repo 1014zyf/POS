@@ -1,0 +1,14 @@
+2019-03-14 09:15:32 ERROR: [1.2.24.0]-[]-[The Hong Kong Hotel]-[]-[]-[]-[1] Interface: gm, module: pos, fcn: saveMultiActionLogs, param: [{"alog_action_time":"2019-03-14 09:15:32","alog_bper_id":"5c7f3162-7474-4874-83b7-3870950e2eb1","alog_action_loctime":"2019-03-14 17:15:32","alog_action_result":"s","alog_chks_id":"","alog_user_id":1,"alog_key":"admin_mode","alog_bday_id":"5c7f3162-e198-48dd-931c-3870950e2eb1","alog_shop_id":1,"alog_olet_id":1,"alog_stat_id":4,"alog_remark":""}], error: user_not_logged_in
+java.lang.Throwable: 
+	at app.AppGlobal.getStackTrace(AppGlobal.java:544)
+	at app.AppGlobal.writeOMErrorLog(AppGlobal.java:517)
+	at om.OmWsClientGlobal.writeErrorLog(OmWsClientGlobal.java:24)
+	at om.OmWsClient.call(OmWsClient.java:313)
+	at om.PosActionLog.addUpdateWithMutlipleRecord(PosActionLog.java:202)
+	at om.PosActionLogList.addUpdateActionLogs(PosActionLogList.java:25)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at app.AppThread.run(AppThread.java:177)
+	at java.lang.Thread.run(Thread.java:748)
+

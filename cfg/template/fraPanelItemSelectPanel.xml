@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraPanelItemSelectPanel">
+			<FRAME class="fraSelectedItemBasket" width="406" height="550" background="#FFFFFF"></FRAME>
+			<BUTTON class="butCancel" top="611" left="200" width="144" height="45" foreground="#FFFFFFFF" background="#FF97AFB4" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butConfirm" top="611" left="300" width="144" height="45" foreground="#FFFFFFFF" background="FF0461CD" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

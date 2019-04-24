@@ -1,0 +1,20 @@
+2019-02-26 06:40:43 ERROR: [1.2.24.0]-[]-[]-[]-[]-[]-[] API error: ; Internal error: exception - java.io.FileNotFoundException: http://127.0.0.1/gm4g_dev//chi/http_interface/login
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at externallib.HeroHttpClient.baseRequest(HeroHttpClient.java:255)
+	at externallib.HeroHttpClient.login(HeroHttpClient.java:137)
+	at om.OmWsClient.login(OmWsClient.java:165)
+	at om.UserUser.readByLoginPassword(UserUser.java:304)
+	at app.FuncUser.login(FuncUser.java:114)
+	at launcher.Service.internalLogin(Main.java:1014)
+	at launcher.Service.run(Main.java:285)
+	at launcher.Main.main(Main.java:72)
+, call path - http://127.0.0.1/gm4g_dev//chi/http_interface/login
+java.lang.Throwable: 
+	at app.AppGlobal.getStackTrace(AppGlobal.java:544)
+	at app.AppGlobal.writeErrorLog(AppGlobal.java:523)
+	at app.FuncUser.login(FuncUser.java:117)
+	at launcher.Service.internalLogin(Main.java:1014)
+	at launcher.Service.run(Main.java:285)
+	at launcher.Main.main(Main.java:72)
+

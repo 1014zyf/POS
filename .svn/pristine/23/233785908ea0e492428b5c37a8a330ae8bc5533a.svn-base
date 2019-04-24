@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCommonBasketSelection">
+			<FRAME class="fraTitleBar" top="0" left="0" width="620" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<LABEL class="lblTitle" top="0" left="0" width="620" height="50" textSize="24" foreground="#FFFFFF" textAlign="center" visible="0"></LABEL>
+			<!-- <FRAME class="fraButClose" top="5" left="565" width="55" height="40"></FRAME> -->
+			
+			<FRAME class="fraCommonBasket" top="60" left="10" width="600" height="500" visible="0"></FRAME>
+			
+			<BUTTON class="btnSelectAll" top="570" width="180" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnConfirm" top="570" width="180" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnCancel" top="570" width="180" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

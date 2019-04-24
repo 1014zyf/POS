@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCashier">
+			<LABEL class="lblCheckNoHeader" top="5" left="10" width="100" height="30" textSize="22" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblCheckNo" top="5" left="110" width="100" height="30" textSize="22" foreground="#000000" background="#C0C0C0" textAlign="center"></LABEL>
+			<LABEL class="lblTableHeader" top="5" left="250" width="100" height="30" textSize="22" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblTable" top="5" left="350" width="110" height="30" textSize="22" foreground="#000000" background="#C0C0C0" textAlign="center"></LABEL>
+			<LABEL class="lblTotalHeader" top="40" left="10" width="100" height="30" textSize="22" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblTotal" top="40" left="110" width="100" height="30" textSize="22" foreground="#000000" background="#C0C0C0" textAlign="right, center_vertical" padding="0,5,0,0"></LABEL>
+			<LABEL class="lblBalanceHeader" top="40" left="250" width="100" height="30" textSize="22" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblBalance" top="40" left="350" width="110" height="30" textSize="22" foreground="#000000" background="#C0C0C0" textAlign="right, center_vertical" padding="0,5,0,0"></LABEL>
+			<LABEL class="lblSurchargeHeader" top="75" left="10" width="100" height="30" textSize="22" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblSurcharge" top="75" left="110" width="100" height="30" textSize="22" foreground="#000000" background="#C0C0C0" textAlign="right, center_vertical" padding="0,5,0,0"></LABEL>
+			<LABEL class="lblTotalDueHeader" top="75" left="250" width="100" height="30" textSize="22" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblTotalDue" top="75" left="350" width="110" height="30" textSize="22" foreground="#000000" background="#C0C0C0" textAlign="right, center_vertical" padding="0,5,0,0"></LABEL>
+			<FRAME class="fraPaymentBasket" top="70" left="0" width="480" height="220" background="#000000" stroke="1" strokeColor="#003554"></FRAME>
+			
+			<LABEL class="btnExit" top="292" left="320" width="155" height="45" textSize="22" foreground="#FFFFFF" background="#1B73A7" cornerRadius="2" stroke="1" strokeColor="#003554"></LABEL>
+			
+			<FRAME class="fraNumberPad" top="380" left="5" width="470" height="360"></FRAME>
+			
+			<FRAME class="fraPaymentResult" top="80" left="0" width="400" height="275" background="#FFFFFF"></FRAME>
+			<LABEL class="lblResultTitle" top="10" left="10" width="400" height="35" textSize="30" foreground="#FF0000"></LABEL>
+			<LABEL class="lblResultCheckNoHeader" top="50" left="10" width="200" height="35" textSize="30" foreground="#000000"></LABEL>
+			<LABEL class="lblResultCheckNo" top="50" left="210" width="180" height="35" textSize="30" foreground="#000000" background="#C0C0C0" textAlign="center"></LABEL>
+			<LABEL class="lblResultTableHeader" top="90" left="10" width="200" height="35" textSize="30" foreground="#000000"></LABEL>
+			<LABEL class="lblResultTable" top="90" left="210" width="180" height="35" textSize="30" foreground="#000000" background="#C0C0C0" textAlign="center"></LABEL>
+			<LABEL class="lblResultTotalHeader" top="130" left="10" width="200" height="35" textSize="30" foreground="#000000"></LABEL>
+			<LABEL class="lblResultTotal" top="130" left="210" width="180" height="35" textSize="30" foreground="#000000" background="#C0C0C0" textAlign="right"></LABEL>
+			<LABEL class="lblResultTipsHeader" top="170" left="10" width="200" height="35" textSize="30" foreground="#000000"></LABEL>
+			<LABEL class="lblResultTips" top="170" left="210" width="180" height="35" textSize="30" foreground="#000000" background="#C0C0C0" textAlign="right"></LABEL>
+			<LABEL class="lblResultChangeHeader" top="210" left="10" width="200" height="35" textSize="30" foreground="#000000"></LABEL>
+			<LABEL class="lblResultChange" top="210" left="210" width="180" height="35" textSize="30" foreground="#000000" background="#C0C0C0" textAlign="right"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

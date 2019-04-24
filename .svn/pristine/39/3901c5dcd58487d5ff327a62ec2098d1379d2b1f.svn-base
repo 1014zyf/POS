@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraPMSEnquiryResult">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1260" height="65"></FRAME>
+			<FRAME class="fraGuestListBackground" top="184" left="32" width="510" height="520" cornerRadius="12,12,0,0" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraInputInfo" top="80" left="32" width="1194" height="88" cornerRadius="12,12,0,0" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<TEXTBOX class="lblInputBox" top="20" left="16" width="264" height="48" textSize="30" foreground="#575757" background="#FFFFFF" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<TEXTBOX class="txtAccountNumber" top="84" left="16" width="400" height="48" textSize="20" foreground="#56575C" background="#bed7e1" textAlign="center_vertical" stroke="2" strokeColor="#828884" cornerRadius="2"></TEXTBOX>
+		    <TEXTBOX class="txtGivenName" top="84" left="16" width="400" height="48" textSize="20" foreground="#56575C" background="#bed7e1" textAlign="center_vertical" stroke="2" strokeColor="#828884" cornerRadius="2"></TEXTBOX>
+			<TEXTBOX class="txtSurname" top="84" left="430" width="400" height="48" textSize="20" foreground="#56575C" background="#bed7e1" textAlign="center_vertical" stroke="2" strokeColor="#828884" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblArrivalDate" top="144" left="16" width="400" height="48" textSize="20" foreground="#56575C" background="#BFD7E1" textAlign="center_vertical" stroke="2" strokeColor="#828884" cornerRadius="2"></LABEL>
+			<LABEL class="lblDepartDate" top="144" left="430" width="400" height="48" textSize="20" foreground="#56575C" background="#BFD7E1" textAlign="center_vertical" stroke="2" strokeColor="#828884" cornerRadius="2"></LABEL>
+			<BUTTON class="butRoomEnquiry" top="16" left="312" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="16" textAlign="center" shadowTop="3" shadowLeft="0" shadowRadius="2" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butAREnquiry" top="16" left="479" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="16" textAlign="center" shadowTop="3" shadowLeft="0" shadowRadius="2" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butSubAREnquiry" top="16" left="813" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="16" textAlign="center" shadowTop="3" shadowLeft="0" shadowRadius="2" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butGroupEnquiry" top="16" left="646" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="16" textAlign="center" shadowTop="3" shadowLeft="0" shadowRadius="2" shadowColor="#17000000"></BUTTON>
+		    <BUTTON class="butPackageEnquiry" top="16" left="479" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="16" textAlign="center" shadowTop="3" shadowLeft="0" shadowRadius="2" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butRegisterEnquiry" top="16" left="646" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="16" textAlign="center" shadowTop="3" shadowLeft="0" shadowRadius="2" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butGetExtendDetail" top="16" left="479" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="16" textAlign="center" shadowTop="3" shadowLeft="0" shadowRadius="2" shadowColor="#17000000"></BUTTON>
+			<LABEL class="lblGuestListTag" top ="115" left="20" width="150" height="40" textSize="20" textAlign="center" foreground="#015384"></LABEL>
+			<LABEL class="lblGuestDetailsTag" top ="115" left="185" width="150" height="40" textSize="18" textAlign="center" foreground="#015384"></LABEL>
+			<FRAME class="fraTagIndicator" top="155" left="20" width="150" height="3" background="#015384"></FRAME>
+			<FRAME class="fraGuestList" top="0" left="12" width="490" height="520" cornerRadius="12"></FRAME>
+			<FRAME class="fraSubGuestList" top="260" left="12" width="490" height="260" cornerRadius="12"></FRAME>
+			<FRAME class="fraGuestDetail" top="184" left="558" width="668" height="520" background="#FFFFFF" cornerRadius="12,12,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<IMAGE class="imgGuestImage" top ="270" left="1050" width="180" height="250"></IMAGE>
+			<IMAGE class="imgGuestSignImage" top ="530" left="1050" width="180" height="180"></IMAGE>
+			<BUTTON class="butBack" top="680" left="1130" width="120" height="40" background="#DCDCDC" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

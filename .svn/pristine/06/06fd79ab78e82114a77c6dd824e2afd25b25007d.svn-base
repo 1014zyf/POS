@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmItemFunction">
+			<FRAME class="fraItemFunction" top="10" left="400" width="480" height="730" background="#EAEAEA" cornerRadius="5"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

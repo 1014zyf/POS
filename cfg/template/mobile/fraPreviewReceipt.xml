@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraPreviewReceipt">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="479" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			
+			<FRAME class="fraReceipt" top="60" left="0" width="380" height="735"></FRAME>
+			<WEBVIEW class="wbvReceipt" top="0" left="5" width="375" height="735"></WEBVIEW>
+			<FRAME class="fraFunctionList" top="60" left="390" width="85" height="536" backgound="#FFFFFF" cornerRadius="5"></FRAME>
+			<BUTTON class="btnReprintReceipt" top="0" left="0" width="85" height="56" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnReleasePayment" top="66" left="0" width="85" height="56" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnVoidPaidCheck" top="132" left="0" width="85" height="56" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnAdjustTips" top="198" left="0" width="85" height="56" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnAdjustPayments" top="264" left="0" width="85" height="56" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

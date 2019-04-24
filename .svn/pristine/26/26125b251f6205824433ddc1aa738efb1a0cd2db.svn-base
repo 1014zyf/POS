@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraStationInfoBar">
+			
+			<FRAME class="frmOutlet" top="0" left="0" width="223" height="48"></FRAME>
+			
+			<LABEL class="lblOutletName" top="0" left="22" width="170" height="48" textSize="18" textAlign="center_vertical,left" foreground="#666666"></LABEL>
+			<IMAGE class="ImgChangeOutlet" top="16" left="193" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			<FRAME class="frmOutletStroke" top="12" left="221" width="2" height="25" background="#D1D1D1"></FRAME>
+			
+			<FRAME class="frmSearhTable" top="0" left="235" width="172" height="48"></FRAME>
+			<LABEL class="lblSearchTable" top="0" left="24" width="140" height="48" textSize="15" textAlign="center_vertical,left" foreground="#666666"></LABEL>
+			<IMAGE class="ImgSearch" top="16" left="0" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			
+			<FRAME class="frmInfos" top="0" left="667" width="598" height="48"></FRAME>
+			
+			<FRAME class="frmAdminMode" top="0" left="0" width="101" height="48"></FRAME>
+			<IMAGE class="ImgAdmin" top="16" left="0" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblAdminMode" top="0" left="24" width="64" height="48" textSize="16" textAlign="center_vertical,left" foreground="#666666"></LABEL>
+			<FRAME class="frmAdminStroke" top="11" left="100" width="1" height="26" background="#D1D1D1"></FRAME>
+			
+			<LABEL class="lblOperator" top="0" left="115" width="65" height="48" textSize="14" textAlign="left,center_vertical" foreground="#666666"></LABEL>
+			<LABEL class="lblUserName" top="0" left="181" width="101" height="48" textSize="14" textAlign="left,center_vertical" foreground="#666666"></LABEL>
+			<CLOCKLABEL class="lblBuzDate" top="0" left="287" width="164" height="48" textSize="14" textAlign="center_vertical,left" foreground="#666666"></CLOCKLABEL>
+			<FRAME class="frmBuzDateStroke" top="13" left="452" width="2" height="22" background="#DDDDDD"></FRAME>
+			
+			<FRAME class="frmInfo" top="0" left="466" width="64" height="48"></FRAME>
+			<IMAGE class="ImgInfo" top="16" left="0" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblInfo" top="0" left="24" width="38" height="48" textSize="14" textAlign="center_vertical,left" foreground="#666666"></LABEL>
+			<FRAME class="frmInfoStroke" top="12" left="62" width="2" height="25" background="#DDDDDD"></FRAME>
+			
+			<FRAME class="frmExit" top="0" left="544" width="72" height="48"></FRAME>
+			
+			<IMAGE class="ImgExit" top="16" left="0" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			
+			<LABEL class="lblExit" top="0" left="24" width="48" height="48" textSize="14" textAlign="center_vertical,left" foreground="#666666"></LABEL>
+			
+			<FRAME class="frmBack" top="0" left="0" width="202" height="48"></FRAME>
+			<LABEL class="lblBack" top="0" left="46" width="156" height="48" textSize="14" textAlign="center_vertical,left" foreground="#666666"></LABEL>
+			<IMAGE class="ImgBack" top="16" left="22" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

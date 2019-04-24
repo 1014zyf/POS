@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmOptionBox">
+			<!-- <FRAME class="fraCoverFrame" width="1280" height="800" background="#00000000"></FRAME> -->
+			<FRAME class="fraOptionBox" width="480" height="800" background="#00000000" stroke="1" strokeColor="#A3B5C1" visible="0"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

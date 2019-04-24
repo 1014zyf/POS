@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCheckListPanel">
+			<BUTTON class="btnSearch" top="18" left="0" width="144" height="56" visible="0" background="#A0B3B7" gradient="1" foreground="#FFFFFF" textStyle="bold" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnViewAll" top="18" left="184" width="144" height="56" visible="0" textSize="16" background="#0055B8" gradient="1" foreground="#FFFFFF" textStyle="bold" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<LABEL class="lblCheckNo" top="34" left="350" width="250" height="33" textSize="24" textAlign="left" foreground="#434343" visible="0"></LABEL>
+			<LABEL class="lblTotalCheck" top="34" left="600" width="250" height="33" textSize="24" textAlign="left" foreground="#434343" visible="0"></LABEL>
+			<LABEL class="lblTotalAmount" top="34" left="725" width="250" height="33" textSize="24" textAlign="right" foreground="#434343" visible="0"></LABEL>
+			
+			<FRAME class="scrfraCheckListPanel" top="90" left="8" width="960" height="340" background="#FFFFFF"></FRAME>
+			
+			<FRAME class="fraPage" top="440" left="442" width="80" height="24" background="#FFFFFF"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="24" height="53" foreground="#0055B8" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="440" left="398" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="440" left="542" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			
+			<BUTTON class="btnContinue" top="440" left="845" width="116" height="40" textSize="16" background="#0055B8" gradient="1" foreground="#FFFFFF" textStyle="bold" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

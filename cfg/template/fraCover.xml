@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCover">
+			<FRAME class="fraBackground" width="1280" height="800" background="#AA000000"></FRAME>
+			<LABEL class="lblMessage" top="200" left="200" width="440" height="200" textSize="24" textAlign="center" foreground="#333333"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmMembershipInterface">
+			<FRAME class="fraCoverFrame" width="480" height="800" background="#AA000000"></FRAME>
+<!-- RayHuen 2017-11-07 Start -->		   
+			<FRAME class="fraMembershipInterface" top="0" left="0" width="480" height="800" background="#CCF0FF"></FRAME>
+<!-- RayHuen 2017-11-07 End -->		
+		</FORM>
+	</TEMPLATE>
+</POS>

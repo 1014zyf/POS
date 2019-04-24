@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCheckHistory">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			<FRAME class="fraCheckHistory" top="61" left="31" width="960" height="552"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

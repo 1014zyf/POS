@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmTipsTracking">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>	
+			<FRAME class="fraTipsTracking" top="48" left="0" width="1280" height="750" background="#FAF6F6" cornerRadius="5" style="StockOperationFrame"></FRAME>
+
+			<FRAME class="fraStockEditSequence" top="56" left="128" width="1024" height="640" background="#FFFFFF" cornerRadius="8,8,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style="StockOperationStockEditSequenceFrame"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

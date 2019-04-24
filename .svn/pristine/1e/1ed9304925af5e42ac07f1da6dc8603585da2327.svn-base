@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraLogin">
+			<FRAME class="fraScreenSaver" width="480" height="800" background="#000000"></FRAME>
+			<FRAME class="fraLoginSection" top="75" left="30" width="420" height="650" background="#F0FBFF" stroke="1" strokeColor="#A3B5C1" cornerRadius="10" visible="0"></FRAME>
+			<FRAME class="fraIdPwd" top="0" left="3" width="414" height="310" background="#F0F8F8"></FRAME>
+			<!-- <LABEL class="lblTitle" top="10" left="10" width="860" height="50" foreground="#F0F8F8" background="#F0F8F8" textSize="20" textAlign="center" visible="0"></LABEL> -->
+			<IMAGE class="imgLogo" top="0" left="125" width="0" height="0"></IMAGE>
+			<LABEL class="lblOutlet" top="0" left="5" width="405" height="60" foreground="#575757" textSize="30" textAlign="top,center"></LABEL>
+			<LABEL class="lblID" top="62" left="6" width="120" height="55" foreground="#575757" textSize="24" textAlign="center,right"></LABEL>
+			<TEXTBOX class="txtboxID" top="62" left="130" width="280" height="55" textSize="40" foreground="#000000" cornerRadius="5" stroke="2"></TEXTBOX>
+			<LABEL class="lblPwd" top="122" left="6" width="120" height="55" foreground="#575757" textSize="24" textAlign="center,right"></LABEL>
+			<TEXTBOX class="txtboxPwd" top="122" left="130" width="280" height="55" textSize="40" foreground="#000000" cornerRadius="5" stroke="2"></TEXTBOX>
+			<LABEL class="lblMessage" top="215" left="160" width="120" height="25" foreground="#FF0000" textSize="24" visible="0"></LABEL>
+			<IMAGE class="ImgSelected" top ="180" left="130" width="28" height="30"></IMAGE>
+			<IMAGE class="ImgDeselected" top ="180" left="130" width="28" height="30"></IMAGE>
+			<LABEL class="lblHoldId" top="184" left="160" width="185" height="25" foreground="#575757" textSize="24"></LABEL>
+			<BUTTON class="btnOK" top="248" left="52" width="144" height="56" foreground="#FFFFFF" background="0055B8" textSize="22"></BUTTON>
+			<BUTTON class="btnExit" top="248" left="215" width="144" height="56" foreground="#FFFFFF" background="0055B8" textSize="22"></BUTTON>
+			<FRAME class="fraNumberPad" top="315" left="3" width="414" height="300" background="#F0F8F8"></FRAME>
+			<LABEL class="lblVersion" top="625" left="6" width="405" height="20" foreground="#6F878F" textAlign="center,right"></LABEL>
+			<FRAME class="btnSmartCard" top ="275" left="230" width="60" height="130" foreground="#FFFFFF" background="#1B73A7" gradient="1" cornerRadius="5" stroke="1" strokeColor="#003554" textSize="24"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

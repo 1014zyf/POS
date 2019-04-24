@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCodeReaderPanel">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="768" height="70"></FRAME>
+			<LABEL class="lblMessage" top="65" left="34" width="700" height="60" textSize="24" textAlign="center_vertical" foreground="#333333"></LABEL>
+			<CODEREADER class="codeReader" top="125" left="162" width="444" height="251" background="#E0E0E0"></CODEREADER>
+			<BUTTON class="btnReset" top="400" left="312" width="144" height="56" textSize="22" background="#02428B" gradient="1" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCheckFunction">
+			<FRAME class="fraRightMainFrame" top="0" left="0" height="50" width="480"></FRAME>
+			<LABEL class="lblHeader" top="0" left="0" width="100" height="30" textSize="18" textAlign="center" foreground="#05527E"></LABEL>
+			<FRAME class="fraHeader" top="0" left="0" width="480" height="50" background="#59686F"></FRAME>
+			<FRAME class="fraCheckDetailInfo" top="0" left="0" width="480" height="750" background="#CCF0FF"></FRAME>
+			
+			<FRAME class="fraMainFrame" top="50" left="0" height="800" width="480"></FRAME>
+			<FRAME class="columnView" top="0" left="0" height="612" width="400" background="#00ffff" cornerRadius="8,0,0,0"></FRAME>
+			
+			<FRAME class="fraSeatPanel" top="612" left="0" width="834" height="60" background="#EDEEF4"></FRAME>
+			
+			<!-- <FRAME class="columnView" top="0" height="630" stroke="1" strokeColor="#848484" background="#FFFFFF"></FRAME>
+			<FRAME class="fraSeatPanel" left="0" top="630" height="90" background="#59686F"></FRAME>
+			<BUTTON class="btnOK" top="100" left="1090" width="150" height="30" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnViewBySeat" top="55" left="905" width="130" height="45" stroke="1" strokeColor="#404B4F" foreground="#FFFFFF" background="#1D73A6"></BUTTON>
+			<BUTTON class="btnViewByCourse" top="55" left="1040" width="130" height="45" stroke="1" strokeColor="#404B4F" foreground="#FFFFFF" background="#1D73A6"></BUTTON>
+			<BUTTON class="btnViewWholeCheck" top="55" left="1175" width="100" height="45" stroke="1" strokeColor="#404B4F" foreground="#FFFFFF" background="#1D73A6"></BUTTON>
+			<FRAME class="fraSeparator" width="1" background="#A1B2BA"></FRAME> -->
+		</FRAME>
+	</TEMPLATE>
+</POS>

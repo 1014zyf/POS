@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraLargePopUpPanel">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="400" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<LABEL class="lblDesc" top="79" left="0" width="144" height="56" foreground="#333333"></LABEL>
+			
+			<FRAME class="fraContent" top="135" left="0" width="400" height="520"></FRAME>
+			
+			<FRAME class="fraCoverBackground" top="100" left="0" width="480" height="700" background="#FFFFFF"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

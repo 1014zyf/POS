@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraInsertItem">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="480" height="65"></FRAME>
+			<FRAME class="fraItemList" top="80" left="32" width="416" height="504"></FRAME>
+			<FRAME class="fraSelectedItem" background="#E1ECF8"></FRAME>
+			<FRAME class="fraInsertTab" foreground="#D9D9D9" background="#FFFFFF"></FRAME>
+			<FRAME class="fraOtherItem" background="#FFFFFF"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

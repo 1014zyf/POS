@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraGeneralLookupButton">
+			<FRAME class="fraButHotItem" background="#E1E1E1" foreground="#015384" gradient="1" cornerRadius="5" stroke="1" strokeColor="#868686"></FRAME>
+			<FRAME class="fraButFunction" background="#A80000" foreground="#FFFFFF" gradient="1" cornerRadius="5" stroke="1" strokeColor="#5D0000"></FRAME>
+			<FRAME class="fraButNoFunction" background="#EEEEEE" foreground="#000000" gradient="0" cornerRadius="0" stroke="1" strokeColor="#CCCCCC"></FRAME>
+			<FRAME class="fraButHotModifier" background="#4993C0" foreground="#FFFFFF" gradient="1" cornerRadius="5" stroke="1" strokeColor="#005080"></FRAME>
+			<FRAME class="fraButLookup" background="#34921A" foreground="#FFFFFF" gradient="1" cornerRadius="5" stroke="1" strokeColor="#1C6706"></FRAME>
+			<FRAME class="fraButModifierLookup" background="#4993C0" foreground="#FFFFFF" gradient="1" cornerRadius="5" stroke="1" strokeColor="#005080"></FRAME>
+			<FRAME class="fraButPayment" background="#5A4798" foreground="#FFFFFF" gradient="1" cornerRadius="5" stroke="1" strokeColor="#453774"></FRAME>
+			<FRAME class="fraButSubPanel" background="#34921A" foreground="#FFFFFF" gradient="1" cornerRadius="5" stroke="1" strokeColor="#1C6706"></FRAME>
+			<FRAME class="fraButDiscount" background="#663300" foreground="#FFFFFF" gradient="1" cornerRadius="5" stroke="1" strokeColor="#453774"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

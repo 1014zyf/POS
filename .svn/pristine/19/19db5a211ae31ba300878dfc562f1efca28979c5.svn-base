@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSearchAdvanceOrder">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			
+			<FRAME class="fraSearchInput" top="75" left="30" width="965" height="150" background="#FFFFFF" cornerRadius="8,8,8,8" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			
+			<LABEL class="lblAdvanceOrderDateTitle" top="20" left="20" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#333333"></LABEL>
+			<LABEL class="lblAdvanceOrderDate" top="20" left="180" width="180" height="48" textSize="24" foreground="#333333" textAlign="center_vertical" stroke="1" strokeColor="#979797" cornerRadius="2"></LABEL>
+			<LABEL class="lblAdvanceOrderNameTitle" top="20" left="380" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#333333"></LABEL>
+			<TEXTBOX class="txtboxAdvanceOrderName" top="20" left="530" width="180" height="48" textSize="24" foreground="#333333" background="#FFFFFF" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblAdvanceOrderPhoneTitle" top="80" left="20" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#333333"></LABEL>
+			<TEXTBOX class="txtboxAdvanceOrderPhone" top="80" left="180" width="180" height="48" textSize="24" foreground="#333333" background="#FFFFFF" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblAdvanceOrderDateRangeFromTitle" top="80" left="380" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#333333"></LABEL>
+			<LABEL class="lblAdvanceOrderFromDate" top="80" left="530" width="180" height="48" textSize="24" foreground="#333333" textAlign="center_vertical" stroke="1" strokeColor="#979797" cornerRadius="2"></LABEL>
+			<LABEL class="lblAdvanceOrderDateRangeToTitle" top="80" left="730" width="25" height="50" textSize="20" textAlign="center_vertical" foreground="#333333"></LABEL>
+			<LABEL class="lblAdvanceOrderToDate" top="80" left="770" width="180" height="48" textSize="24" foreground="#333333" textAlign="center_vertical" stroke="1" strokeColor="#979797" cornerRadius="2"></LABEL>
+
+			<BUTTON class="btnReset" top="235" left="610" width="185" height="50" textSize="22" background="#02428B" gradient="1" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnSearch" top="235" left="810" width="185" height="50" textSize="22" background="#02428B" gradient="1" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>		
+
+			<LABEL class="lblDepositDetail" top="260" left="46" width="460" height="25" textSize="24" foreground="#333333" visible="0" textStyle="bold"></LABEL>
+
+			<FRAME class="fraAdvanceOrderListCommonBasket" top="280" left="30" width="965" height="315" visible="0"></FRAME>
+			
+			<FRAME class="fraPage" top="600" left="462" width="72" height="24" background="#FFFFFF"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="24" height="53" foreground="#0055B8" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="600" left="414" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="600" left="558" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+
+		</FRAME>
+	</TEMPLATE>
+</POS>

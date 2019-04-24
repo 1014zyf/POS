@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraESignature">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="479" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			
+			<FRAME class="fraLeftContent" top="55" left="0" width="480" height="745" background="#CEEDFF" cornerRadius="5"></FRAME>
+			<FRAME class="fraRightContent" top="55" left="0" width="480" height="745" background="#CEEDFF" cornerRadius="5"></FRAME>
+			<WEBVIEW class="wbvCheckPreview" top="10" left="10" width="460" height="655"></WEBVIEW>
+			
+			<LABEL class="lblPaymentMethod" top="10" left="10" width="460" height="30" textSize="24" foreground="#015384" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblSignatureUnderline" top="492" left="33" width="414" height="1" textSize="24" background="#999966" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblSignHere" top="492" left="33" width="414" height="50" textSize="24" foreground="#015384" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblCavasBackground" top="50" left="10" width="460" height="495" visible="0" background="#CECECE" cornerRadius="5,5,0,0"></LABEL>
+			<CANVAS class="cvsSignature" top="50" left="10" width="460" height="495" background="#FFFFFF" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></CANVAS>
+			
+			<BUTTON class="btnSignature" top="675" left="10" width="460" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnPrev" top="555" left="10" width="460" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnClear" top="615" left="10" width="460" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnConfirm" top="675" left="10" width="460" height="50" background="#37881F" gradient="1" foreground="#FFFFFF" stroke="1" strokeColor="#868686"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

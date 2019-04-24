@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCheckFunction">
+			<LABEL class="lblHeader" top="0" left="0" width="100" height="30" textSize="18" textAlign="center" foreground="#05527E"></LABEL>
+			<FRAME class="fraMainFrame" top="16" left="22" height="672" width="813"  cornerRadius="8,8,0,0" background="#FFFFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraRightMainFrame" top="16" left="851" height="672" width="406" background="#FFFFFF" cornerRadius="8,8,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			
+			<FRAME class="columnView" top="0" left="0" height="612" background="#FFFFFFFF" cornerRadius="8,0,0,0"></FRAME>
+			<FRAME class="fraCheckDetailInfo" top="0" left="253" width="540" height="676" background="#FFFFFFFF" cornerRadius="0,8,0,0"></FRAME>
+			
+			<FRAME class="fraHeader" top="7" left="0" width="406" height="70" background="#FFFFFF" cornerRadius="8,8,0,0"></FRAME>
+			<FRAME class="fraHeaderUnderLine" top="60" left="0" width="406" height="2" background="#FF999999"></FRAME>
+			<FRAME class="fcnPanel" top="16" left="0" width="406" height="676" background="#FFFFFF" cornerRadius="8,8,0,0" ></FRAME>
+			
+			<FRAME class="fraCheckDiscountInfo" top="310" left="0" width="406" height="360" background="#FFFFFFFF"></FRAME>
+			<!--<FRAME class="fraSeatPanel" top="612" left="0" width="834" height="60" background="#EDEEF4"></FRAME>-->
+			<FRAME class="fraSeatPanel" top="628" left="12" width="834" height="60" background="#EDEEF4"></FRAME>
+			
+			<BUTTON class="btnViewWholeCheck" top="98" left="865" width="379" height="56" cornerRadius="2" foreground="#000000" background="#0055B8" textStyle="bold"></BUTTON>
+			<BUTTON class="btnViewBySeat" top="170" left="865" width="379" height="56" cornerRadius="2" foreground="#000000" background="#0055B8" textStyle="bold"></BUTTON>
+			<BUTTON class="btnViewByCourse" top="242" left="865" width="379" height="56" cornerRadius="2" foreground="#000000" background="#0055B8" textStyle="bold"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

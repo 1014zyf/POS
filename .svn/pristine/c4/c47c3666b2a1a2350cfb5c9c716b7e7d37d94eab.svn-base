@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraDirectReport">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="479" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			
+			<FRAME class="fraContent" top="55" left="0" width="480" height="750"></FRAME>
+			<HORIZONTALLIST class="horListTab" top="0" left="0" width="480" height="55" visible="0"></HORIZONTALLIST>
+			<FRAME class="fraPanelTabBase" top="0" left="0" width="150" height="55"></FRAME>
+			<LABEL class="lblPanelTab" top="0" left="0" width="150" height="50" textSize="20" foreground="#005389" textAlign="center" textStyle="bold"></LABEL>
+			<FRAME class="fraPanelTabUnderline" top="52" left="0" width="150" height="3" background="#1D74A9"></FRAME>
+			<FRAME class="fraPanelTabSeparator" top="56" left="0" width="480" height="2" background="#1D74A9"></FRAME>
+			<WEBVIEW class="wbvReport" top="60" left="5" width="470" height="605"></WEBVIEW>
+			<BUTTON class="butPrint" top="685" left="130" width="215" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraInputBox">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			<FRAME class="fraContent" top="80" left="20" height="600" width="984" background="#FFFFFF" cornerRadius="0,0,0,0"></FRAME>
+			
+			<LABEL class="lblTableNoHeader" top="21" left="16" width="90" height="45" textSize="24" foreground="#333333" textAlign="center_vertical,left"></LABEL>
+			<TEXTBOX class="txtTableNo" top="21" left="100" width="384" height="50" textSize="30" foreground="#333333" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<BUTTON class="btnChkList" top="21" left="514" width="144" height="50" background="#FFFFFF" cornerRadius="2" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<FRAME class="fraBackspace" top="21" left="674" width="144" height="50" background="#FFFFFF" cornerRadius="2" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<IMAGE class="ImgBackspace" top="13" left="60" width="24" height="24"></IMAGE>
+			<BUTTON class="btnLogout" top="21" left="834" width="144" height="50" background="#FFFFFF" cornerRadius="2" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<FRAME class="fraQwertyKeyboard" top="103" left="6" width="984" height="350"></FRAME>
+			<FRAME class="fraOpenedCheckList" width="1024" height="640" background="#FFFFFF" cornerRadius="12,12,0,0" style="ListBackgroundDefaultStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<BUTTON class="btnSwitchKeyboard" top="475" left="16" height="56" width="644" foreground="#717171" background="#FFFFFF" cornerRadius="2" style="AskTableSwtichKeyboardButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnCancel" top="475" left="676" width="144" height="56" background="#A0B3B7" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnOK" top="475" left="836" width="144" height="56" background="#0055B8" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

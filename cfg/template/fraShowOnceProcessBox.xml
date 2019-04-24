@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraShowOnceProcessBox">
+			<LABEL class="lblMessage" top="0" left="0" width="500" height="50" foreground="#FFFFFF" textSize="30" textAlign="center, left"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

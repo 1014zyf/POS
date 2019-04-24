@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraVoidCheckDetail">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="458" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<FRAME class="fraContent" top="53" left="5" width="450" height="180"></FRAME>
+			<LABEL class="lblWaiterHeader" top="0" left="0" width="215" height="30" textSize="20" textAlign="center_vertical,left" textStyle="bold" background="#B2CBDA" foreground="#575757" visible="0" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblCheckNoHeader" top="35" left="0" width="215" height="30" textSize="20" textAlign="center_vertical,left" textStyle="bold" background="#B2CBDA" foreground="#575757" visible="0" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblTableNoHeader" top="70" left="0" width="215" height="30" textSize="20" textAlign="center_vertical,left" textStyle="bold" background="#B2CBDA" foreground="#575757" visible="0" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblCoverHeader" top="105" left="0" width="215" height="30" textSize="20" textAlign="center_vertical,left" textStyle="bold" background="#B2CBDA" foreground="#575757" visible="0" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblCheckTotalHeader" top="140" left="0" width="215" height="30" textSize="20" textAlign="center_vertical,left" textStyle="bold" background="#B2CBDA" foreground="#575757" visible="0" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblWaiter" top="0" left="216" width="234" height="30" textSize="20" textAlign="center_vertical,left" background="#ECF9FF" foreground="#575757" visible="0" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblCheckNo" top="35" left="216" width="234" height="30" textSize="20" textAlign="center_vertical,left" background="#ECF9FF" foreground="#575757" visible="0" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblTableNo" top="70" left="216" width="234" height="30" textSize="20" textAlign="center_vertical,left" background="#ECF9FF" foreground="#575757" visible="0" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblCover" top="105" left="216" width="234" height="30" textSize="20" textAlign="center_vertical,left" background="#ECF9FF" foreground="#575757" visible="0" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblCheckTotal" top="140" left="216" width="234" height="30" textSize="20" textAlign="center_vertical,left" background="#ECF9FF" foreground="#575757" visible="0" padding="0,0,0,5"></LABEL>
+			<BUTTON class="butConfirm" top="230" left="105" width="100" height="40" background="#E0E0E0" gradient="1" foreground="#015384" textSize="22" stroke="1" strokeColor="#868686" visible="0"></BUTTON>
+			<BUTTON class="butCancel" top="230" left="235" width="100" height="40" background="#E0E0E0" gradient="1" foreground="#015384" textSize="22" stroke="1" strokeColor="#868686" visible="0"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

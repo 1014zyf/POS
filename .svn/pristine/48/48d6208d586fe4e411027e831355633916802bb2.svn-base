@@ -1,0 +1,13 @@
+2019-03-26 03:05:15 ERROR: [1.2.24.0]-[sample]-[]-[]-[]-[]-[] Fail to get update_item_stock_qty_status pollings alert
+java.lang.Throwable: 
+	at app.AppGlobal.getStackTrace(AppGlobal.java:544)
+	at app.AppGlobal.writeErrorLog(AppGlobal.java:523)
+	at app.AppBackgroundScheduleJob.run(AppBackgroundScheduleJob.java:248)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+

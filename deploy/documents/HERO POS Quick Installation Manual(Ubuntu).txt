@@ -1,0 +1,333 @@
+HERO Server Installation Quide (Ubuntu)
+---------------------------------------
+
+Table of Content
+================
+
+- General System Installation
+	- Install OS
+	- Create new admin user
+	- Install zip/unzip
+	- Install php5, mysql-server and apache2
+	- Install ioncube loader
+	- Install phpMyAdmin
+	- Install CakePHP
+	- Install Java and Tomcat
+	- Deploy BIRT viewer
+	
+- HERO Server & Application Installation
+	- Install HERO Server
+	- Install HERO Report
+	- Install HERO POS Application Server
+
+
+General System Installation
+===========================	
+
+Install OS
+----------
+	OS :  Ubuntu 12.04.2 LTS (GNU/Linux 3.2.0-23-generic x86_64)
+	
+	
+Create new admin user
+---------------------
+	- Create another admin user named "admin" by:
+		> adduser --ingroup sudo admin 
+		> Enter new UNIX Password
+		> Retype new UNIX Password
+		(* Skip the information input by using the default information)
+		
+		
+Install zip/unzip
+-----------------
+	- Login by user "admin" and run
+		> sudo apt-get install unzip
+		> sudo apt-get install zip
+
+		
+Install php5, mysql-server and apache2
+--------------------------------------
+	- Login by user "admin" and run
+		> sudo apt-get install php5 mysql-server apache2
+		(* You will be asked to enter a password for the mysql root user)
+		> sudo apt-get install php5-mysql   <-- automatically enables your PHP5 installation to work with mysql, o.w. need to edit php.ini
+		> apt-get install php5-mcrypt       <-- To support mcrypt used by phpMyAdmin
+		> apt-get install php5-gd           <-- To support gd
+		
+	- If want to change password of MySQL :
+		> mysqladmin -u root -p'oldpassword' password newpassword
+		
+	- If your website have customized session.save_path, the session files will not be cleaned automatically, should edit /etc/php5/apache2/php.ini
+		session.gc_probability = 1   <--- i.e. 1/1000 chance to check and delete expired session files
+
+	- In case of row-size exceeds limit of 65535 bytes for the combined size of all columns, need to edit /etc/mysql/my.cnf (Refer : http://dev.mysql.com/doc/refman/5.0/en/innodb-restrictions.html)
+			[mysqld]	
+			innodb_file_format = barracuda
+			innodb_file_per_table = 1
+	  Restart mysql by:
+		> service mysql restart
+		
+	- Config /etc/php5/apache2/php.ini
+		expose_php = Off  		
+		
+	- To support mod_rewrite in Apache
+		- Run
+			> sudo a2enmod rewrite      <-- enable mod_rewrite for apache2
+		- Edit file /etc/apache2/sites-available/default and file /etc/apache2/sites-available/default-ssl
+			<Directory /var/www/>
+			...
+			AllowOverride All
+			...
+			</Directory>
+		
+	- Disable HTTP TRACE method of Apache, edit /etc/apache2/sites-available/default and add the line at the end
+			TraceEnable off
+	
+	- Restart apache by
+			> service apache2 restart
+		or
+			> sudo /etc/init.d/apache2 restart
+			
+	- Create a testing page
+		- In directory /var/www, create a file named "phpinfo.php" with following content :
+			<?php
+			phpinfo();
+			?>
+		- Open browser and go to URL : http://[server]/phpinfo.php
+
+		
+Install ioncube loader
+----------------------
+  - Download free loader from http://www.ioncube.com/loaders.php, select package for linux (Linux x86-64)
+  - Upload the contents of this package to /usr/local and extract the file
+  - Under directory /etc/php5/apache2/conf.d, create file "aa_ioncube.ini" with content
+    zend_extension = /usr/local/ioncube/ioncube_loader_lin_5.3.so
+  - Restart apache2
+			
+		
+Install phpMyAdmin
+------------------		
+	- Download latest package from http://www.phpmyadmin.net/home_page/downloads.php, e.g. phpMyAdmin-3.5.7-all-languages.zip
+	- Use FTP tool to transfer to server and move it to directory /var/www
+	- Extract the file by
+	> sudo unzip phpMyAdmin-3.5.7-all-languages.zip
+	- Rename the extracted directory to phpmyadmin
+	- change directory to /var/www/phpmyadmin, copy the file config.sample.inc.php to config.inc.php
+	- edit the file config.inc.php and set 
+		$cfg['blowfish_secret'] = '<something you like>'; 
+	- Open the browser and go to address http://<your server IP>/phpmydmin
+	- Create a new user "admin" and "sdev" with root privileges
+	- Remove users for User "Any", o.w. not able to login by "admin" or "sdev"
+	- In order to deny login by root, edit the file config.inc.php and add following lines
+		$cfg['Servers'][$i]['AllowDeny']['order'] = 'deny,allow';
+		$cfg['Servers'][$i]['AllowDeny']['rules'] = array('deny root from all', 'allow root from localhost');
+	
+
+Install CakePHP
+---------------
+	- Download latest version from http://cakephp.org
+		File : cake version 2.2.X
+
+	- Extract the file to /var/www/cake and rename to  "cake_2_2_X" according to the version no. of the CakePHP
+
+	- For CakePHP 2.2.X version, edit the file /var/www/cake/cake_2_2_X/lib/Cake/Core/App.php
+
+		From:
+			protected static function _map($file, $name, $plugin = null) {
+				$key = $name;
+				if ($plugin) {
+					$key = 'plugin.' . $name;
+				}
+				...
+				if (!$plugin && empty(self::$_map['plugin.' . $name])) {
+					self::$_map[$key] = $file;
+				}
+				...
+			}
+		To :
+			protected static function _map($file, $name, $plugin = null) {
+				$key = $name;
+				if ($plugin) {
+					$key = 'plugin.' . $plugin . '.' . $name;
+				}
+				...
+				if (!$plugin && empty(self::$_map['plugin.' . $plugin . '.' . $name])) {
+					self::$_map[$key] = $file;
+				}
+				....
+			}
+
+		From :
+			protected static function _mapped($name, $plugin = null) {
+				$key = $name;
+				if ($plugin) {
+					$key = 'plugin.' . $name;
+				}
+				return isset(self::$_map[$key]) ? self::$_map[$key] : false;
+			}
+		To : 
+			protected static function _mapped($name, $plugin = null) {
+				$key = $name;
+				if ($plugin) {
+					$key = 'plugin.' . $plugin . '.' . $name;
+				}
+				return isset(self::$_map[$key]) ? self::$_map[$key] : false;
+			}	
+
+
+Install Java and Tomcat
+-----------------------
+	- Login by user "admin"
+		> sudo apt-get install openjdk-7-jre
+		> sudo apt-get install tomcat7
+		> sudo apt-get install tomcat7-admin
+		
+	- Check if JAVA is installed.
+		> java -version	
+
+		
+Deploy BIRT viewer
+------------------
+		
+	- Add Tomcat admin user
+		> sudo vi /etc/tomcat7/tomcat-users.xml
+			<tomcat-users>
+			  ...
+			  <user username="admin" password="Hero1682" roles="manager-gui"/>
+			  ...
+			</tomcat-users>
+	
+	- Restart Tomcat
+		> sudo service tomcat7 restart
+	
+	- Open browser and go to "http://{Birt Viewer Server IP Address}:8080/manager", login with Tomcat admin user just added
+	
+	- In "Deploy" section, "WAR file to deploy", press "Choose File" and choose birt.war, press "Deploy"
+	
+	- Go to http://{Birt Viewer Server IP Address}:8080/birt to verify that BIRT viewer has been installed
+	
+	- Disable Tomcat admin user
+		> sudo vi /etc/tomcat7/tomcat-users.xml
+			<tomcat-users>
+			  ...
+			  <!--user username="admin" password="Hero1682" roles="manager-gui"/-->
+			  ...
+			</tomcat-users>
+	
+	- Restart Tomcat
+		> sudo service tomcat7 restart		
+		
+		
+			
+HERO Server & Application Installation
+======================================
+
+Install HERO Server
+-------------------
+
+	- Create following database by http://localhost/phpmyadmin and import the data into the database
+		gm4g_system
+		gm4g_user
+		gm4g_media
+		gm4g_outlet
+		gm4g_menu
+		gm4g_printing
+		gm4g_pos
+		gm4g_voice_messaging
+		
+	- Create folder "hero" under /var/www folder and extract the gourmate4g source/encoded files to here:
+
+	- Create folder "hero_files" under /var/www folder and create following sub folders :
+		data
+		data/pos_print_formats
+		media
+		print_jobs
+		user_photos
+	  If have existing data files, extract them to corresponding folders.
+
+	- Edit /etc/apache2/sites-available/default, add following line
+		<VirtualHost *:80>
+		...
+		Alias /hero/files/ "/var/www/hero_files/"
+		...
+		</VirtualHost>
+
+	  Restart Apache after edit
+		
+	- Edit the /var/www/hero/webroot/index.php
+		define('ROOT', dirname(dirname(dirname(__FILE__))));
+		...
+		define('APP_DIR', basename(dirname(dirname(__FILE__))));
+		...
+		define('CAKE_CORE_INCLUDE_PATH', '/var/www/cake/cake_2_2_9/lib');
+
+	- Open firefox and go to URL : http://[Server IP]/hero for testing
+
+	- Goto /var/www/, run:
+		chown -R www-data:www-data hero
+		chmod -R 775 
+
+		
+Install HERO Report
+-------------------
+
+	- Create folder "hero_report" under /var/www folder and extract the gm4g_report source/encoded files to here
+
+	- Copy hero_report/Config/config.php.default to hero_report/Config/config.php
+
+	- Edit config.php in hero_report/Config folder
+		$config['System']['running_mode'] = '';
+		$config['System']['report_viewer_path'] = 'http://{Birt Viewer Server IP Address}:8080/birt/frameset';
+		$config['System']['web_service_path'] = 'http://{Hero Server IP Address}/hero';
+	
+	- Copy hero_report/Config/database.php.default to hero_report/Config/database.php
+
+	- Edit the /var/www/hero_report/webroot/index.php
+		define('ROOT', dirname(dirname(dirname(__FILE__))));
+		...
+		define('APP_DIR', basename(dirname(dirname(__FILE__))));
+		...
+		define('CAKE_CORE_INCLUDE_PATH', '/var/www/cake/cake_2_2_9/lib');
+	
+	- Goto /var/www/, run:
+		chown -R www-data:www-data hero_report
+		chmod -R 775 
+
+		
+Install HERO POS Application Server
+-----------------------------------
+
+	- Extract "[Server Package]\hero_pos_X_X_X_X.zip" (according to the latest version of HERO POS application)
+
+	- Create folder "hero_pos" under /var/www folder
+
+	- Copy all the contents under the unzipped folder "hero_pos" to "/var/www/hero_pos"
+
+	- Edit the configuration file /var/www/hero_pos/cfg/config.ini
+		[connection]
+		db_wsdl=<HERO platform web service wsdl>
+		server_ip_address=<HERO POS application server IP address>
+		launcher_port=<Port no. of the launcher>
+		client_starting_port=<Start port no. for client connection>
+		client_port_count=<Number of ports used for client connection>
+
+		e.g.
+		[connection]
+		db_wsdl=http://192.168.7.248/hero/chi/http_interface/
+		server_ip_address=192.168.7.248
+		launcher_port=6001
+		client_starting_port=7001
+		client_port_count=20
+	
+	- Goto /var/www/, run:
+		chown -R www-data:www-data hero_pos
+		chmod -R 775
+		
+	- Unzip the database_script_X_X_X_X.zip
+	
+	- Open browser and go to URL : http://localhost/phpmyadmin
+		Select database "gm4g_pos" and import the data to the tables (pos_functions and pos_system_types) by using the unzipped scripts
+		
+	- Create a job to start the application during startup of the server
+		Add the following line to the /etc/rc.local:
+		cd /var/www/hero_pos/; nohup java -jar -Dfile.encoding=utf-8 hero_pos_launcher.jar &

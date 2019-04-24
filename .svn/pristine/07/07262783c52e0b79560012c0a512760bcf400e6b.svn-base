@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCommonBasketSelection">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			<FRAME class="fraCommonBasket" top="62" left="30" width="960" height="460" visible="0"></FRAME>
+			
+			<BUTTON class="btnSelectAll" top="555" width="144" height="56" background="#FFFFFF" foreground="#666666" textSize="24" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" ></BUTTON>
+			<BUTTON class="btnConfirm" top="555" width="144" height="56" background="#0055B8" foreground="#FFFFFF" textSize="24" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" ></BUTTON>
+			<BUTTON class="btnCancel" top="555" width="144" height="56" background="#5B6F73" foreground="#FFFFFF" textSize="24" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" ></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

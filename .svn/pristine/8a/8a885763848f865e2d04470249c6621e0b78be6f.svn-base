@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+	<TEMPLATE>
+		<FRAME class="fraCheckDetail">
+			<FRAME class="fraTable" top="6" left="11" width="108" height="40" background ="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			
+			<LABEL class="lblTableNoHeader" top="0" left="15" width="60" height="40" textSize="15" textAlign="center_vertical,left" foreground="#FF666666"></LABEL>
+			<LABEL class="lblTableNum" top="0" left="53" width="68" height="40" textAlign="center" textSize="15" foreground="#0461CD"></LABEL>
+			
+			<FRAME class="fraCover" top="6" left="150" width="108" height="40" background ="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblCoverHeader" top="0" left="22" width="60" height="40" textSize="15" textAlign="center_vertical,left" foreground="#FF666666"></LABEL>
+			
+			<LABEL class="lblCoverNum" top="0" left="50" width="68" height="40" textAlign="center" textSize="15" foreground="#0461CD"></LABEL>
+			
+			<FRAME class="fraDetail" top="6" left="289" width="108" height="40" background ="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<IMAGE class="ImgDetailIcon" top="4" left="16" width="36" height="32"></IMAGE>
+			<LABEL class="lblTableDetail" top="0" left="0" width="108" height="40" textSize="15" textAlign="center_vertical,center" foreground="#FF666666"></LABEL>
+			
+			<LABEL class="lblCheckNoHeader" top="70" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL>
+			<LABEL class="lblItemTotalHeader" top="100" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL>
+			<LABEL class="lblServiceChargeHeader" top="130" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL>
+			<LABEL class="lblTaxHeader" top="160" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL>
+			<LABEL class="lblCheckTotalHeader" top="190" left="10" width="100" height="20" visible="0" foreground="#000000"></LABEL> 
+			
+			<LABEL class="lblTableNo" top="10" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblCover" top="40" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblCheckNo" top="70" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblItemTotal" top="100" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblServiceCharge" top="130" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblTax" top="160" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+			<LABEL class="lblCheckTotal" top="190" left="110" width="160" height="20" visible="0" foreground="#000000" textAlign="right"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

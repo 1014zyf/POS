@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraStationInfo">
+			<LABEL class="lblStationNameHeader" top="20" left="16" width="170" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblStationName" top="20" left="186" width="235" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblPriceLevelHeader" top="50" left="16" width="170" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblPriceLevel" top="50" left="186" width="235" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblMenuPeriodHeader" top="80" left="16" width="170" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblMenuPeriod" top="80" left="186" width="235" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblSpecialPeriodHeader" top="110" left="16" width="170" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblSpecialPeriod" top="110" left="186" width="235" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblHolidayHeader" top="140" left="16" width="170" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblHoliday" top="140" left="186" width="235" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblSpecialDayHeader" top="170" left="16" width="170" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblSpecialDay" top="170" left="186" width="235" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblServiceChargeHeader" top="200" left="16" width="170" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblServiceCharge" top="200" left="186" width="235" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblTaxHeader" top="230" left="16" width="170" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblTax" top="230" left="186" width="235" height="22" textSize="16" visible="0" textAlign="center_vertical"></LABEL>
+			<IMAGE class="imgClose" top="17" left="430" width="40" height="40"></IMAGE>
+			
+			<LABEL class="lblStationInfo" top="17" left="18" width="250" height="40" textSize="25" visible="0" textAlign="center-vertical"></LABEL>
+			<LABEL class="lblNewFramePositionForAlertMessage" left="200" width="900" height="645"></LABEL>
+			<FRAME class="fraUnderline" top="60" left="16" width="870" height="1" background="#999999"></FRAME>
+			<LABEL class="lblAlertMesssageLabel" top="265" left="18" width="200" height="40" textSize="25" visible="0" textAlign="center-vertical"></LABEL>
+			<FRAME class="fraUnderlineForAlertMessage" top="303" left="16" width="870" height="1" background="#999999"></FRAME>
+			<FRAME class="fraAlertMessageList" top="307" left="16" width="870" height="284"></FRAME>
+			
+			<FRAME class="fraPage" top="593" left="393" width="74" height="40"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="20" foreground="#015384" textAlign="center"></LABEL>
+			<IMAGE class="ImgPrevPage" top="597" left="329" width="32" height="32" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="597" left="497" width="32" height="32" contentMode="scale_aspect_fit"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

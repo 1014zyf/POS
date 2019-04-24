@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraPreOrderList">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="66"></FRAME>
+			<LABEL class="lblTableHeader" top="136" left="25" width="976" height="36" textSize="20" textAlign="left, center_vertical" foreground="#333333" background="#E1ECF8"></LABEL>
+			<LABEL class="lblNewListTag" top ="74" left="257" width="240" height="50" textSize="24" textAlign="center" foreground="#0055B8" background="#ffffff"></LABEL>
+			<LABEL class="lblUsedListTag" top ="74" left="527" width="240" height="50" textSize="24" textAlign="center" foreground="#999999" background="#ffffff"></LABEL>
+			<FRAME class="fraPreOrderList" top="172" left="25" width="976" height="452" strok="1" background="#ffffff"></FRAME>
+			<FRAME class="fraTagUnderline" top="135" left="25" width="976" height="1" background="#999999"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

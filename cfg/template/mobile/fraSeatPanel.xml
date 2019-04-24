@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSeatPanel">
+			<LABEL class="lblSeatNoHeader" top="0" left="15" height="30" width="150" textSize="25" textAlign="center_vertical,left" foreground="#FFFFFF"></LABEL>
+			<HORIZONTALLIST class="horListSeats" top="35" left="5" width="465" height="60"></HORIZONTALLIST>
+			
+			<FRAME class="fraListSeats" top="35" left="0" width="480" height="50" style="ListBackgroundDefaultStyle"></FRAME>
+			
+			<FRAME class="fraSeatNo" top="0" left="0" width="60" height="50" gradient="1" cornerRadius="2" stroke="1" strokeColor="#005080"></FRAME>
+			<LABEL class="lblSeatNo" textSize="30" textAlign="center" foreground="#FFFFFF" background="#00000000"></LABEL>
+			
+			<LABEL class="lblSelectedSeatNo" foreground="#FFF000" background="#3381B0"></LABEL>
+			<LABEL class="lblUnselectSeatNo" foreground="#FFFFFF" background="#3381B0"></LABEL>
+			
+			<LABEL class="lblCourse" top="0" left="245" height="30" width="225" textSize="25" textAlign="center_vertical,right" foreground="#FFFFFF"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

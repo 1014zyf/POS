@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraStationDetail">
+			<IMAGE class="ImgStationBg" top="0" left="0" width="250" height="180"></IMAGE>
+			<LABEL class="lblStatIdHeader" top="15" left="15" width="100" height="20" value="Station ID:" textSize="15" textAlign="center_vertical,right" foreground="#FFFFFF"></LABEL>
+			<LABEL class="lblPriceLvHeader" top="40" left="15" width="100" height="20" value="Price level:" textSize="15" textAlign="center_vertical,right" foreground="#FFFFFF"></LABEL>
+			<LABEL class="lblMenuHeader" top="60" left="15" width="100" height="20" value="Menu:" textSize="15" textAlign="center_vertical,right" foreground="#FFFFFF"></LABEL>
+			<LABEL class="lblStatId" top="15" left="120" width="100" height="20" textSize="15" textAlign="center_vertical,left" foreground="#FFFFFF"></LABEL>
+			<LABEL class="lblPriceLv" top="40" left="120" width="100" height="20" textSize="15" textAlign="center_vertical,left" foreground="#FFFFFF"></LABEL>
+			<LABEL class="lblMenu" top="60" left="120" width="100" height="20" textSize="15" textAlign="center_vertical,left" foreground="#FFFFFF"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

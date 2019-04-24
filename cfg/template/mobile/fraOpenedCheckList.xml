@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOpenedCheckList">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="458" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<FRAME class="fraCheckListCommonBasket" top="65" left="2" width="458" height="655"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

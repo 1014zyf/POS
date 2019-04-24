@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCommonBasketSection">
+			<LABEL class="sectionTitle" height="40" textSize="22" textAlign="center_vertical,left" foreground="#FFFFFF"></LABEL>
+			<FRAME class="fraCommonBasketCell"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

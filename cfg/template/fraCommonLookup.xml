@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCommonLookup">
+			<FRAME class="fraError" top="0" left="62" width="900" height="30" background="#AA565553" visible="0" cornerRadius="3"></FRAME> 
+			<IMAGE class="imgError" top="5" left="5" width="20" height="20"></IMAGE>
+			<LABEL class="lblErrorDesc" top="0" left="0" width="1180" height="30" foreground="#FFFFFF" textSize="16" textAlign="center"></LABEL>
+			
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			
+			<IMAGE class="imgItem" top="79" left="24" width="150" height="100" background="#00FFFFFF" visible="0" contentMode="scale_aspect_fit_center" cornerRadius="5"></IMAGE>
+			<LABEL class="lblDescBar" top="79" left="170" width="800" height="33" textSize="24" foreground="#333333" textAlign="center_vertical" style="CommonLookupHeaderDescStyle"></LABEL>
+			<HORIZONTALLIST class="horListSelectedItems" top="120" left="104" width="800" height="56" visible="0"></HORIZONTALLIST>
+			<FRAME class="fraSelectedItem" top="0" left="5" width="144" height="56" background="#02428B" gradient="1" cornerRadius="2" stroke="1" strokeColor="#14000000" style="CommonLookupSelectedButtonStyle"></FRAME>
+			<BUTTON class="butSelectedItem" background="#02428B" foreground="#FFFFFF" textSize="16"  gradient="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<IMAGE class="imgDeleteSelectedItem" top="16" left="113" width="24" height="24" contentMode="scale_aspect_fit_center"></IMAGE>
+			<FRAME class="fraPageContainer" top="183" left="24" width="976" height="500"></FRAME>
+			<FRAME class="fraPageContainerContent" top="0" left="24" width="976" height="300"></FRAME>
+			<LABEL class="lblMin" top="8" left="16" width="120" height="20" visible="0" textAlign="center_vertical" textSize="14" foreground="#999999" style="CommonLookupSelectionMaxSelectedRowStyle"></LABEL>
+			<LABEL class="lblMax" top="8" left="129" width="120" height="20" visible="0" textAlign="center_vertical" textSize="14" foreground="#999999" style="CommonLookupSelectionMaxSelectedRowStyle"></LABEL>
+			<LABEL class="lblSelectedAmount" top="8" left="242" width="120" height="20" visible="0" textAlign="center_vertical" textSize="14" foreground="#999999" style="CommonLookupSelectionMaxSelectedRowStyle"></LABEL>
+			<LABEL class="lblMustChoose" top="8" left="355" width="120" height="20" visible="0" textAlign="center_vertical" textSize="14" foreground="#999999" style="CommonLookupSelectionMaxSelectedRowStyle"></LABEL>
+			
+			<FRAME class="fraCommonLookupButtons" top="20" left="0" width="976" height="305" background="#FFFFFF"></FRAME>
+			<FRAME class="fraPageButton" top="574" left="427" width="160" height="24" style="CommonLookupButtonBackgroundStyle"></FRAME>
+			<IMAGE class="ImgPrevPage" top="0" left="0" width="24" height="24" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblPage" top="0" left="24" width="112" height="24" textSize="24" foreground="#005080" textAlign="center"></LABEL>
+			<IMAGE class="ImgNextPage" top="0" left="136" width="24" height="24" contentMode="scale_aspect_fit_center"></IMAGE>
+			<BUTTON class="butFinish" top="560" left="856" width="144" height="56" background="#02428B" foreground="#FFFFFF" textSize="22" gradient="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style="CommonLookupButtonStyle"></BUTTON>
+			<BUTTON class="butBack" top="560" left="24" width="144" height="56" background="#5B6F73" foreground="#FFFFFF" textSize="22"  gradient="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" visible="0"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

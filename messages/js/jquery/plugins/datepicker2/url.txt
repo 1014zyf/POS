@@ -1,0 +1,67 @@
+http://kelvinluck.com/assets/jquery/datePicker/v2/demo/
+
+Version 2009-02-19 03:46:27 
+
+Bug found for 2009-02-19
+-------------------------
+The calendar cannot display the Month title correctly. This problem not found in the older version
+
+Line 973, under function _renderCalendar : function() :
+Changed from
+	$('h2', this.context).html((new Date(this.displayedYear, this.displayedMonth, 1)).asString($.dpText.HEADER_FORMAT));
+to
+	$('h2', this.context).html(Date.monthNames[this.displayedMonth] + ' ' + this.displayedYear);
+
+Bug found for 2011-08-09
+-------------------------
+The calendar causes javascript error in IE9.
+
+jquery.bgiframe.js Line 74
+Changed from
+	if ( $.browser.msie && /6.0/.test(navigator.userAgent) ) {
+to
+	if ( $.browser.msie && /msie 6\.0/i.test(navigator.userAgent) ) {
+
+Ref: http://stackoverflow.com/questions/6424526/bgiframe-plugin-causes-error-in-ie9
+
+	
+
+For the CSS, changed :
+----------------------
+table.jCalendar th {
+	font-size: 10px;
+	padding: 3px 1px;
+	border-width: 0px;
+}
+
+table.jCalendar td {
+	font-size: 10px;
+	border-width: 0px;
+}
+
+/* located in demo.css and creates a little calendar icon
+ * instead of a text link for "Choose date"
+ */
+a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(../../js/jquery/plugins/datepicker2/calendar.png) no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+
+/* makes the input field shorter once the date picker code
+ * has run (to allow space for the calendar icon
+ */
+input.dp-applied {
+	width: 140px;
+	float: left;
+}

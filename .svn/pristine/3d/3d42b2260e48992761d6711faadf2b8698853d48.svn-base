@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOrderingMenuLookup">
+			<FRAME class="fraTitleBar" top="1" left="1" width="478" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<LABEL class="lblLookupPath" top="0" left="20" width="440" height="50" textSize="22" foreground="#FFFFFF" textAlign="center"></LABEL>
+			<LABEL class="lblPage" top="350" left="420" width="60" height="50" textSize="18" foreground="#FFFFFF" background="#30000000" textAlign="center"></LABEL>
+			<FRAME class="fraButClose" top="5" left="432" width="50" height="40" foreground="#FFFFFF" background="#00000000"></FRAME>
+			<FRAME class="fraButBack" top="5" left="0" width="50" height="40" foreground="#FFFFFF" background="#00000000"></FRAME>
+			<IMAGE class="ImgPrevPage" top="150" left="9" width="40" height="100" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="150" left="435" width="40" height="100" contentMode="scale_aspect_fit"></IMAGE>
+			<FRAME class="fraLooupButton"></FRAME>
+			<FRAME class="fraPanel" top="50" left="1" width="480" height="349" background="#CEEDFF" cornerRadius="0,0,5,5"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

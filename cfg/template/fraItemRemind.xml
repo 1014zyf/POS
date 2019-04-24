@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraItemRemind">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="820" height="65"></FRAME>
+			<BUTTON class="btnBackToOrder" top="80" left="488" width="144" height="56" background="#FFFFFF" gradient="1" foreground="#666666" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnSendCheck" top="80" left="652" width="144" height="56" background="#FFFFFF" gradient="1" foreground="#666666" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<FRAME class="fraItemList" top="160" left="24" width="772" height="460" background="#FFFFFF" cornerRadius="5,5,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraPage" top="670" left="403" width="74" height="40"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="18" foreground="#015384" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="670" left="309" width="94" height="40" contentMode="scale_aspect_fit" stroke="1" strokeColor="#868686"></IMAGE>
+			<IMAGE class="ImgNextPage" top="670" left="477" width="94" height="40" contentMode="scale_aspect_fit" stroke="1" strokeColor="#868686"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>
+
+

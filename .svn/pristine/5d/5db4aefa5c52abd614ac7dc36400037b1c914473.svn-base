@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOrderingBasketCell">
+			<IMAGE class="ImgAddQty" top="0" left="0" width="45" height="45"></IMAGE>
+			<LABEL class="lblItemSeq" top ="11" left="14" width="24" height="20" textSize="15" textAlign="center" foreground="#666666" ></LABEL>
+			
+			<LABEL class="lblAddQty" top="5" left="277" width="35" height="32" textSize="28" padding="0,0,5,0" textAlign="center" background="#F1F2F8" foreground="#5B6F73" cornerRadius="0,8,8,0"></LABEL>
+			<LABEL class="lblQtyBg" top ="5" left="248" width="35" height="32" background="#F1F2F8"></LABEL>
+			<LABEL class="lblQuantity" top ="11" left="255" width="24" height="20" textSize="16" textAlign="center" background="#FFFFFF" foreground="#666666" ></LABEL>
+			<LABEL class="lblTempQuantity" top ="11" left="255" width="24" height="20" textSize="16" textAlign="center" foreground="#666666" ></LABEL>
+			<IMAGE class="ImgMinusQty" top="0" left="95" width="45" height="45"></IMAGE>
+			<LABEL class="lblMinusQty" top="5" left="218" width="35" height="32" textSize="28" padding="0,0,5,0" textAlign="center" background="#F1F2F8" foreground="#5B6F73" cornerRadius="8,0,0,8"></LABEL>
+			
+			<LABEL class="lblModifier" top ="0" left="0" width="180" height="20" textSize="15" textAlign="center_vertical,left"></LABEL>
+			<IMAGE class="ImgSelected" top ="0" left="8" width="24" height="43" contentMode="scale_aspect_fit_center"></IMAGE>
+			<IMAGE class="ImgDeselected" top = "0" left="8" width="24" height="43" contentMode="scale_aspect_fit_center"></IMAGE>
+			
+			<LABEL class="lblAddTaxSc" top ="0" left="14" width="180" height="20" textSize="15" textAlign="center_vertical,left" foreground="#7F7F7F"></LABEL>
+			<LABEL class="lblWaiveTaxSc" top ="0" left="14" width="180" height="20" textSize="15" textAlign="center_vertical,left" foreground="#7F7F7F"></LABEL>
+			<LABEL class="lblModifierDiscount" top ="0" left="14" width="180" height="20" textSize="15" textAlign="center_vertical,left" foreground="#999999" background="#00000000"></LABEL>
+			<FRAME class="fraModifierList" top ="35" left="14" width="280" height="0" textSize="12"  textAlign="center_vertical,left" foreground="#999999" background="#00000000" ></FRAME>
+			<LABEL class="lblDescription" top ="0" left="14" width="180" height="43" textSize="15" textAlign="center_vertical,left" foreground="#333333"></LABEL>
+			
+			<LABEL class="lblDescriptionInSelection" top ="0" left="52" width="180" height="43" textSize="15" textAlign="center_vertical,left" foreground="#333333"></LABEL>
+			
+			<LABEL class="lblInfo" top ="0" left="14" width="180" height="20" textSize="15" textAlign="center_vertical,left" foreground="#0055B8"></LABEL>
+			<LABEL class="lblPantryMessage" top ="0" left="14" width="180" height="20" textSize="15" textAlign="center_vertical,left" foreground="#C026C9"></LABEL>
+			<FRAME class="lblDisplayInformation" top ="45" left="14" width="280" height="0" textAlign="center_vertical,left" foreground="#999999" background="#00000000" ></FRAME>
+			<LABEL class="lblPrice" top ="0" left="320" width="72" height="47" textSize="15" textAlign="center_vertical,right" foreground="#333333" style="OrderingBasketPriceStyle" textStyle="bold"></LABEL>
+			
+			<LABEL class="lblChildItemColor" top ="16" left="325" width="20" height="0" foreground="#96B8BE"></LABEL>
+			
+			<BUTTON class="butDelete" top="7" left="325" width="70" height="30" background="#DCDCDC" style="OrderingBasketButtonStyle"></BUTTON>
+			<FRAME class="fraOrderingBasketChildItemCell" left="0" width="400" height="43" background="#FFFFFF"></FRAME>
+			<FRAME class="fraOrderingBasketOldChildItemCell" left="0" width="400" height="43" background="#E1ECF8"></FRAME>
+			<FRAME class="fraOrderingBasketModifierCell" left="0" width="400" height="43" background="#E1EE5B"></FRAME>
+			
+			<FRAME class="fraOrderingBasketUnderline" top="42" left="8" width="390" height="1" background="#DDDDDD"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

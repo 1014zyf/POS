@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraAdjustTips">
+			<FRAME class="fraTitleHeader" left="5" top="5" width="450" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			
+			<FRAME class="fraLeftPanel" top="60" left="5" width="450" height="200"></FRAME>
+			
+			<FRAME class="fraPaymentsBasket" top="0" left="0" width="450" height="190" background="#1D74A9"></FRAME>
+			<FRAME class="fraRightPanel" top="260" left="5" width="450" height="550"></FRAME>
+			
+			<LABEL class="lblCheckInfo" top="0" left="5" width="400" height="25" textSize="20" foreground="#1D74A9"></LABEL>
+			<FRAME class="lblCheckInfoUnderLineTop" top="5" left="5" width="200" height="6" background="#1D74A9"></FRAME>
+			<FRAME class="lblCheckInfoUnderLineBottom" top="30" left="5" width="450" height="2" background="#1D74A9"></FRAME>
+			<LABEL class="lblCheckNumberLabel" top="35" left="5" width="150" height="25" textSize="20" foreground="#000000"></LABEL>
+			<LABEL class="lblCheckNumber" top="35" left="160" width="200" height="25" textSize="20" foreground="#000000"></LABEL>
+			<LABEL class="lblTableNumberLabel" top="65" left="5" width="150" height="25" textSize="20" foreground="#000000"></LABEL>
+			<LABEL class="lblTableNumber" top="65" left="160" width="150" height="25" textSize="20" foreground="#000000"></LABEL>
+			<LABEL class="lblCheckCoverLabel" top="95" left="5" width="150" height="25" textSize="20" foreground="#000000"></LABEL>
+			<LABEL class="lblCheckCover" top="95" left="160" width="200" height="25" textSize="20" foreground="#000000"></LABEL>
+			<LABEL class="lblCheckTotalLabel" top="125" left="5" width="150" height="25" textSize="20" foreground="#000000"></LABEL>
+			<LABEL class="lblCheckTotal" top="125" left="160" width="200" height="25" textSize="20" foreground="#000000"></LABEL>
+			
+			<BUTTON class="butSave" top="160" left="25" width="200" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="butExit" top="160" left="230" width="200" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<FRAME class="fraNumberPad" top="220" left="5" width="450" height="280"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

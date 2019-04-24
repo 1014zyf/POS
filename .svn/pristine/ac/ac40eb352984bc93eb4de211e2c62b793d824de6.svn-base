@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCreditCardOperation">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="774" height="70"></FRAME>
+			<FRAME class="fraInfoUnderline" left="32" top="0" width="705" height="3" background="#D8D8D8"></FRAME>
+			<LABEL class="lblValue1Header" top="78" left="33" width="300" height="33" textSize="24" foreground="#333333" textAlign="left" visible="0"></LABEL>
+			<LABEL class="lblValue1Value" top="78" left="397" width="300" height="33" textSize="24" foreground="#333333" textAlign="left" visible="0"></LABEL>
+			<LABEL class="lblValue2Header" top="129" left="33" width="300" height="33" textSize="24" foreground="#333333" textAlign="left" visible="0"></LABEL>
+			<LABEL class="lblValue2Value" top="129" left="397" width="300" height="33" textSize="24" foreground="#333333" textAlign="left" visible="0"></LABEL>
+			<LABEL class="lblValue3Header" top="180" left="33" width="300" height="33" textSize="24" foreground="#333333" textAlign="left" visible="0"></LABEL>
+			<LABEL class="lblValue3Value" top="180" left="397" width="300" height="33" textSize="24" foreground="#333333" textAlign="left" visible="0"></LABEL>
+			<LABEL class="lblInformation" top="305" left="159" width="456" height="66" textSize="24" foreground="#333333" textAlign="left" visible="0"></LABEL>
+			<BUTTON class="btnCancel" top="402" left="315" width="144" height="56" background="#0055B8" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

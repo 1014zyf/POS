@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/java-json.jar"/>
+	<classpathentry kind="lib" path="lib/ksoap2-android-assembly-3.0.0-RC.4-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-2.1.jar"/>
+	<classpathentry kind="lib" path="lib/xom-1.2.8.jar"/>
+	<classpathentry kind="lib" path="lib/gettext-commons-0.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/WinRun4J.jar"/>
+	<classpathentry kind="lib" path="lib/bcprov-jdk15on-150.jar"/>
+	<classpathentry kind="lib" path="lib/xstream-1.4.7.jar"/>
+	<classpathentry kind="lib" path="lib/jssc.jar"/>
+	<classpathentry kind="lib" path="lib/amqp-client-4.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-simple-1.7.22.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/httpclient_lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient_lib/fluent-hc-4.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient_lib/httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient_lib/httpclient-cache-4.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient_lib/httpcore-4.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient_lib/httpmime-4.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-mapper-asl-1.9.13.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

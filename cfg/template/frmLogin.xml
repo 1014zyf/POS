@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmLogin">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#FFEDEEF4"></FRAME>
+			<IMAGE class="imgHeroLogo" top="5" left="548" width="185" height="67"></IMAGE>
+			<FRAME class="fraLogin" top="0" left="0" width="1280" height="800" background="#00F0FBFF" visible="0"></FRAME>
+			<IMAGE class="imgShijiLogo" top="700" left="1039" width="62" height="33"></IMAGE>
+			<FRAME class="fraLogoSeparator" top="696" left="1117" width="2" height="39" background="#DDDDDD"></FRAME>
+			<IMAGE class="imgInfrasysLogo" top="695" left="1140" width="118" height="41"></IMAGE>
+			<LABEL class="lblLicense" top="680" left="900" width="550" height="64" foreground="#FF717171" textSize="16" textAlign="bottom,right"></LABEL>
+		</FORM>
+	</TEMPLATE>
+</POS>

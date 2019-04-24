@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOrderingBasketSection">
+			<LABEL class="lblSectionTitle" top="0" left="4" width="406" height="40" textSize="15" textAlign="center_vertical,center" foreground="#999999" style="OrderingBasketTitleStyle"></LABEL>
+			<FRAME class="fraOrderingBasketCell" top="0" left="0" width="400" height="43" background="#FFFFFF"></FRAME>
+			<FRAME class="fraOrderingBasketOldCell" top="1" left="0" width="400" height="43" background="#E1ECF8"></FRAME>
+			<LABEL class="lblBasketIndicator" top="0" left="4" width="406" height="40" textSize="15" textAlign="center_vertical,center" foreground="#333333" background="#FFFF00" style="OrderingBasketTitleStyle"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

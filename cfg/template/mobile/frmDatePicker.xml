@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmDatePicker">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraDatePicker" top="260" left="30" width="420" height="280" background="#CEEDFF" stroke="1" strokeColor="#FFFFFF" visible="0" cornerRadius="5"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

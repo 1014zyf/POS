@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCheckReview">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="448" height="65"></FRAME>
+			<BUTTON class="btnPrintCheck" width="144" height="56" background="#02428B" gradient="1" foreground="#FFFFFF" cornerRadius="2"></BUTTON>
+			<WEBVIEW class="wbvCheck" top="80" left="34" width="380" height="570" background=""></WEBVIEW>
+		</FRAME>
+	</TEMPLATE>
+</POS>

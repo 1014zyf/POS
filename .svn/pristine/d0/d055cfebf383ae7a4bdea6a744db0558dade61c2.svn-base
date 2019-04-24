@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSearchItem">
+			<!-- <LABEL class="lblHeader" top="0" left="0" width="880" height="40" foreground="#FFFFFF" textSize="18" textAlign="center" background="#015384"></LABEL> -->
+			<FRAME class="fraTitleHeader" left="0" top="0" width="480" height="50" background="#015384"></FRAME>
+			
+			
+			<TEXTBOX class="txtboxSearchValue" top="60" left="5" width="250" height="40" textSize="18" foreground="#000000" background="#BFD7E1" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<BUTTON class="btnSearchByName" top="60" left="260" width="100" height="40" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnShowAllResult" top="60" left="365" width="100" height="40" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnSearchByDepartment" top="105" left="5" width="180" height="40" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnSearchByCategory" top="105" left="190" width="180" height="40" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			
+			<FRAME class="fraItemList" top="150" left="5" width="470" height="480"></FRAME>
+			
+			<FRAME class="fraPage" top="635" left="205" width="71" height="38"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="18" foreground="#015384" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="635" left="115" width="90" height="38" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="635" left="276" width="90" height="38" contentMode="scale_aspect_fit"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

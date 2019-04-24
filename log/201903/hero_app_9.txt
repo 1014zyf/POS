@@ -1,0 +1,15 @@
+2019-03-14 04:25:20 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Function: login
+2019-03-14 04:25:20 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Open new table 9#
+2019-03-14 04:25:24 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Open new table 9#
+2019-03-14 04:25:24 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Click back button in station info bar
+2019-03-14 04:25:28 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Open new table 9#
+2019-03-14 04:25:28 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Click back button in station info bar
+2019-03-14 04:25:30 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Open new table 9#
+2019-03-14 04:25:30 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Click back button in station info bar
+2019-03-14 04:25:32 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Function: cancel
+2019-03-14 04:25:32 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Open new table 9#
+2019-03-14 04:25:35 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Open new table 9#
+2019-03-14 04:25:35 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Click back button in station info bar
+2019-03-14 04:30:18 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Function: login
+2019-03-14 04:31:05 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Open old table 1
+2019-03-14 04:31:07 INFO: [1.2.24.0]-[]-[The Hong Kong Hotel]-[Infrasys Restaurant ]-[john cy test]-[9]-[1] Click back button in station info bar

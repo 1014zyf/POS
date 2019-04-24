@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOrderingBasketExtraInfo">
+			<LIST class="listOrderingBasketExtraInfo" left="0" height="28" top="0" background="#FFFFFF"></LIST>
+			<FRAME class="fraExtraInfoContentRow" top="0" background="#FFFFFF"></FRAME>
+			<LABEL class="lblExtraInfoCols" top="0" left="0" textSize="15" textAlign="center_vertical,left" foreground="#000000" background="#FFFFFF"></LABEL>
+			<IMAGE class="imgExtraInfoTitlePull" top="0" width="25" height="25" contentMode="scale_aspect_fit_center"></IMAGE>
+			<BUTTON class="btnExtraInfoTitlePull" top="0" width="50" contentMode="scale_aspect_fit_center"></BUTTON>
+			<FRAME class="fraExtraInfoBottomLine" height="1" background="#999999"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

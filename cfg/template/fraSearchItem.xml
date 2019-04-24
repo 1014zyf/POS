@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSearchItem">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="812" height="65"></FRAME>
+			
+			<TEXTBOX class="txtboxSearchValue" top="83" left="32" width="204" height="48" textSize="18" foreground="#000000" background="FFFFFF" stroke="1" strokeColor="#828884"></TEXTBOX>
+			<BUTTON class="btnSearchByName" top="79" left="252" width="124" height="56" background="#FFFFFF"  strokeColor="#868686" style="SearchItemButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnSearchByDepartment" top="79" left="532" width="124" height="56" background="#FFFFFF" strokeColor="#868686" style="SearchItemButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnSearchByCategory" top="79" left="672" width="124" height="56" background="#FFFFFF" strokeColor="#868686" style="SearchItemButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnShowAllResult" top="79" left="392" width="124" height="56" background="#FFFFFF" strokeColor="#868686" style="SearchItemButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>	 
+			<FRAME class="fraItemList" top="140" left="32" width="748" height="480"></FRAME>
+			<BUTTON class="btnSearchByPanel" top="79" left="392" width="124" height="56" background="#FFFFFF" strokeColor="#868686" style="SearchItemButtonStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<FRAME class="fraPage" top="615" left="373" width="74" height="40"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="18" foreground="#015384" textAlign="center"></LABEL>
+			<IMAGE class="ImgPrevPage" top="620" left="309" width="32" height="32" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="620" left="477" width="32" height="32" contentMode="scale_aspect_fit"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

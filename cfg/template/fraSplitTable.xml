@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSplitTable">
+			<FRAME class="fraTitleBar" top="1" left="1" height="50" width="1258" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<LABEL class="lblTitle" top="0" left="0" width="1258" height="50" textSize="24" foreground="#FFFFFF" textAlign="center" visible="0"></LABEL>
+			<FRAME class="fraButClose" top="5" left="1198" width="55" height="40"></FRAME>
+			
+			<FRAME class="fraLeftContent" top="16" left="16" width="813" height="672" background="#FFFFFFFF" cornerRadius="5,5,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<HORIZONTALLIST class="horListTable" top="0" left="0" width="813" height="64" background="#FFFFFF" visible="0"></HORIZONTALLIST>
+			
+			<FRAME class="fraSelectedTable" top="10" left="16" width="108" height="44" background="#348100" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" stroke="10" strokeColor="#000461CD"></FRAME>
+			
+			<FRAME class="columnView" top="0" left="0" height="608" background="#FFFFFF"></FRAME>
+			
+			<FRAME class="fraFunction" top="16" left="851" width="406" height="672" background="#FFFFFF" cornerRadius="5,5,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LIST class="listFunction" top="6" left="22" width="362" height="400" visible="0" background="#FFFFFF"></LIST>
+			<BUTTON class="btnFunction" top="16" left="0" width="362" height="54" background="#0461CD" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" textStyle="bold"></BUTTON>
+			
+			<BUTTON class="btnAskQty" top="532" left="22" width="362" height="54" background="#E0E0E0" foreground="#015384" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" textStyle="bold"></BUTTON>
+			<BUTTON class="btnClose" top="602" left="22" width="362" height="54" background="#0461CD" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" textStyle="bold"></BUTTON>
+			<!-- <BUTTON class="btnEqualSplit" top="600" left="10" width="150" height="55" background="#E0E0E0" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON> -->
+		</FRAME>
+	</TEMPLATE>
+</POS>

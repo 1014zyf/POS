@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraTipsTracking">
+			<FRAME class="fraLeftContent" top="158" left="23" width="810" height="534" background="#FFFFFF" cornerRadius="10,10,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraTransactionList" top="21" left="10" width="790" height="454"></FRAME>
+
+			<FRAME class="fraHeader" top="16" left="23" width="1234" height="124" background="#01000000" cornerRadius="15,15,15,15" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="headerTipsIn" top="16" left="23" width="220" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,left" textStyle="bold" padding="0,5,0,10" cornerRadius="10,0,0,0"></LABEL>
+			<LABEL class="headerSCIn" top="59" left="23" width="220" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,left" textStyle="bold" padding="0,5,0,10"></LABEL>
+			<LABEL class="headerDirectTipsIn" top="102" left="23" width="220" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,left" textStyle="bold" padding="0,5,0,10" cornerRadius="0,0,0,10"></LABEL>
+			<LABEL class="headerTipsFromOthers" top="16" left="377" width="345" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,left" textStyle="bold" padding="0,5,0,10"></LABEL>
+			<LABEL class="headerSCFromOthers" top="59" left="377" width="345" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,left" textStyle="bold" padding="0,5,0,10"></LABEL>
+			<LABEL class="headerDirectTipsFromOthers" top="102" left="377" width="345" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,left" textStyle="bold" padding="0,5,0,10"></LABEL>
+			<LABEL class="headerTipsBal" top="16" left="856" width="270" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,left" textStyle="bold" padding="0,5,0,10"></LABEL>
+			<LABEL class="headerSCBal" top="59" left="856" width="270" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,left" textStyle="bold" padding="0,5,0,10"></LABEL>
+			<LABEL class="headerDirectTipsBal" top="102" left="856" width="270" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,left" textStyle="bold" padding="0,5,0,10"></LABEL>
+
+			<LABEL class="lblTipsIn" top="16" left="240" width="134" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,right" padding="0,5,0,10"></LABEL>
+			<LABEL class="lblSCIn" top="59" left="240" width="134" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,right" padding="0,5,0,10"></LABEL>
+			<LABEL class="lblDirectTipsIn" top="102" left="240" width="134" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,right" padding="0,5,0,10"></LABEL>
+			<LABEL class="lblTipsFromOthers" top="16" left="719" width="134" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,right" padding="0,5,0,10"></LABEL>
+			<LABEL class="lblSCFromOthers" top="59" left="719" width="134" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,right" padding="0,5,0,10"></LABEL>
+			<LABEL class="lblDirectTipsFromOthers" top="102" left="719" width="134" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,right" padding="0,5,0,10"></LABEL>
+			<LABEL class="lblTipsBal" top="16" left="1123" width="134" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,right" padding="0,5,0,10" cornerRadius="0,10,0,0"></LABEL>
+			<LABEL class="lblSCBal" top="59" left="1123" width="134" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,right" padding="0,5,0,10"></LABEL>
+			<LABEL class="lblDirectTipsBal" top="102" left="1123" width="134" height="40" textSize="18" background="#E1ECF8" textAlign="center_vertical,right" padding="0,5,0,10" cornerRadius="0,0,10,0"></LABEL>
+
+			<IMAGE class="ImgTipsFromOthersInfo" top="8" left="13" width="24" height="24" contentMode="SCALE_ASPECT_FIT"></IMAGE>
+			<FRAME class="fraTipsFromOthersInfo" top="16" left="625" width="50" height="40"></FRAME>
+			<BUTTON class="btnAddEmployee" top="461" left="16" width="172" height="58" foreground="#FFFFFF" background="#0055B8" gradient="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnDeleteEmployee" top="461" left="210" width="172" height="58" foreground="#999999" background="#FFFFFF" gradient="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnDirectTipsIn" top="461" left="404" width="172" height="58" foreground="#FFFFFF" background="#0055B8" gradient="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<LABEL class="lblPage" top="481" left="643" width="100" height="24" textSize="24" foreground="#015384" textAlign="center"></LABEL>
+			<IMAGE class="ImgPrevPage" top="8" left="14" width="24" height="24" contentMode="SCALE_ASPECT_FIT"></IMAGE>
+			<IMAGE class="ImgNextPage" top="8" left="14" width="24" height="24" contentMode="SCALE_ASPECT_FIT"></IMAGE>
+			<FRAME class="fraPrevPage" top="474" left="590" width="52" height="40"></FRAME>
+			<FRAME class="fraNextPage" top="474" left="744" width="52" height="40"></FRAME>
+
+			<BUTTON class="btnSwitchOutlet" top="47" left="1067" width="144" height="56" background="#FFFFFF" gradient="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<FRAME class="fraRightContent" top="158" left="851" width="406" height="534" background="#FFFFFF" cornerRadius="10,10,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblEmployee" top="15" left="40" width="328" height="40" textSize="20" textAlign="center_vertical,left"></LABEL>
+			<LABEL class="lblOutlet" top="63" left="40" width="328" height="40" textSize="20" textAlign="center_vertical,left"></LABEL>
+			<BUTTON class="btnSave" top="113" left="210" width="144" height="56" foreground="#999999" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnExit" top="113" left="50" width="144" height="56" foreground="#FFFFFF" background="#5B6F73" gradient="1" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<FRAME class="fraNumberPad" top="188" left="10" width="390" height="330" background="#FFFFFF"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

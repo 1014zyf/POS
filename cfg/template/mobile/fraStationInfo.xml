@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraStationInfo">
+			<IMAGE class="imgBackground" width="380" height="260"></IMAGE>
+			<LABEL class="lblStationNameHeader" top="20" left="10" width="130" height="30" textSize="20" visible="0" textAlign="center" background="#E6E6E6"></LABEL>
+			<LABEL class="lblStationName" top="20" left="145" width="235" height="30" textSize="20" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblPriceLevelHeader" top="53" left="10" width="130" height="30" textSize="20" visible="0" textAlign="center" background="#E6E6E6"></LABEL>
+			<LABEL class="lblPriceLevel" top="53" left="145" width="235" height="30" textSize="20" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblMenuPeriodHeader" top="86" left="10" width="130" height="30" textSize="20" visible="0" textAlign="center" background="#E6E6E6"></LABEL>
+			<LABEL class="lblMenuPeriod" top="86" left="145" width="235" height="30" textSize="20" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblSpecialPeriodHeader" top="119" left="10" width="130" height="30" textSize="20" visible="0" textAlign="center" background="#E6E6E6"></LABEL>
+			<LABEL class="lblSpecialPeriod" top="119" left="145" width="235" height="30" textSize="20" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblHolidayHeader" top="152" left="10" width="130" height="30" textSize="20" visible="0" textAlign="center" background="#E6E6E6"></LABEL>
+			<LABEL class="lblHoliday" top="152" left="145" width="235" height="30" textSize="20" visible="0" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblSpecialDayHeader" top="185" left="10" width="130" height="30" textSize="20" visible="0" textAlign="center" background="#E6E6E6"></LABEL>
+			<LABEL class="lblSpecialDay" top="185" left="145" width="235" height="30" textSize="20" visible="0" textAlign="center_vertical"></LABEL>
+			<IMAGE class="imgClose" top="200" left="330" width="40" height="40"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmWebReport">
+			<FRAME class="fraWebReport" top="10" left="10" width="460" height="780" background="#CEEDFF" cornerRadius="5" stroke="1" strokeColor="#FFFFFF"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

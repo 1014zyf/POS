@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraBasketExtendBar">
+			<FRAME class="fraCheckInfo" top="0" left="0" width="406" height="112" background="#999999"></FRAME>
+			<FRAME class="fraDineInTakeout" top="2" left="0" width="204" height="30" background="#FFFFFF"></FRAME>
+			<IMAGE class="ImgDineInTakeout" top="7" left="173" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblDineInTakeout" top ="0" left="14" width="160" height="30" textSize="15" textAlign="center_vertical,left" foreground="#666666"></LABEL>
+			<FRAME class="fraDineInTakeoutAndRevenue" top ="4" left="202" width="1" height="22" background="#DDDDDD"></FRAME>
+			<FRAME class="fraRevenue" top="2" left="204" width="203" height="30" background="#FFFFFF"></FRAME>
+			<LABEL class="lblRevenue" top ="0" left="14" width="120" height="30" textSize="15" textAlign="center_vertical,left" foreground="#666666"></LABEL>
+			<IMAGE class="ImgRevenueBn" top="4" left="149" width="40" height="22" contentMode="scale_aspect_fit_center"></IMAGE>
+			<FRAME class="fraRevenueBnBg" top="9" left="149" width="39" height="12" background="#999999" foreground="#A7D0FF" cornerRadius="8"></FRAME>
+			
+			<FRAME class="fraItemQtyItemTotal" top="80" left="0" width="406" height="34" background="#FFFFFF"></FRAME>
+			<IMAGE class="ImgItemQuantity" top="0" left="14" width="16" height="34" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblItemQuantity" top ="7" left="38" width="40" height="20" textSize="20" textAlign="center_vertical,right" foreground="#666666"></LABEL>
+			<LABEL class="lblItemLineCount" top ="7" left="78" width="40" height="20" textSize="20" textAlign="center_vertical,left" foreground="#666666"></LABEL>
+			<LABEL class="lblCheckTotal" top ="2" left="220" width="173" height="30" textSize="27" textAlign="center_vertical,right" foreground="#666666" padding="0,5,0,0"></LABEL>
+			
+			<FRAME class="fraExtraInfo" top="33" left="0" width="406" height="48" background="#FFFFFF"></FRAME>
+			<IMAGE class="ImgItemTotal" top="3" left="15" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblItemTotal" top ="0" left="39" width="80" height="22" textSize="14" textAlign="center_vertical" foreground="#666666"></LABEL>
+			<IMAGE class="ImgItemDiscount" top="3" left="150" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblItemDiscount" top ="0" left="172" width="90" height="22" textSize="14" textAlign="center_vertical" foreground="#666666"></LABEL>
+			<IMAGE class="ImgTaxTotal" top="27" left="15" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblTaxTotal" top ="24" left="39" width="80" height="22" textSize="14" textAlign="center_vertical" foreground="#666666"></LABEL>
+			<FRAME class="fraScTaxUnderline" top="22" left="8" width="390" height="1" background="#DDDDDD"></FRAME>
+			<IMAGE class="ImgScTotal" top="3" left="289" width="16" height="16" contentMode="scale_aspect_fit_center"></IMAGE>
+			<LABEL class="lblScTotal" top ="0" left="312" width="83" height="22" textSize="14" textAlign="center_vertical" foreground="#666666"></LABEL>
+			<FRAME class="fraExtraInfoUnderline" top="47" left="8" width="390" height="1" background="#DDDDDD"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

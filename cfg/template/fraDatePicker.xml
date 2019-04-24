@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraDatePicker">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="800" height="65"></FRAME>
+			<FRAME class="fraYear" top="110" left="52" width="208" height="310" background="#FFFFFF" cornerRadius="8" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			
+			<IMAGE class="imgAddYear" top="39" left="92" width="24" height="24"></IMAGE>
+			<LABEL class="lblYear" top="125" left="30" width="151" height="60" textSize="48" textAlign="center" background="#FFFFFF" textStyle="bold"></LABEL>
+			<IMAGE class="imgMinusYear" top="241" left="92" width="24" height="24"></IMAGE>
+			<FRAME class="fraMonth" top="110" left="296" width="208" height="310" background="#FFFFFF" cornerRadius="8" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			
+			<IMAGE class="imgAddMonth" top="39" left="92" width="24" height="24"></IMAGE>
+			<LABEL class="lblMonth" top="125" left="50" width="111" height="60" textSize="48" textAlign="center" background="#FFFFFF" textStyle="bold"></LABEL>
+			<IMAGE class="imgMinusMonth" top="241" left="92" width="24" height="24"></IMAGE>
+			<FRAME class="fraDay" top="110" left="540" width="208" height="310" background="#FFFFFF" cornerRadius="8" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			
+			<IMAGE class="imgAddDay" top="39" left="92" width="24" height="24"></IMAGE>
+			<LABEL class="lblDay" top="125" left="50" width="111" height="60" textSize="48" textAlign="center" background="#FFFFFF" textStyle="bold"></LABEL>
+			<IMAGE class="imgMinusDay" top="241" left="92" width="24" height="24"></IMAGE>
+			<BUTTON class="btnOK" top="480" left="632" width="144" height="56" background="#02428B" gradient="1" textSize="22" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="btnCancel" top="480" left="24" width="144" height="56" background="#5B6F73" gradient="1" textSize="22" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

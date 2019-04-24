@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmAskTable">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraAskTable" top="56" left="128" width="1024" height="640" background="#FFFFFF" visible="0" cornerRadius="8,8,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style="BackgroundDefaultStyle"></FRAME>
+			<FRAME class="fraAskOpenTable" top="136" left="256" width="768" height="480" background="#FFFFFF" visible="0" cornerRadius="8,8,0,0" style="BackgroundDefaultStyle"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

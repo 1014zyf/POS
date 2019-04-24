@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraStockSoldout">
+			<FRAME class="fraLeftContent" top="0" left="0" width="632" height="388" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style="StockSoldoutLeftContentFrame"></FRAME>
+			
+			<FRAME class="fraItemList" top="0" left="0" width="620" height="388" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<BUTTON class="btnAddSoldoutItem" top="399" left="0" width="144" height="56" background="#02428B" gradient="1" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style="StockSoldoutAddSoldoutItemButton"></BUTTON>
+			<BUTTON class="btnRemoveSoldoutItem" top="399" left="160" width="144" height="56" background="#02428B" gradient="1" foreground="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style="StockSoldoutRemoveSoldoutItemButton"></BUTTON>
+			<FRAME class="fraPage" top="407" left="444" width="74" height="40" background="#FFFFFF"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="24" background="#FFFFFF" foreground="#005080" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="415" left="420" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="415" left="518" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

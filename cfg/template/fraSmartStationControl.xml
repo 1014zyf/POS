@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSmartStationControl">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="448" height="65"></FRAME>
+			
+			<LABEL class="lblMessage" top="80" left="24" width="400" height="80" textAlign="left" foreground="#575757" textSize="24"></LABEL>
+			<LIST class="listTable" top="170" left="24" width="400" height="140" background="#F6F6F6" foreground="#8fc1da" style="SelectionBoxListStyle"></LIST>
+			
+			<FRAME class="listOption" top="0" left="0" height="70" visible="0"></FRAME>
+			<LABEL class="listlblOption" top="0" left="0" height="70" textAlign="center" foreground="#575757" textSize="24" style="SelectionBoxLableStyle"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

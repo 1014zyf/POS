@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraStockEditSequence"> 
+			<FRAME class="fraTitleBar" top="1" left="1" width="958" height="40" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<LABEL class="lblTitle" top="0" left="0" width="958" height="40" textSize="24" foreground="#FFFFFF" textAlign="center" visible="0" cornerRadius="5,5,0,0"></LABEL>
+			<FRAME class="fraButClose" top="0" left="905" width="55" height="40"></FRAME>
+			
+			<FRAME class="fraLeftContent" top="40" left="0" width="550" height="610" background="#CEEDFF" cornerRadius="0,0,0,5"></FRAME>
+			<FRAME class="fraItemList" top="10" left="10" width="530" height="590"></FRAME>
+			
+			<FRAME class="fraRightContent" top="40" left="551" width="410" height="610" background="#E2F5FB" cornerRadius="0,0,5,0"></FRAME>
+			<BUTTON class="btnUp" top="10" left="10" width="190" height="80" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnDown" top="10" left="210" width="190" height="80" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>		    		    
+			<LABEL class="lblSeq" top="130" left="10" width="390" height="40" textSize="25" foreground="#015384"></LABEL>		    
+			<TEXTBOX class="txtboxSeqValue" top="170" left="10" width="390" height="40" textSize="18" foreground="#000000" background="#BFD7E1" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>		    
+			<FRAME class="fraNumberPad" top="220" left="10" width="390" height="380" background="#C8F0F8"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

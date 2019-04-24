@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraLoyalty">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="880" height="65"></FRAME>
+			<FRAME class="fraLeftContent" top="80" left="0" width="880" height="650" background="#FFFFFF" cornerRadius="5"></FRAME>
+			
+			<FRAME class="fraHorizontalList" top="10" left="54" width="860" height="50"></FRAME>
+			<LABEL class="lblResultList" top ="260" left="54" width="240" height="42" textSize="20" textAlign="center_vertical,left" foreground="#575757" textStyle="bold"></LABEL>
+			<FRAME class="fraResultList" top="305" left="54" width="772" height="240" background="#FFFFFF" stroke="1" strokeColor="#c0dded"></FRAME>
+			<LABEL class="lblBasicInfo" top ="0" left="54" width="800" height="42" textSize="20" textAlign="center_vertical,left" foreground="#575757" textStyle="bold"></LABEL>
+			<LIST class="listMemberBasicInfo" top="45" left="30" width="650" height="500"></LIST>
+			<LIST class="listMemberBonusInfo" top="45" left="30" width="650" height="500"></LIST>
+			<FRAME class="fraMemberBasicInfo" top="0" left="30" width="700" height="42"></FRAME>
+			<LABEL class="lblInfoTitle" top="0" left="0" width="395" height="40" textSize="18" textAlign="center_vertical,left" foreground="#575757" background="#B2CBDA" padding="0,0,0,10" textStyle="bold"></LABEL>
+			<LABEL class="lblInfoContent" top="0" left="305" width="395" height="40" textSize="18" textAlign="center_vertical,left" foreground="#575757" background="#FFFFFF" padding="0,0,0,10"></LABEL>
+			<FRAME class="fraMemberDetail" top="65" left="0" width="800" height="625"></FRAME>
+			
+			<FRAME class="fraPage" top="555" left="404" width="72" height="24"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="24" height="53" foreground="#0055B8" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="555" left="356" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="555" left="500" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			
+			<TEXTBOX class="txtInputBox" top="80" left="24" height="50" width="372" textSize="30" foreground="#333333" stroke="1" strokeColor="#999999" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblSearchHeader" top ="140" left="24" width="120" height="40" textSize="20" textAlign="center_vertical,left" foreground="#575757" textStyle="bold"></LABEL>
+			<BUTTON class="butSearchByMemberNo" top="180" left="24" width="144" height="56" background="#FFFFFF" foreground="#333333" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butSearchByCardNo" top="180" left="252" width="144" height="56" background="#FFFFFF" foreground="#333333" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			
+			<!-- Other Search Tag -->
+			<!-- currently for search partial name -->
+			<FRAME class="fraSearchTagList" top="10" left="10" width="400" height="50"></FRAME>
+			<LABEL class="lblSurname" top ="70" left="20" width="100" height="40" textSize="20" textAlign="center,left" foreground="#575757" textStyle="bold"></LABEL>
+			<TEXTBOX class="txtSurname" top="70" left="150" height="50" width="250" textSize="30" foreground="#000000" background="#BFD7E1" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<LABEL class="lblGivenName" top ="130" left="20" width="100" height="40" textSize="20" textAlign="center,left" foreground="#575757" textStyle="bold"></LABEL>
+			<TEXTBOX class="txtGivenName" top="130" left="150" height="50" width="250" textSize="30" foreground="#000000" background="#BFD7E1" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<LABEL class="lblChineseName" top ="190" left="20" width="100" height="40" textSize="20" textAlign="center,left" foreground="#575757" textStyle="bold"></LABEL>
+			<TEXTBOX class="txtChineseName" top="190" left="150" height="50" width="250" textSize="30" foreground="#000000" background="#BFD7E1" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<!-- currently for search partial name -->
+			
+			<!-- currently for redeption verification -->
+			<LABEL class="lblRedeptionFailed" top ="80" left="30" width="780" height="42" textSize="20" textAlign="center_vertical,left" foreground="#575757" textStyle="bold"></LABEL>
+			<LABEL class="lblResultVerificationList" top ="125" left="30" width="780" height="42" textSize="20" textAlign="center_vertical,left" foreground="#575757" textStyle="bold"></LABEL>
+			<FRAME class="fraResultVerificationList" top="180" left="30" width="820" height="250" background="#FFFFFF"></FRAME>
+			<FRAME class="fraVerificationPage" top="450" left="404" width="72" height="24"></FRAME>
+			<IMAGE class="ImgPrevVerificationPage" top="450" left="356" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextVerificationPage" top="450" left="500" width="24" height="24" contentMode="scale_aspect_fit"></IMAGE>
+			<FRAME class="fraVerificationContent" top="80" left="0" width="880" height="410" background="#FFFFFF" cornerRadius="5"></FRAME>
+			<!-- currently for redeption verification -->
+			
+			<FRAME class="fraNumberPad" top="290" left="24" width="372" height="380" background="#FFFFFF"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

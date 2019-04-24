@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraBasketSelectPanel">
+			<!-- <LABEL class="lblDesc" width="200" height="720" foreground="#FFFFFF" textSize="18" textAlign="center"></LABEL> -->
+			<BUTTON class="butSelectAll" top="5" left="15" width="115" height="40" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="butConfirm" top="5" left="175" width="115" height="40" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="butCancel" top="5" left="335" width="115" height="40" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

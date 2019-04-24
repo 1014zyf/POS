@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCommonBasketCell">
+			<LABEL class="field" width="60" height="40" textSize="22" textAlign="center" foreground="#575757" stroke="1" strokeColor="#c0dded"></LABEL>
+			<LABEL class="info" top ="25" left="140" width="160" height="20" textSize="14" textAlign="center" foreground="#7F7F7F"></LABEL>
+			<TEXTBOX class="editField" width="60" height="40" textSize="18" textAlign="center" foreground="#1D74A9"></TEXTBOX>
+			<BUTTON class="btnField" top="2" width="60" height="40" foreground="#045781" background="#DCDCDC"></BUTTON>
+			<IMAGE class="imageField" width="60" height="40" background="#FFFFFF" contentMode="scale_aspect_fit_center" stroke="1" strokeColor="#c0dded"></IMAGE>
+			<IMAGE class="ImgSelected" top ="2" left="50" width="40" height="40"></IMAGE>
+			<IMAGE class="ImgDeselected" top ="2" left="50" width="40" height="40"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

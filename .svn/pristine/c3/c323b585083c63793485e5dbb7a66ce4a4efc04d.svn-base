@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraTakeDrawerOwnership">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="768" height="66"></FRAME>
+			<FRAME class="fraDrawerListCommonBasket" top="67" left="24" width="720" height="360" background="#ffffff" visible="0"></FRAME>
+			
+			<FRAME class="fraPage" left="260" width="70" height="40" top="450"></FRAME>
+			<LABEL class="lblPage" left="0" textSize="20" foreground="#005080" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage"  left="166" width="94" height="40" contentMode="scale_aspect_fit" top="450"></IMAGE>
+			<IMAGE class="ImgNextPage"  left="330" width="94" height="40" contentMode="scale_aspect_fit" top="450"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

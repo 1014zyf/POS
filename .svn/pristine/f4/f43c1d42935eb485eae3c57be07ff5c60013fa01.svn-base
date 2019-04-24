@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCommonBasket">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="398" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+			<FRAME class="fraItemList" top="55" left="10" width="380" height="530"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

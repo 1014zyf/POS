@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraTableListFloorPlan">
+			<LIST class="listVerticalTable" top="0" left="22" width="1236" height="547" foreground="#FFFFFF" background="#00000000"></LIST>
+			<FRAME class="fraNewTable" foreground="#999999" background="#FFFFFF"></FRAME>
+			<FRAME class="fraVacantTable" foreground="#999999" background="#FFFFFF"></FRAME>
+			<FRAME class="fraCleaningTable" foreground="#FFFFFF" background="#A0B3B7"></FRAME>
+			<FRAME class="fraOccupiedTable" foreground="#FFFFFF" background="#0055B8"></FRAME>
+			<FRAME class="fraPrintedTable" foreground="#FFFFFF" background="#5B6F73"></FRAME>
+			<FRAME class="fraCookingOvertimeTable" foreground="#FFFFFF" background="#031E3E"></FRAME>
+			<FRAME class="fraReservationTable" foreground="#FFFFFF" background="#00A2E8"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

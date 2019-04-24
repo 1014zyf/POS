@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraTitleHeader">
+			<LABEL class="lblTitle" top="0" left="0" width="1258" height="50" textSize="24" textAlign="center_vertical,center" foreground="#FFFFFF"></LABEL>
+			<!--<FRAME class="fraUnderline" top="63" left="24" width="1212" height="1" background="#999999"></FRAME>-->
+			<FRAME class="fraButClose" top="5" left="1568" width="30" height="30"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraDialogBox">
+			<FRAME class="fraTitleHeader" left="1" top="1" width="458" height="50" background="#015384" cornerRadius="5,5,0,0"></FRAME>
+		<!-- 	<FRAME class="fraColumnHeader" left="0" height="30"> </FRAME>-->
+			<FRAME class="fraColumnHeader" top="2" left="0" height="56" width="458"></FRAME>
+			<FRAME class="fraMessage" top="0" left="0" height="49"></FRAME>
+			<LABEL class="lblMessage" textSize="18" textAlign="center" foreground="#5B5758"></LABEL>
+			<FRAME class="fraBottomUnderline" top="0" left="0" height="2" background="#999999"></FRAME>	
+			<FRAME class="fraUnderline" top="37" left="0" width="458" height="1" background="#D8D8D8"></FRAME>
+			<FRAME class="fraSectionBarUnderline" top="542" left="24" width="458" height="1" background="#999999"></FRAME>
+			<BUTTON class="singleBtn" width="100" height="40" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

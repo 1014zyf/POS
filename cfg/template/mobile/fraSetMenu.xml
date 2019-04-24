@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraSetMenu">
+			<FRAME class="fraError" top="0" left="15" width="400" height="30" background="#AA565553" visible="0" cornerRadius="3"></FRAME> 
+			<IMAGE class="imgError" top="5" left="5" width="20" height="20"></IMAGE>
+			<LABEL class="lblErrorDesc" top="0" left="0" width="400" height="30" foreground="#FFFFFF" textSize="16" textAlign="center"></LABEL>
+			
+			<FRAME class="fraSetMenuHeader" top="1" left="1" width="478" height="170" background="#CCF0FF" cornerRadius="5,5,0,0"></FRAME>
+			<LABEL class="lblItemDesc" top="0" left="0" width="478" height="50" foreground="#FFFFFF" background="#015383" textSize="24" textAlign="center" cornerRadius="5,5,0,0"></LABEL>
+			<FRAME class="fraButClose" top="5" left="432" width="30" height="30"></FRAME>
+			<IMAGE class="imgItem" top="55" left="10" width="145" height="100" background="#AEA8A8" visible="0" contentMode="scale_aspect_fill" cornerRadius="5"></IMAGE>
+			<HORIZONTALLIST class="horListSelectedItem" top="90" left="155" width="310" height="55" visible="0"></HORIZONTALLIST>
+			<FRAME class="fraSelectedItem" top="0" left="10" width="95" height="55" background="#A30100" stroke="1" strokeColor="#4E4142" style="CommonLookupSelectedButtonStyle"></FRAME>
+			<LABEL class="lblSelectedItem" top="0" left="0" foreground="#FFFFFF" textSize="16" textAlign="center"></LABEL>
+			<IMAGE class="imgDeleteSelectedItem" top="12" left="95" width="32" height="32" visible="0"></IMAGE>
+			
+			<HORIZONTALLIST class="horListTab" top="170" left="10" width="460" height="60" visible="0" background="#FFFFFF"></HORIZONTALLIST>
+			<FRAME class="fraLookupTabBase" top="0" left="0" width="95" height="60"></FRAME>
+			<LABEL class="lblLookupTab" top="0" left="0" width="95" height="55" textSize="18" foreground="#015384" textAlign="center" textStyle="bold"></LABEL>
+			<FRAME class="fraLookupTabUnderline" top="58" left="0" width="95" height="3" background="#025581"></FRAME>
+			
+			<FRAME class="scrfraSetMenuLookupPanel" top="170" left="16" width="440" height="550" background="#FFFFFF" visible="0"></FRAME>
+			
+			<FRAME class="fraPageContainer" top="0" left="10" width="460" height="60"  visible="0" style="CommonLookupSelectionBackgroundStyle"></FRAME>
+			<LABEL class="lblMin" top="4" left="0" width="440" height="30" visible="0" textAlign="center_vertical" textSize="16" foreground="#015384" background="#E5ECF2" style="CommonLookupSelectionMaxSelectedRowStyle"></LABEL>
+			
+			<LABEL class="lblMax" top="4" left="60" width="120" height="30" visible="0" textAlign="center_vertical" textSize="16" foreground="#015384" style="CommonLookupSelectionMaxSelectedRowStyle"></LABEL>
+			<LABEL class="lblSelectedAmount" top="4" left="120" width="120" height="30" visible="0" textAlign="center_vertical" textSize="16" foreground="#015384" style="CommonLookupSelectionMaxSelectedRowStyle"></LABEL>
+			
+			
+			<LABEL class="lblMustChoose" top="4" left="400" width="60" height="30" visible="0" foreground="#bb0000" textSize="14" textAlign="center_vertical"></LABEL>
+			<FRAME class="scrfraCommonLookups" top="36" left="0" width="460" height="450" visible="0" style="CommonLookupSelectionBackgroundStyle"></FRAME>
+			
+			<FRAME class="fraBack" top="730" left="10" width="90" height="55" visible="0"></FRAME>
+			<LABEL class="lblBack" top="0" left="0" width="90" height="55" foreground="#003F76" textAlign="center"></LABEL>
+			<BUTTON class="btnOK" top="730" left="380" width="90" height="55" visible="0" background="#DCDCDC" foreground="#003F76" stroke="1" strokeColor="#868686"></BUTTON>
+			
+			<FRAME class="fraPageButton" top="720" left="140" width="200" height="38" style="CommonLookupButtonBackgroundStyle"></FRAME>
+			<LABEL class="lblPage" top="0" left="50" width="100" height="38" textSize="20" foreground="#015384" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="5" left="5" width="30" height="38" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="4" left="5" width="30" height="38" contentMode="scale_aspect_fit"></IMAGE>
+			<FRAME class="fraPrevPage" top="0" left="0" width="40" height="38"></FRAME>
+			<FRAME class="fraNextPage" top="0" left="160" width="40" height="38"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraWebReport">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="738" height="66"></FRAME>
+			
+			<WEBVIEW class="wbvReceipt" top="70" left="30" width="360" height="600"></WEBVIEW>
+			<LIST class="listFunction" top="70" left="390" width="320" height="650"></LIST>
+			<LABEL class="lblAdvanceOrderDetailTitle" top="2" left="5" width="300" height="40" textSize="20" textAlign="center_vertical" foreground='#333333'></LABEL>
+			<FRAME class="fraAdvanceOrderDetail" top="0" left="5" width="320" height="30" visible="0"></FRAME>
+			<LABEL class="lblListTitle" top="0" left="0" width="160" height="30" foreground="#333333" textSize="16" visible="0" textAlign="center_vertical" textStyle="bold" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblContent" top="0" left="160" width="160" height="30" foreground="#333333" textSize="16" textAlign="center_vertical,right" visible="0" padding="0,0,0,5"></LABEL>
+			<LABEL class="lblAdvanceOrderDepositAmountTitle" top="2" left="5" width="320" height="40" textSize="20" textAlign="center_vertical" foreground="#333333"></LABEL>
+			<TEXTBOX class="txtboxAdvanceOrderDepositAmount" top="2" left="5" width="320" height="50" textSize="20" foreground="#333333" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<FRAME class="fraNumberPad" top="15" left="7" width="320" height="330"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

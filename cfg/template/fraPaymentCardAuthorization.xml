@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraPaymentCardAuthorization">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="1024" height="65"></FRAME>
+			
+			<FRAME class="fraLeftUpperContent" top="126" left="32" width="609" height="199" background="#FFFFFF" cornerRadius="8,8,8,8" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblCardAuthorization" top="80" left="46" width="300" height="35" textSize="24" foreground="#333333" textStyle="bold"></LABEL>
+			<FRAME class="fraCardAuthorizationList" top="0" left="20" width="572" height="220" background="#FFFFFF"></FRAME>
+			<FRAME class="fraCardAuthorizationListForCancelAuth" top="0" left="20" width="928" height="520" background="#FFFFFF"></FRAME>
+			<FRAME class="fraCardAuthorizationListForCancelCompleteAuth" top="0" left="20" width="928" height="520" background="#FFFFFF"></FRAME>
+			<FRAME class="fraLeftLowerContent" top="396" left="32" width="609" height="220" background="#FFFFFF" cornerRadius="8,8,0,0" shadowRadius="10" shadowColor="#17000000"></FRAME>
+			<LABEL class="lblAuthRecords" top="355" left="46" width="300" height="35" textSize="24" foreground="#333333" visible="0" textStyle="bold"></LABEL>
+			
+			<FRAME class="fraAuthRecordList" top="0" left="20" width="572" height="250" background="#FFFFFF"></FRAME>
+			<FRAME class="fraAuthRecordListForCancelAuth" top="0" left="20" width="928" height="250" background="#FFFFFF"></FRAME>
+			
+			<FRAME class="fraPage" top="640" left="354" width="74" height="40"></FRAME>
+			<LABEL class="lblPage" top="0" left="0" textSize="20" foreground="#005080" textAlign="center" textStyle="bold"></LABEL>
+			<IMAGE class="ImgPrevPage" top="640" left="260" width="94" height="40" contentMode="scale_aspect_fit"></IMAGE>
+			<IMAGE class="ImgNextPage" top="640" left="428" width="94" height="40" contentMode="scale_aspect_fit"></IMAGE>
+			
+			<FRAME class="fraRightContent" top="80" left="658" width="340" height="537" background="#FFFFFF" cornerRadius="8,8,8,8" shadowRadius="10" shadowColor="#17000000"></FRAME>		
+			<LABEL class="lblSearchHeader" top ="17" left="16" width="430" height="25" textSize="24" foreground="#575757" textAlign="center,left" textStyle="bold"></LABEL>
+			<TEXTBOX class="txtValue" top="44" left="16" height="48" width="308" textSize="24" foreground="#000000" background="#FFFFFF" stroke="2" strokeColor="979797"></TEXTBOX>
+			<BUTTON class="butCardAuthorization" top="103" left="16" width="144" height="32" textSize="16" textAlign="center" foreground="#333333" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butTopUpAuthorization" top="103" left="176" width="144" height="32" textSize="16" textAlign="center" foreground="#333333" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butReprintAuthorization" top="143" left="176" width="144" height="32" textSize="16" textAlign="center" foreground="#333333" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butManualAuthorization" top="143" left="16" width="144" height="32" textSize="16" textAlign="center" foreground="#333333" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<BUTTON class="butCancelAllCardAuthorization" top="560" left="859" width="144" height="56" textSize="16" textAlign="center" foreground="#FFFFFF" background="#02428B" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></BUTTON>
+			<FRAME class="fraNumberPad" top="188" left="12" width="319" height="339" background="#FFFFFF"></FRAME>
+			
+			<FRAME class="fraRefresh" top="185" left="272" width="480" height="270" background="#FFFFFF" visible="0" cornerRadius="8,8,0,0" style="FrameDialogBoxStyle" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" stroke="1" strokeColor="#979797"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

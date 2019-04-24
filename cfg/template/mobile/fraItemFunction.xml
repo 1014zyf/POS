@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraItemFunction">
+			<LABEL class="lblTitle" width="480" height="30" textSize="18" textAlign="center" foreground="#05527E"></LABEL>
+			<FRAME class="fraBasket" top="40" left="10" width="460" height="620" background="#000000"></FRAME>
+			<BUTTON class="butCancel" top="670" left="50" width="155" height="50" background="#3A80B3" visible="0"></BUTTON>
+			<BUTTON class="butFinish" top="670" left="255" width="155" height="50" background="#3A80B3" visible="0"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

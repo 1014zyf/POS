@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraLookupButton">
+			<LABEL class="btnDesc" top="0" left="2" foreground="#333333" textSize="14" padding="0,0,0,2" textAlign="center_vertical" cornerRadius="5,5,0,0" gradient="1"></LABEL>
+			<LABEL class="btnInformation" top="0" left="2" foreground="#0055B8" textSize="14" textAlign="center_vertical" cornerRadius="5" gradient="1"></LABEL>
+			<LABEL class="lblStockQty" top="0" left="0" background="#FFFFFF" foreground="#0055B8" textSize="14" width="32" height="23" textAlign="center" visible="0"></LABEL>
+			
+			<IMAGE class="btnImage" top="0" left="0" height="24" width="32" contentMode="scale_aspect_fit_center" cornerRadius="5,5,0,0"></IMAGE>
+			<IMAGE class="btnIconImage" top="0" left="0" height="24" width="24" contentMode="scale_aspect_fit_center" cornerRadius="5,5,0,0"></IMAGE>
+			
+			<FRAME class="fraTransparentCover" top="0" left="0" background="#A0F6F1F6"></FRAME>
+			
+			<FRAME class="frmQty" top="0" left="0" background="#66000000"></FRAME>
+			<LABEL class="lblMinusQty" top="0" foreground="#CCFFFFFF" textSize="30" textAlign="center" textStyle="bold"></LABEL>
+			<LABEL class="lblAddQty" top="0" foreground="#CCFFFFFF" textSize="30" textAlign="center" textStyle="bold"></LABEL>
+			<LABEL class="lblQty" top="0" background="#14FFFFFF" foreground="#FFFFFF" visible="0" textSize="16" textAlign="center" textStyle="bold"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

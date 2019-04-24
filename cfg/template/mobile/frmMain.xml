@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmMain">
+			<FRAME class="fraTableFloorPlan" top="50" left="0" width="480" height="720" background="#E4EFF6"></FRAME>
+			<FRAME class="fraStationInfoBar" top="0" left="0" width="480" height="50" background="#EAEAEA" gradient="1"></FRAME>
+			<FRAME class="fraStationInfo" left="50" width="380" height="260" background="#00000000"></FRAME> 
+			<FRAME class="fraStationDetail" top="28" left="10" width="250" height="180" background="#59686F"></FRAME>
+			<FRAME class="fraOrderingPanel" top="110" left="0" width="480" height="475" background="#CCF0FF"></FRAME>
+			<FRAME class="fraCheckDetail" top="0" left="0" width="480" height="50" background="#282c2e"></FRAME>
+			<FRAME class="fraOrderingBasket" top="50" left="0" width="480" height="545"></FRAME>
+			<FRAME class="fraBasketExtendBar" top="595" left="0" width="480" height="65" background="#586868" stroke="1" strokeColor="#3F4B50"></FRAME>
+			<FRAME class="fraFuncPanel" top="50" left="0" width="480" height="625" background="#282c2e"></FRAME>
+			<FRAME class="fraSeatPanel" top="585" left="0" width="480" height="90" background="#282c2e" stroke="1" strokeColor="#7a8183"></FRAME>
+			<FRAME class="fraOrderingMenuLookup" top="200" left="0" width="480" height="400" background="#CCF0FF" cornerRadius="5" stroke="1" strokeColor="#FFFFFF"></FRAME>
+			<FRAME class="fraSetMenu" top="0" left="0" width="480" height="800" background="#FFFFFF" visible="0" cornerRadius="5" stroke="1" strokeColor="#FFFFFF"></FRAME>
+			<FRAME class="fraCoverFrame" width="480" height="800" background="#A0000000"></FRAME>
+			<FRAME class="fraCheckReview" top="60" left="60" width="360" height="625" background="#CCF0FF" cornerRadius="5" stroke="1" strokeColor="#FFFFFF"></FRAME>
+			<FRAME class="fraAdminPanel" top="0" left="0" width="480" height="800" background="#FFFFFF" cornerRadius="12" style="FrameAdminOrderPanelStyle"></FRAME>
+			<FRAME class="fraBasketSelectPanel" top="50" left="0" width="480" height="720" background="#59686F"></FRAME>
+			<FRAME class="fraPanelItemSelectPanel" top="50" left="0" width="480" height="750" background="#282c2e"></FRAME>
+			<FRAME class="fraCashier" top="50" left="0" width="480" height="750" background="#CCF0FF"></FRAME>
+			<FRAME class="fraCashierPanel" top="430" left="0" width="480" height="370" background="#CCF0FF"></FRAME>
+			<FRAME class="fraOptionBox" width="480" height="800" background="#00000000" visible="0" cornerRadius="10"></FRAME>
+			<FRAME class="fraShowOnceProcessBox" top="700" left="0" width="500" height="50" background="#AA565553" visible="0" cornerRadius="3"></FRAME>
+			<FRAME class="fraCheckFunction" top="0" left="0" width="480" height="800" background="#7A9199"></FRAME>
+			<FRAME class="fraDirectPaymentResult" top="0" left="0" width="480" height="740" background="#CCF0FF" stroke="1" strokeColor="#000000"></FRAME>
+			<FRAME class="fraSearchItem" top="100" left="0" width="480" height="700" background="#CCF0FF"></FRAME>
+			<FRAME class="fraDirectPaymentPanel" top="0" left="0" width="480" height="800" background="#00000000"></FRAME>
+			<FRAME class="fraTabBar" top="740" left="0" width="480" height="60" background="#000000"></FRAME> 
+			<FRAME class="fraOpenTable" top="50" left="0" width="480" height="750" background="#CEEDFF"></FRAME>
+			<FRAME class="fraOpenTableWithQwertyKeyboard" top="50" left="0" width="480" height="750" background="#CEEDFF"></FRAME>
+			<FRAME class="fraSelfOrderKiosk" top="0" left="0" width="480" height="800" background="#00000000"></FRAME>
+			<FRAME class="fraEnterItemPLU" top="110" left="40" width="400" height="670" background="#CEEDFF" stroke="1" strokeColor="#DDDDDD" visible="0" cornerRadius="5"></FRAME>
+			<FRAME class="fraFloorPlanFuncPanel" top="80" left="40" width="400" height="640" background="#CEEDFF" cornerRadius="8,8,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraFloorPlanFuncPanelLookup" top="80" left="40" width="400" height="505" background="#CEEDFF" cornerRadius="8,8,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraAdvanceOrder">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="400" height="65"></FRAME>
+			
+			<LABEL class="lblAdvanceOrderDateTitle" top="80" left="24" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#5B5758"></LABEL>
+			<LABEL class="lblAdvanceOrderDate" top="80" left="176" width="200" height="50" textSize="18" foreground="#333333" textAlign="center_vertical" stroke="1" strokeColor="#979797" cornerRadius="2"></LABEL>
+			<LABEL class="lblAdvanceOrderNameTitle" top="140" left="24" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#5B5758"></LABEL>
+			<TEXTBOX class="txtboxAdvanceOrderName" top="140" left="176" width="200" height="50" textSize="18" foreground="#333333" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblAdvanceOrderPhoneTitle" top="200" left="24" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#5B5758"></LABEL>
+			<TEXTBOX class="txtboxAdvanceOrderPhone" top="200" left="176" width="200" height="50" textSize="18" foreground="#333333" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblAdvanceOrderFaxTitle" top="260" left="24" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#5B5758"></LABEL>
+			<TEXTBOX class="txtboxAdvanceOrderFax" top="260" left="176" width="200" height="50" textSize="18" foreground="#333333" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblAdvanceOrderNote1Title" top="320" left="24" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#5B5758"></LABEL>
+			<TEXTBOX class="txtboxAdvanceOrderNote1" top="320" left="176" width="200" height="50" textSize="18" foreground="#333333" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<LABEL class="lblAdvanceOrderNote2Title" top="380" left="24" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#5B5758"></LABEL>
+			<TEXTBOX class="txtboxAdvanceOrderNote2" top="380" left="176" width="200" height="50" textSize="18" foreground="#333333" stroke="1" strokeColor="#979797" cornerRadius="2"></TEXTBOX>
+			<BUTTON class="btnConfirm" top="450" left="232" width="144" height="56" background="#02428B" gradient="1" textSize="22" foreground="#FFFFFF"></BUTTON>
+			<BUTTON class="btnCancel" top="450" left="24" width="144" height="56" background="#5B6F73" gradient="1" textSize="22" foreground="#FFFFFF"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

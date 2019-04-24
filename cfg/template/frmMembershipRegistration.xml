@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmMembershipRegistration">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#7F000000"></FRAME>		   
+			<FRAME class="fraMembershipRegistration" top="80" left="350" width="600" height="550" background="#FFFFFF" visible="0" cornerRadius="5,5,0,0" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

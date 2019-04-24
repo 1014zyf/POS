@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCashier">
+			<FRAME class="fraLabelGroupHeader" top="0" left="0" width="432" height="80" background="#E1ECF8" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			<FRAME class="fraLabelHeader" top="0" left="0" width="432" height="80" background="#E1ECF8"></FRAME>
+			<LABEL class="lblCheckNoHeader" top="0" left="18" width="80" height="40" textSize="16" foreground="#999999" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblCheckNo" top="0" left="98" width="100" height="40" textSize="16" foreground="#999999" textAlign="right, center_vertical" padding="0,5,0,0"></LABEL>
+			<LABEL class="lblTableHeader" top="0" left="234" width="80" height="40" textSize="16" foreground="#999999" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblTable" top="0" left="314" width="110" height="40" textSize="16" foreground="#999999" textAlign="right, center_vertical" padding="0,5,0,0"></LABEL>
+			<LABEL class="lblTotalHeader" top="40" left="18" width="80" height="40" textSize="16" foreground="#999999" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblTotal" top="40" left="98" width="100" height="40" textSize="16" foreground="#999999" textAlign="right, center_vertical" padding="0,5,0,0"></LABEL>
+			<LABEL class="lblBalanceHeader" top="40" left="234" width="80" height="40" textSize="16" foreground="#999999" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblBalance" top="40" left="314" width="110" height="40" textSize="16" foreground="#999999" textAlign="right, center_vertical" padding="0,5,0,0"></LABEL>
+			<LABEL class="lblSurchargeHeader" top="80" left="18" width="80" height="40" textSize="16" foreground="#999999" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblSurcharge" top="80" left="98" width="100" height="40" textSize="16" foreground="#999999" textAlign="right, center_vertical" padding="0,5,0,0"></LABEL>
+			<LABEL class="lblTotalDueHeader" top="80" left="234" width="80" height="40" textSize="16" foreground="#999999" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblTotalDue" top="80" left="314" width="110" height="40" textSize="16" foreground="#999999" textAlign="right, center_vertical" padding="0,5,0,0"></LABEL>
+			
+			<FRAME class="fraPaymentBasket" top="90" left="0" width="432" height="260" cornerRadius="12,0,0,12" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></FRAME>
+			
+			<LABEL class="btnExit" top="351" left="276" width="118" height="45" textSize="18" foreground="#666666" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></LABEL>
+			<LABEL class="btnClose" top="351" left="148" width="118" height="45" textSize="18" foreground="#666666" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></LABEL>
+			<LABEL class="btnFinish" top="351" left="20" width="118" height="45" textSize="18" foreground="#666666" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000"></LABEL>
+			<LABEL class="lblOtherInformationHeader" top="360" left="10" width="110" height="26" textSize="16" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblOtherInformation" top="360" left="125" width="125" height="26" textSize="22" foreground="#000000" background="#C0C0C0" textAlign="center" textStyle="auto_size"></LABEL>
+			<LABEL class="lblOtherInformationHeader2" top="390" left="10" width="110" height="26" textSize="16" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblOtherInformation2" top="390" left="125" width="125" height="26" textSize="22" foreground="#000000" background="#C0C0C0" textAlign="center" textStyle="auto_size"></LABEL>
+			<LABEL class="lblOtherInformationHeader3" top="420" left="10" width="110" height="26" textSize="16" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblOtherInformation3" top="420" left="125" width="125" height="26" textSize="22" foreground="#000000" background="#C0C0C0" textAlign="center" textStyle="auto_size"></LABEL>
+			<LABEL class="lblOtherInformationHeader4" top="450" left="10" width="110" height="26" textSize="16" foreground="#015384" textAlign="center_vertical"></LABEL>
+			<LABEL class="lblOtherInformation4" top="450" left="125" width="125" height="26" textSize="22" foreground="#000000" background="#C0C0C0" textAlign="center" textStyle="auto_size"></LABEL>
+			<LABEL class="lblOtherInformation5" top="450" left="255" width="180" height="26" textSize="22" foreground="#015384" textAlign="center_vertical" textStyle="auto_size"></LABEL>
+			<LABEL class="lblPartialPaymentBgColor" background="#DDDDDD"></LABEL>
+			
+			<FRAME class="fraNumberPad" top="400" left="0" width="432" height="352" background="#F8F9FB" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" style="NumberPadBackgroundStyle"></FRAME>
+			
+			<FRAME class="fraPaymentResult" top="80" left="0" width="400" height="275" background="#FFFFFF"></FRAME>
+			<LABEL class="lblResultTitle" top="10" left="10" width="400" height="35" textSize="16" foreground="#FF0000"></LABEL>
+			<LABEL class="lblResultCheckNoHeader" top="50" left="10" width="200" height="35" textSize="16" foreground="#000000"></LABEL>
+			<LABEL class="lblResultCheckNo" top="50" left="210" width="180" height="35" textSize="16" foreground="#000000" background="#C0C0C0" textAlign="center"></LABEL>
+			<LABEL class="lblResultTableHeader" top="90" left="10" width="200" height="35" textSize="16" foreground="#000000"></LABEL>
+			<LABEL class="lblResultTable" top="90" left="210" width="180" height="35" textSize="16" foreground="#000000" background="#C0C0C0" textAlign="center"></LABEL>
+			<LABEL class="lblResultTotalHeader" top="130" left="10" width="200" height="35" textSize="16" foreground="#000000"></LABEL>
+			<LABEL class="lblResultTotal" top="130" left="210" width="180" height="35" textSize="16" foreground="#000000" background="#C0C0C0" textAlign="right"></LABEL>
+			<LABEL class="lblResultTipsHeader" top="170" left="10" width="200" height="35" textSize="16" foreground="#000000"></LABEL>
+			<LABEL class="lblResultTips" top="170" left="210" width="180" height="35" textSize="16" foreground="#000000" background="#C0C0C0" textAlign="right"></LABEL>
+			<LABEL class="lblResultChangeHeader" top="210" left="10" width="200" height="35" textSize="18" foreground="#000000"></LABEL>
+			<LABEL class="lblResultChange" top="210" left="210" width="180" height="35" textSize="18" foreground="#000000" background="#C0C0C0" textAlign="right"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

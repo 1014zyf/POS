@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="frmInsertItem">
+			<FRAME class="fraCoverFrame" width="480" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraInsertItem" top="100" left="40" width="400" height="600" background="#CEEDFF" stroke="1" strokeColor="#FFFFFF" visible="0" cornerRadius="5"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmMemberBonusRedemption">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraMemberBonusRedemption" top="30" left="0" width="880" height="720" background="#CCF0FF"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

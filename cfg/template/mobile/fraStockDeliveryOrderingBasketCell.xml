@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOrderingBasketCell">
+			<LABEL class="lblDescription" top ="0" left="5" width="200" height="45" textSize="18" textAlign="center_vertical,left" foreground="#1D74A9"></LABEL>
+			<LABEL class="lblInfo" top ="25" left="5" width="200" height="20" textAlign="center_vertical,left" foreground="#7F7F7F"></LABEL>
+			<LABEL class="lblDeliveryQuantity" top ="0" left="205" width="100" height="60" textSize="18" textAlign="center" foreground="#1D74A9" background="#E4F7FE"></LABEL>
+			<LABEL class="lblReceiveQuantity" top ="0" left="305" width="100" height="60" textSize="18" textAlign="center" foreground="#1D74A9" background="#F0F9FE"></LABEL>
+		</FRAME>
+	</TEMPLATE>
+</POS>

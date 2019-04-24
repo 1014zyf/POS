@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraTableFloorPlan">
+			<BUTTON class="butMapTab" width="150" foreground="#000000" background="#E4EFF6"></BUTTON>
+			<BUTTON class="butTimeInOut" left="965" width="150" foreground="#FFFFFF" background="#1B73A7" textSize="29" stroke="1" strokeColor="#003554"></BUTTON>
+			<BUTTON class="butFunction" left="330" width="150" foreground="#FFFFFF" background="#1B73A7" textSize="29" stroke="1" strokeColor="#003554"></BUTTON>
+			<BUTTON class="butToggleTableDetail" left="5" width="150" foreground="#FFFFFF" background="#1B73A7" textSize="29" stroke="1" strokeColor="#003554"></BUTTON>
+			<BUTTON class="butToggleOrderingMode" left="160" width="150" foreground="#FFFFFF" background="#1B73A7" textSize="29" stroke="1" strokeColor="#003554"></BUTTON>
+			<FRAME class="fraFloorPlanHeader" top="670" left="0" height="50" background="#7A9199"></FRAME>
+			<SCROLLFRAME class="fraFloorPlanMap" top="10" left="0" height="620" background="#00000000"></SCROLLFRAME>
+			<LABEL class="lblFloorDesc" width="200" foreground="#FFFFFF" textSize="29" textAlign="center"></LABEL>
+			<LIST class="lstFloor" background="#00000000"></LIST>
+			<IMAGE class="imgFloor"></IMAGE>
+			<LABEL class="lblFloorOption" height="70" foreground="#8E8E8E" background="#00000000" textSize="29" textAlign="center"></LABEL>
+			<BUTTON class="butActionCancel" left="1125" width="150" foreground="#FFFFFF" background="#DB542D"></BUTTON>
+			<LABEL class="lblActionDesc" left="60" width="510" foreground="#FFFF00" background="#00000000" textSize="32" textAlign="left,center_vertical"></LABEL>
+			<IMAGE class="imgActionIcon" top="12" left="5" width="34" height="34"></IMAGE>
+			<FRAME class="fraMapIndicator" left="0" background="#00000000"></FRAME>
+			<FRAME class="fraNewTable" foreground="#000000" background="#B0EAFE"></FRAME>
+			<FRAME class="fraCleaningTable" foreground="#000000" background="#B0EAFE"></FRAME>
+			<FRAME class="fraOccupiedTable" foreground="#FFFFFF" background="#9B0000"></FRAME>
+			<FRAME class="fraPrintedTable" foreground="#FFFFFF" background="#F1AD1A"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>

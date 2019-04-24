@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmReservationInput">
+			<FRAME class="fraCoverFrame" width="1280" height="800" background="#AA000000"></FRAME>
+			<FRAME class="fraReservationInput" top="240" left="440" width="400" height="250" background="#FFFFFF" shadowTop="3" shadowLeft="0" shadowRadius="5" shadowColor="#17000000" cornerRadius="5,5,0,0"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

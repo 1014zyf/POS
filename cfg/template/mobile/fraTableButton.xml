@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraTableButton">
+			<FRAME class="fraContent" width="168" height="129"></FRAME>
+			<LABEL class="lblTable" top="0" left="0" width="50" height="60" textSize="17" textAlign="center" ></LABEL>
+			<IMAGE class="imgTableIcon" width="20" height="20"></IMAGE>
+			<IMAGE class="imgLockedIcon" width="20" height="20"></IMAGE>
+			<IMAGE class="imgPrintedIcon" width="20" height="20"></IMAGE>
+			<FRAME class="fraTableExtensionCount" width="19" height="19" background="#FFFFFF" cornerRadius="10"></FRAME>
+			<LABEL class="lblTableExtensionCount" width="19" height="19" foreground="#002060" textSize="12" textAlign="center"></LABEL>
+			<LABEL class="lblTableDetail" width="50" height="20" textSize="17" textAlign="center"></LABEL>
+			<IMAGE class="imgTableDetailIcon" width="20" height="20"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

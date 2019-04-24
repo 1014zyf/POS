@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraOrderingMenuLookup">
+			<FRAME class="fraTitleBar" top="1" left="1" width="810" height="64" cornerRadius="5,5,0,0" style="OrderingSubMenuTitleLookupStyle"></FRAME>
+			
+			<LABEL class="lblLookupPath" top="20" left="16" width="900" height="33" textSize="24" foreground="#333333" textAlign="center_vertical,left" visible="0" cornerRadius="5,5,0,0" style="CommonLookupTitleStyle" textStyle="bold"></LABEL>
+			
+			<FRAME class="fraButClose" top="17" left="755" width="40" height="40"></FRAME>
+			<FRAME class="fraTitleSeparator" top="62" left="16" width="780" height="1" background="#999999"></FRAME>
+			
+			<FRAME class="fraPanel" top="66" left="16" width="780" height="227" cornerRadius="0,0,5,5" style="OrderingSubMenuBackgroundStyle"></FRAME>
+			<FRAME class="fraLooupButton" textAlign="center"></FRAME>
+			
+			<BUTTON class="btnBack" top="300" left="16" width="144" height="56" background="#5B6F73" foreground="#FFFFFF" textSize="22"  gradient="1" stroke="1" strokeColor="#20000000" visible="0"></BUTTON>
+			
+			<FRAME class="fraPageButton" top="318" left="311" width="190" height="32" style="CommonLookupButtonBackgroundStyle"></FRAME>
+			<IMAGE class="ImgPrevPage" top="0" left="0" width="32" height="32" contentMode="scale_aspect_fit"></IMAGE>
+			<LABEL class="lblPage" top="0" left="0" width="53" textSize="24" foreground="#005080" textAlign="center"></LABEL>
+			<IMAGE class="ImgNextPage" top="0" left="0" width="32" height="32" contentMode="scale_aspect_fit"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

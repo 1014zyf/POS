@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCommonBasket">
+			<FRAME class="fraUpperline" top="0" left="0" height="2" background="#D8D8D8"></FRAME>
+			<FRAME class="fraHeader" top="1" left="0" height="56" ></FRAME>
+			<FRAME class="fraUnderline" top="57" left="0" height="1" background="#D8D8D8"></FRAME>
+			<LABEL class="lblHeader" height="56" textSize="24" textAlign="left" foreground="#333333" style="CommonBasketHeaderLabel"></LABEL>
+			<LIST class="listCommonBasket" top="57" left="0" width="400" height="270" style="CommonBasketList"></LIST>
+			<FRAME class="fraCommonBasketSection" top="1" left="0" width="400" height="48" foreground="#333333" background="#1D74A9" style="CommonBasketSectionFrame"></FRAME>
+			<FRAME class="fraSelectedBasketSection" foreground="#FFFFFF" background="#1D74A9"></FRAME>
+			<FRAME class="fraBottomUnderline" top="1" left="0" height="2" background="#999999"></FRAME>	
+		</FRAME>
+	</TEMPLATE>
+</POS>

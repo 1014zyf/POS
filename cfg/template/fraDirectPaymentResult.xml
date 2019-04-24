@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraDirectPaymentResult">
+			<FRAME class="fraPaymentBasket" top="0" left="0" width="406" height="120" background="#FFFFFF"></FRAME>
+			
+			<LABEL class="lblResultTitle" top="120" left="0" width="406" height="40" textSize="20" foreground="#333333" background="#E1ECF8" textAlign="center"></LABEL>
+			<LABEL class="lblResultCheckNoHeader" top="160" left="5" width="175" height="40" textSize="30"></LABEL>
+			<LABEL class="lblResultCheckNo" top="160" left="180" width="215" height="40" textSize="30" textAlign="right"></LABEL>
+			<LABEL class="lblResultTotalHeader" top="200" left="5" width="175" height="40" textSize="30"></LABEL>
+			<LABEL class="lblResultTotal" top="200" left="180" width="215" height="40" textSize="30" textAlign="right"></LABEL>
+			<LABEL class="lblResultTipsHeader" top="240" left="5" width="175" height="40" textSize="30"></LABEL>
+			<LABEL class="lblResultTips" top="240" left="180" width="215" height="40" textSize="30" textAlign="right"></LABEL>
+			<LABEL class="lblResultSurchargeHeader" top="280" left="5" width="175" height="40" textSize="30"></LABEL>
+			<LABEL class="lblResultSurcharge" top="280" left="180" width="215" height="40" textSize="30" textAlign="right"></LABEL>
+			<LABEL class="lblResultResidueHeader" top="320" left="5" width="175" height="40" textSize="30"></LABEL>
+			<LABEL class="lblResultResidue" top="320" left="180" width="215" height="40" textSize="30" textAlign="right"></LABEL>
+			<LABEL class="lblResultTotalDueHeader" top="360" left="5" width="175" height="40" textSize="30"></LABEL>
+			<LABEL class="lblResultTotalDue" top="360" left="180" width="215" height="40" textSize="30" textAlign="right"></LABEL>
+			<LABEL class="lblResultChangeHeader" top="400" left="5" width="175" height="40" textSize="30" foreground="#FF0000"></LABEL>
+			<LABEL class="lblResultChange" top="430" left="5" width="390" height="90" textSize="80" foreground="#FF0000" textAlign="right"></LABEL>
+			<!--LABEL class="lblResultTableHeader" top="285" left="10" width="200" height="0" textSize="30" foreground="#000000"></LABEL>
+			<LABEL class="lblResultTable" top="285" left="210" width="170" height="0" textSize="30" foreground="#000000" background="#C0C0C0" textAlign="center"></LABEL-->
+		</FRAME>
+	</TEMPLATE>
+</POS>

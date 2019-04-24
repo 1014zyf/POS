@@ -1,0 +1,34 @@
+Version
+2.71 11-AUG-2009 
+
+Download from 
+http://malsup.com/jquery/cycle/download.html
+
+The Transition Pack includes definitions for the following transitions: 
+blindX 
+blindY 
+blindZ 
+cover 
+curtainX 
+curtainY 
+fade 
+fadeZoom 
+growX 
+growY 
+scrollUp 
+scrollDown 
+scrollLeft 
+scrollRight 
+scrollHorz 
+scrollVert 
+shuffle 
+slideX 
+slideY 
+toss 
+turnUp 
+turnDown 
+turnLeft 
+turnRight 
+uncover 
+wipe 
+zoom 

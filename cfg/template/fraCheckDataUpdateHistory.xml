@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCheckDataUpdateHistory">
+			<FRAME class="fraTitleHeader" left="0" top="0" width="768" height="66"></FRAME> 
+			<FRAME class="fraHistoryList" top="70" left="28" width="715" height="330"></FRAME>
+			<BUTTON class="btnFinish" top="412" left="598" width="144" height="56" background="#0055B8" cornerRadius="2" foreground="#FFFFFF" textSize="22"></BUTTON>
+			
+		</FRAME>
+	</TEMPLATE>
+</POS>

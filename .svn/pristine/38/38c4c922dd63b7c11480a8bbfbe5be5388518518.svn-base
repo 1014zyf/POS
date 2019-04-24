@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraReservationInput">
+			<LABEL class="lblTitle" top="1" left="1" width="398" height="40" foreground="#FFFFFF" background="#015384" textSize="24" textAlign="center" cornerRadius="5,5,0,0"></LABEL>
+			<LABEL class="lblResvNumberTitle" top="60" left="10" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#5B5758"></LABEL>
+			<TEXTBOX class="txtboxResvNumber" top="60" left="190" width="200" height="50" textSize="18" foreground="#56575C" background="#BFD7E1" stroke="2" strokeColor="#828884" cornerRadius="5"></TEXTBOX>
+			<LABEL class="lblResvDateTitle" top="120" left="10" width="160" height="50" textSize="20" textAlign="center_vertical" foreground="#5B5758"></LABEL>
+			<LABEL class="lblResvDate" top="120" left="190" width="200" height="50" textSize="18" foreground="#56575C" background="#BFD7E1" textAlign="center_vertical" stroke="2" strokeColor="#828884" cornerRadius="5"></LABEL>
+			<BUTTON class="btnConfirm" top="190" left="10" width="185" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+			<BUTTON class="btnCancel" top="190" left="205" width="185" height="50" background="#E0E0E0" gradient="1" foreground="#015384" stroke="1" strokeColor="#868686"></BUTTON>
+		</FRAME>
+	</TEMPLATE>
+</POS>

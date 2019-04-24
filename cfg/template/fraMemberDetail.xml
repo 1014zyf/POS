@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraMemberDetail">
+			<FRAME class="fraListTab" top="0" left="14" width="560" height="550"></FRAME>
+			<FRAME class="fraSelectedListTab" width="160" height="50" foreground="#0055B8"></FRAME>
+			<FRAME class="fraUnselectListTab" width="160" height="90" foreground="#999999"></FRAME>
+			
+			<FRAME class="fraMemberInfo" top="55" left="10" width="800" height="380" background="#FFFFFF"></FRAME>
+			<FRAME class="fraCommonBasket" top="0" left="10" width="600" height="346"></FRAME>
+			<FRAME class="fraLoyaltyCommonBasket" top="0" left="10" width="588" height="505"></FRAME>
+			<FRAME class="fraMemberBasicInfo" top="0" left="0" width="700" height="42"></FRAME>
+			<LABEL class="lblTitle" top="0" left="0" width="395" height="40" textSize="18" textAlign="center_vertical,left" foreground="#575757" background="#B2CBDA" padding="0,0,0,10" textStyle="bold" style="memberEnquiryTitleStyle"></LABEL>
+			<LABEL class="lblContent" top="0" left="305" width="395" height="40" textSize="18" textAlign="center_vertical,left" foreground="#575757" background="#FFFFFF" padding="0,0,0,10"></LABEL>
+			<BUTTON class="butClearMember" top="356" left="207" width="144" height="56" background="5B6F73" foreground="FFFFFF" style="MemberEnquiryButtonStyle"></BUTTON>
+			<BUTTON class="butSetMember" top="356" left="393" width="144" height="56" background="#0055B8" foreground="#FFFFFF" style="MemberEnquiryButtonStyle"></BUTTON>
+			
+			<FRAME class="fraPhotoInfo" top="55" left="10" width="800" height="380" background="#FFFFFF"></FRAME>
+			<IMAGE class="imagePhoto" top ="5" left="10" width="250" height="208" foreground="#575757" background="#FFFFFF"></IMAGE>
+			<IMAGE class="imageSign" top ="225" left="10" width="250" height="208" foreground="#575757" background="#FFFFFF"></IMAGE>
+			
+			<FRAME class="fraEsignatureInfo" top="0" left="461" width="151" height="600" background="#00FF00" cornerRadius="12"></FRAME>
+			<LABEL class="lblSignature" top="5" left="3" width="275" height="50" textSize="15" foreground="#015384" textAlign="center"></LABEL>
+			<IMAGE class="imageEsignature" top ="58" left="50" width="146" height="190" foreground="#575757" background="#FFFFFF" contentMode="scale_aspect_fit_center"></IMAGE>
+			<FRAME class="fraSeperateLine" top="0" left="270" width="1" height="780" background="#015384" foreground="#FFFFFF" cornerRadius="8"></FRAME>
+			<LABEL class="lblSignPhoto"  top="5" left="260" width="300" height="50" textSize="15" foreground="#015384" textAlign="center"></LABEL>
+			<IMAGE class="imageSignPhoto" top ="58" left="350" width="146" height="190" foreground="#575757" background="#FFFFFF" contentMode="scale_aspect_fit_center"></IMAGE>
+		</FRAME>
+	</TEMPLATE>
+</POS>

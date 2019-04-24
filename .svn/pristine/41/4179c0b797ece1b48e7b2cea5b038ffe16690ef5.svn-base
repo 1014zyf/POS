@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FORM class="frmDirectReport">
+			<FRAME class="fraDirectReport" top="0" left="0" width="480" height="800" background="#CEEDFF" cornerRadius="5" stroke="1" strokeColor="#FFFFFF"></FRAME>
+		</FORM>
+	</TEMPLATE>
+</POS>

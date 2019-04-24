@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POS>
+	<TEMPLATE>
+		<FRAME class="fraCommonBasket">
+			<FRAME class="fraHeader" top="0" left="0" height="40"></FRAME>
+			<LABEL class="lblHeader" height="40" textSize="18" textAlign="center" foreground="#575757" background="#B2CBDA" stroke="1" strokeColor="#DDE3F3" textStyle="bold"></LABEL>
+			<LIST class="listCommonBasket" top="40" left="0" width="400" height="270" background="#F8F8F8"></LIST>
+			<FRAME class="fraCommonBasketSection" top="1" left="0" width="400" height="40" foreground="#FFFFFF" background="#1D74A9"></FRAME>
+		</FRAME>
+	</TEMPLATE>
+</POS>
