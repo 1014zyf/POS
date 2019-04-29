@@ -538,3 +538,70 @@
 2019-04-23 07:21:12 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
 2019-04-23 07:33:13 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
 2019-04-23 07:39:04 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-26 07:00:55 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-26 07:17:12 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-26 07:17:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-26 07:17:29 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 07:20:02 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-26 07:20:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-26 07:20:11 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 07:21:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-26 07:21:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-26 07:21:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 07:27:54 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-26 07:28:13 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-26 07:28:18 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 07:28:59 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: cancel
+2019-04-26 07:29:46 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-26 07:29:53 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 1001
+2019-04-26 07:29:56 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 07:30:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-26 07:30:09 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-26 07:30:13 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-26 07:30:15 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 07:30:35 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-26 07:30:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 1001
+2019-04-26 07:30:43 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-26 07:30:44 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:08:45 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-26 08:08:52 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 2002
+2019-04-26 08:08:57 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:09:00 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:10:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:10:45 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-26 08:10:47 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 2002
+2019-04-26 08:10:49 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 2002
+2019-04-26 08:10:50 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:13:00 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-26 08:13:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 2002: void_check
+2019-04-26 08:13:20 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 2002
+2019-04-26 08:13:31 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:13:36 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-26 08:13:37 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 2002
+2019-04-26 08:13:38 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 2002
+2019-04-26 08:13:39 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:17:12 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-26 08:17:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Table Floor Plan Function on table 2002: void_check
+2019-04-26 08:17:24 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open new table 2002
+2019-04-26 08:17:28 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:17:31 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:18:03 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:18:21 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-26 08:18:22 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 2002
+2019-04-26 08:20:57 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 2002
+2019-04-26 08:20:58 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:21:29 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: send_check
+2019-04-26 08:21:29 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 2002
+2019-04-26 08:21:53 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 2002
+2019-04-26 08:21:58 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: add_reference_to_last_item
+2019-04-26 08:22:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: print_and_paid
+2019-04-26 08:22:16 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Finish send check, table 2002
+2019-04-26 08:22:19 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Select payment: CashPay $200
+2019-04-26 08:39:48 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-26 08:39:57 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Open old table 1001
+2019-04-26 08:41:41 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-28 03:35:33 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-28 03:42:07 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-28 03:50:01 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-28 03:51:26 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login
+2019-04-28 09:08:17 INFO: [1.2.24.0]-[sample]-[ChangShaHotel]-[YueLuArea]-[Workstation]-[1]-[1] Function: login

@@ -2,6 +2,9 @@ package externallib;
 
 import java.net.InetSocketAddress;
 import java.net.Socket;
+import java.nio.ByteBuffer;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.ArrayList;
@@ -77,7 +80,6 @@ public class TCPLib {
 		}
 		
 		m_iServerPortNo = m_oServSock.socket().getLocalPort();
-		
 		return "";
 	}
 	
@@ -330,5 +332,31 @@ public class TCPLib {
 	
 	public void setCharSet(String sCharSet) {
 		m_sCharSet = sCharSet;
+	}
+	
+	public void getClientPort() {
+		System.out.println();
+	}
+	
+	public void printMesssige(SelectionKey oIncomingSelectionkey,Selector select) {
+		ServerSocketChannel channel = (ServerSocketChannel) oIncomingSelectionkey.channel();
+		try {
+			SocketChannel sChannel = channel.accept();
+			System.out.println(sChannel.socket().getLocalPort()+"_____________"+sChannel.socket().getRemoteSocketAddress());
+			ByteBuffer rb= ByteBuffer.allocate(1024*10*2);
+			
+			StringBuilder bu = new StringBuilder();
+			int i = sChannel.read(rb);
+			rb.flip();
+			while(i > 0) {
+				String str = new String(rb.array(),0,i);
+				System.out.println("從客戶端接收到數據為："+str);
+				sChannel.register(select, SelectionKey.OP_READ);
+			}
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

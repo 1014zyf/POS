@@ -207,7 +207,10 @@ public class OmWsClient {
 	//call web service
 	public boolean call(String sWsInterface, String sModule, String sFcnName, String sParam, boolean bIgnoreErrorForceLogout) {
 		int iRetryCount = 0;
-		
+		System.out.println("sWsInterface:"+sWsInterface);
+		System.out.println("sModule:"+sModule);
+		System.out.println("sFcnName:"+sFcnName);
+		System.out.println("sParam:"+sParam);
 		// OM may be disable by the kill process
 		if(!m_bEnable)
 			return false;
@@ -235,6 +238,7 @@ public class OmWsClient {
 				
 				// No session available
 				//	Create a new session
+				System.out.println("m_sURL"+m_sURL);
 				this.login(m_sURL, m_sLogin, m_sPassword, false);
 			}
 			if(iSessionRetryCount >= 10){

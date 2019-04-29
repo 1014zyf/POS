@@ -388,13 +388,14 @@ class Service implements Runnable
 					
 					continue;
 				}
+				System.out.println("來了一個客戶端");
 				java.util.Iterator<SelectionKey> iterator = oSelector.selectedKeys().iterator();
 				while(iterator.hasNext())
 				{
 					SelectionKey oIncomingSelectionkey = (SelectionKey)iterator.next();
 					
 					iterator.remove();
-					
+					//m_oTCP.printMesssige(oIncomingSelectionkey,oSelector);
 					// Client connect
 					if(oIncomingSelectionkey.isAcceptable() && oIncomingSelectionkey == oLauncherKey)
 					{
@@ -415,6 +416,7 @@ class Service implements Runnable
 							JSONObject jRequestPacket;
 							try{
 								jRequestPacket = new JSONObject(m_oTCP.getPacket());
+								System.out.println("jRequestPacket"+jRequestPacket.toString());
 							}catch(JSONException e){
 								sErrorMessage = "Packet error: " + m_oTCP.getPacket();
 								writeErrorLog(this.getClass().getSimpleName(), new Exception().getStackTrace()[0].getMethodName(), sErrorMessage);

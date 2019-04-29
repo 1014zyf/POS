@@ -3,6 +3,7 @@
 
 	//read setup file
 	function readSetup() {
+		echo "进来l ";
 		$setup = array();
 		$sSetupFileName = "setup.txt";
 		

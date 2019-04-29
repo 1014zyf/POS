@@ -787,3 +787,31 @@
 	at launcher.Service$AppMain.run(Main.java:810)
 	at java.lang.Thread.run(Unknown Source)
 
+2019-04-26 08:08:58.613 java.lang.NullPointerException
+	at app.FormMain.addReferenceToLastItem(FormMain.java:30214)
+	at app.FormMain.fcnSwitch(FormMain.java:30146)
+	at app.FormMain.frameOrderingPanel_functionClicked(FormMain.java:31096)
+	at app.FrameOrderingPanel.frameGeneralLookupButton_clicked(FrameOrderingPanel.java:910)
+	at app.FrameGeneralLookupButton.frameLookupButton_clicked(FrameGeneralLookupButton.java:345)
+	at app.FrameLookupButton.clicked(FrameLookupButton.java:510)
+	at virtualui.VirtualUIForm.fireClicked(VirtualUIForm.java:62)
+	at virtualui.VirtualUIForm.finishUI(VirtualUIForm.java:533)
+	at virtualui.VirtualUIForm.show(VirtualUIForm.java:258)
+	at app.Main.main(Main.java:125)
+	at launcher.Service$AppMain.run(Main.java:810)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-26 08:13:33.990 java.lang.NullPointerException
+	at app.FormMain.addReferenceToLastItem(FormMain.java:30214)
+	at app.FormMain.fcnSwitch(FormMain.java:30146)
+	at app.FormMain.frameOrderingPanel_functionClicked(FormMain.java:31096)
+	at app.FrameOrderingPanel.frameGeneralLookupButton_clicked(FrameOrderingPanel.java:910)
+	at app.FrameGeneralLookupButton.frameLookupButton_clicked(FrameGeneralLookupButton.java:345)
+	at app.FrameLookupButton.clicked(FrameLookupButton.java:510)
+	at virtualui.VirtualUIForm.fireClicked(VirtualUIForm.java:62)
+	at virtualui.VirtualUIForm.finishUI(VirtualUIForm.java:533)
+	at virtualui.VirtualUIForm.show(VirtualUIForm.java:258)
+	at app.Main.main(Main.java:125)
+	at launcher.Service$AppMain.run(Main.java:810)
+	at java.lang.Thread.run(Thread.java:748)
+

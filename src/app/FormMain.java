@@ -30207,9 +30207,17 @@ public class FormMain extends VirtualUIForm implements FrameOrderingPanelListene
 		if(box.isUserCancel()) {
 			
 		}else {
+			
 			if(iValue==null) {
+				
 				m_oFrameOrderingBasket.updateInfo(iSectionId, iItemIndex, sStatusArray, sDiscountArray, new ArrayList<FuncCheckItem>(), sPantryMessageArray, sDisplayInformationArray, sScTaxAddedInformationArray, sScTaxWaivedInformationArray);
-				m_ofuncheckItem.addExtraInfo(PosCheckExtraInfo.BY_ITEM, PosCheckExtraInfo.SECTION_ITEM, PosCheckExtraInfo.VARIABLE_ITEM_REFERENCE, "reference");
+				//m_ofuncheckItem.addExtraInfo(PosCheckExtraInfo.BY_ITEM, PosCheckExtraInfo.SECTION_ITEM, PosCheckExtraInfo.VARIABLE_ITEM_REFERENCE, "reference");
+				m_ofuncheckItem.addUpdateExtraInfoValue(true, PosCheckExtraInfo.BY_ITEM, PosCheckExtraInfo.SECTION_ITEM, PosCheckExtraInfo.VARIABLE_ITEM_REFERENCE, "refrence", 0);
+				
+				
+			}else {
+				if(!box.getInputValue().isEmpty())iValue = box.getInputValue();
+				m_ofuncheckItem.addUpdateExtraInfoValue(false, PosCheckExtraInfo.BY_ITEM, PosCheckExtraInfo.SECTION_ITEM, PosCheckExtraInfo.VARIABLE_ITEM_REFERENCE, iValue, 0);
 			}
 		}
 		
